@@ -1,0 +1,439 @@
+{
+  "brio_catalog": [
+    {
+      "id": "vigor-selva-tonic",
+      "collection": "Vigor Collection",
+      "product_name": "SELVA Tonic",
+      "philosophy": {
+        "en": "Inspired by the raw vitality of the Amazon, this tonic is crafted to awaken the scalp's potential, fostering a cycle of strength and renewed growth.",
+        "pt": "Inspirado na vitalidade bruta da Amazônia, este tônico foi criado para despertar o potencial do couro cabeludo, promovendo um ciclo de força e crescimento renovado.",
+        "es": "Inspirado en la vitalidad bruta del Amazonas, este tónico está diseñado para despertar el potencial del cuero cabelludo, fomentando un ciclo de fuerza y crecimiento renovado.",
+        "fr": "Inspiré par la vitalité brute de l'Amazonie, ce tonique est conçu pour réveiller le potentiel du cuir chevelu, favorisant un cycle de force et une croissance renouvelée.",
+        "ar": "مستوحى من الطاقة الحيوية الخام لغابات الأمازون، صُمِّم هذا التونيك لإيقاظ الإمكانات الطبيعية لفروة الرأس، ودعم دورة متواصلة من القوة والتجدد والنمو الصحي."
+      },
+      "professional_ritual": {
+        "en": "Apply to a clean, damp scalp. Massage gently with fingertips for one minute to stimulate circulation. Do not rinse. Use daily.",
+        "pt": "Aplique no couro cabeludo limpo e úmido. Massageie suavemente com as pontas dos dedos por um minuto para estimular a circulação. Não enxágue. Use diariamente.",
+        "es": "Aplicar sobre el cuero cabelludo limpio y húmedo. Masajear suavemente con las yemas de los dedos durante un minuto para estimular la circulación. No enjuagar. Usar a diario.",
+        "fr": "Appliquer sur un cuir chevelu propre et humide. Masser doucement du bout des doigts pendant une minute pour stimuler la circulation. Ne pas rincer. Utiliser quotidiennement.",
+        "ar": "يُوضع على فروة رأس نظيفة ورطبة، ثم يُدلَّك برفق بأطراف الأصابع لمدة دقيقة واحدة لتحفيز الدورة الدموية. يُترك دون شطف. يُستخدم يوميًا."
+      },
+      "active_technology": "Mineral Repair Complex",
+      "professional_use": {
+        "en": "External use only. Keep in a cool, dry place away from light.",
+        "pt": "Uso externo. Mantenha em local fresco, seco e ao abrigo da luz.",
+        "es": "Uso externo. Manténgase en un lugar fresco, seco y protegido de la luz.",
+        "fr": "Usage externe. Conserver dans un endroit frais et sec, à l'abri de la lumière."
+      },
+      "ingredients_inci": [
+        "Aqua", "Propylene Glycol", "Parfum", "Biotin", "Hyaluronic Acid", "Panthenol", "Sodium PCA", "Sodium Lactate", "Arginine", "Aspartic Acid", "PCA", "Glycine", "Alanine", "Serine", "Valine", "Proline", "Threonine", "Isoleucine", "Histidine", "Phenylalanine", "Medicago Sativa Extract", "Humulus Lupulus Extract", "Rosmarinus Officinalis Leaf Extract", "Melilotus Officinalis Extract", "Phenoxyethanol"
+      ]
+    },
+    {
+      "id": "vigor-selva-shampoo",
+      "collection": "Vigor Collection",
+      "product_name": "Selva Shampoo (Fortifying)",
+      "philosophy": {
+        "en": "Drawing power from the heart of the rainforest, this strengthening shampoo fortifies the hair fiber from within, promoting vitality and resilient growth.",
+        "pt": "Extraindo força do coração da floresta tropical, este shampoo fortificante fortalece a fibra capilar de dentro para fora, promovendo vitalidade e um crescimento resiliente.",
+        "es": "Extrayendo fuerza del corazón de la selva tropical, este champú fortalecedor refuerza la fibra capilar desde el interior, promoviendo vitalidad y un crecimiento resiliente.",
+        "fr": "Tirant sa force du cœur de la forêt tropicale, ce shampooing fortifiant renforce la fibre capillaire de l'intérieur, favorisant vitalité et croissance résiliente.",
+        "ar": "مستوحى من القوة الكامنة في قلب الغابات المطيرة، صُمِّم هذا الشامبو المُقوّي لتقوية ألياف الشعر من الداخل، مما يعزز الحيوية ويمنح الشعر قوةً ونموًا أكثر صحة ومتانة."
+      },
+      "professional_ritual": {
+        "en": "Apply to damp hair. Massage gently until a rich lather forms. Rinse thoroughly. Repeat if necessary for deep cleansing.",
+        "pt": "Aplique no cabelo úmido. Massageie suavemente até formar uma espuma rica. Enxágue abundantemente. Repita se necessário para uma limpeza profunda.",
+        "es": "Aplicar sobre el cabello húmedo. Masajear suavemente hasta formar una espuma rica. Enjuagar abundantemente. Repetir si es necesario para una limpieza profunda.",
+        "fr": "Appliquer sur cheveux humides. Masser doucement jusqu'à l'obtention d'une mousse riche. Rincer abondamment. Répéter si nécessaire pour un nettoyage en profondeur.",
+        "ar": "يُوضع على شعرٍ مبلل، ثم يُدلَّك بلطف حتى تتكوّن رغوة غنية. يُشطف جيدًا بالماء. تُكرَّر العملية عند الحاجة للحصول على تنظيف عميق."
+      },
+      "active_technology": "Mineral Repair Complex",
+      "professional_use": {
+        "en": "External use. Keep in a cool, dry place.",
+        "pt": "Uso externo. Mantenha em local fresco e seco.",
+        "es": "Uso externo. Manténgase en un lugar fresco y seco.",
+        "fr": "Usage externe. Conserver dans un endroit frais et sec."
+      },
+      "ingredients_inci": [
+        "Aqua", "Sodium Laureth Sulfate", "Disodium Laureth Sulfosuccinate", "Cocamide DEA", "Disodium EDTA", "Parfum", "Cocamidopropyl Betaine", "Polyquaternium-7", "Glycol Distearate", "Citric Acid", "Keratin", "Persea Gratissima (Avocado) Oil", "Dimethiconol", "TEA-Dodecylbenzenesulfonate", "Hydrolyzed Wheat Protein", "Phenoxyethanol"
+      ]
+    },
+    {
+      "id": "vigor-selva-mask",
+      "collection": "Vigor Collection",
+      "product_name": "Selva Mask",
+      "philosophy": {
+        "en": "An intensive treatment designed to restore structure to weakened strands, the Selva Mask anchors hair strength in the purity of mineral-rich botanical care.",
+        "pt": "Um tratamento intensivo concebido para restaurar a estrutura de fios enfraquecidos, a Máscara Selva ancora a força capilar na pureza do cuidado botânico rico em minerais.",
+        "es": "Un tratamiento intensivo diseñado para restaurar la estructura de los cabellos debilitados, la Mascarilla Selva ancla la fuerza capilar en la pureza del cuidado botánico rico en minerales.",
+        "fr": "Un soin intensif conçu pour restaurer la structure des cheveux fragilisés, le Masque Selva ancre la force capillaire dans la pureté d'un soin botanique riche en minéraux.",
+        "ar": "علاجٌ مكثّف صُمِّم لإعادة بناء بنية الشعر الضعيف، مستمدًّا قوته من نقاء العناية النباتية الغنية بالمعادن، ليمنح الشعر قوةً متجددة ومرونةً تدوم."
+      },
+      "professional_ritual": {
+        "en": "After shampooing, apply a generous amount to lengths and ends. Massage, leave on for 5–10 minutes, and rinse thoroughly.",
+        "pt": "Após o shampoo, aplique uma quantidade generosa no comprimento e pontas. Massageie, deixe agir por 5 a 10 minutos e enxágue abundantemente.",
+        "es": "Después del champú, aplicar una cantidad generosa en largos y puntas. Masajear, dejar actuar de 5 a 10 minutos y enjuagar abundantemente.",
+        "fr": "Après le shampooing, appliquer une quantité généreuse sur les longueurs et les pointes. Masser, laisser agir 5 à 10 minutes et rincer abondamment.",
+        "ar": "بعد غسل الشعر بالشامبو، تُوزَّع كمية وفيرة على أطوال الشعر وأطرافه. يُدلَّك بلطف، ويُترك لمدة تتراوح بين 5 الى 10 دقائق، ثم يُشطف جيدًا بالماء."
+      },
+      "active_technology": "Mineral Repair Complex",
+      "professional_use": {
+        "en": "External use. Keep in a cool, dry place.",
+        "pt": "Uso externo. Mantenha em local fresco e seco.",
+        "es": "Uso externo. Manténgase en un lugar fresco y seco.",
+        "fr": "Usage externe. Conserver dans un endroit frais et sec."
+      },
+      "ingredients_inci": [
+        "Aqua", "Cetearyl Alcohol", "Cetrimonium Chloride", "Stearamidopropyl Dimethylamine", "Behentrimonium Chloride", "Glycerin", "Behentrimonium Methosulfate", "Mineral Oil", "Keratin", "Persea Gratissima (Avocado) Oil", "Dimethiconol", "TEA-Dodecylbenzenesulfonate", "Hydrolyzed Wheat Protein", "Lactic Acid", "Phenoxyethanol", "Parfum"
+      ]
+    },
+    {
+      "id": "recovery-ciclo-shampoo",
+      "collection": "Recovery Collection",
+      "product_name": "Ciclo Shampoo (Post-Chemistry Maintenance)",
+      "philosophy": {
+        "en": "A gentle restorative cleanser formulated to maintain the integrity of chemically treated hair, balancing keratin levels for lasting health.",
+        "pt": "Um limpador restaurador suave formulado para manter a integridade dos cabelos quimicamente tratados, equilibrando os níveis de queratina para uma saúde duradoura.",
+        "es": "Un limpiador restaurador suave formulado para mantener la integridad del cabello tratado químicamente, equilibrando los niveles de queratina para una salud duradera.",
+        "fr": "Un nettoyant réparateur doux formulé pour maintenir l'intégrité des cheveux traités chimiquement, équilibrant les niveaux de kératine pour une santé durable.",
+        "ar": "شامبو ترميمي لطيف صُمِّم خصيصًا للحفاظ على سلامة الشعر الخاضع للمعالجات الكيميائية. ينظّف الشعر برفق مع المساعدة على موازنة مستويات الكيراتين، ليحافظ على صحته وقوته ولمعانه مع كل استخدام."
+      },
+      "professional_ritual": {
+        "en": "Apply to damp hair. Gently massage to cleanse without stripping. Rinse thoroughly.",
+        "pt": "Aplique no cabelo úmido. Massageie suavemente para limpar sem remover a hidratação. Enxágue abundantemente.",
+        "es": "Aplicar sobre el cabello húmedo. Masajear suavemente para limpiar sin eliminar la hidratación. Enjuagar abundantemente.",
+        "fr": "Appliquer sur cheveux humides. Masser doucement pour nettoyer sans décaper. Rincer abondamment.",
+        "ar": "يُوزَّع على شعرٍ مبلل، ثم يُدلَّك بلطف لتنظيف الشعر دون التسبب في فقدان ترطيبه الطبيعي. يُغسل جيدًا بالماء."
+      },
+      "active_technology": "Keratin Balance System",
+      "professional_use": {
+        "en": "External use. Keep in a cool, dry place.",
+        "pt": "Uso externo. Mantenha em local fresco e seco.",
+        "es": "Uso externo. Manténgase en un lugar fresco y seco.",
+        "fr": "Usage externe. Conserver dans un endroit frais et sec."
+      },
+      "ingredients_inci": [
+        "Aqua", "Sodium Laureth Sulfate", "Disodium Laureth Sulfosuccinate", "Cocamide DEA", "Glycerin", "Cocamidopropyl Betaine", "Parfum", "Cocos Nucifera (Coconut) Oil", "Amodimethicone", "Trideceth-12", "Polyquaternium-7", "Glycol Distearate", "Disodium EDTA", "Citric Acid", "Phenoxyethanol"
+      ]
+    },
+    {
+      "id": "recovery-ciclo-leave-in",
+      "collection": "Recovery Collection",
+      "product_name": "Ciclo Leave-in (Thermal Protection)",
+      "philosophy": {
+        "en": "An essential shield for post-chemical hair, offering superior thermal protection and daily maintenance for a polished, seamless finish.",
+        "pt": "Um escudo essencial para cabelos pós-química, oferecendo proteção térmica superior e manutenção diária para um acabamento polido e uniforme.",
+        "es": "Un escudo esencial para el cabello posquímica, que ofrece una protección térmica superior y un mantenimiento diario para un acabado pulido y uniforme.",
+        "fr": "Un bouclier essentiel pour les cheveux après traitement chimique, offrant une protection thermique supérieure et un entretien quotidien pour une finition polie et uniforme.",
+        "ar": "درعٌ يومي لا غنى عنه للشعر بعد المعالجات الكيميائية، يوفر حماية حرارية متقدمة ويمنح الشعر عنايةً مستمرة، ليحافظ على نعومته وانسيابيته ويمنحه مظهرًا متناسقًا بلمسةٍ احترافية."
+      },
+      "professional_ritual": {
+        "en": "Apply a small amount to clean, damp hair. Distribute evenly. Style as desired. Do not rinse.",
+        "pt": "Aplique uma pequena quantidade no cabelo limpo e úmido. Distribua uniformemente. Finalize como desejar. Não enxágue.",
+        "es": "Aplicar una pequeña cantidad sobre el cabello limpio y húmedo. Distribuir uniformemente. Peinar según se desee. No enjuagar.",
+        "fr": "Appliquer une petite quantité sur cheveux propres et humides. Répartir uniformément. Coiffer comme souhaité. Ne pas rincer.",
+        "ar": "تُوضع كمية صغيرة على شعرٍ نظيف ورطب، ثم يُوزَّع بالتساوي على كامل الشعر. يُصفَّف حسب الرغبة. يُترك على الشعر دون شطف."
+      },
+      "active_technology": "Thermo Shield Complex",
+      "professional_use": {
+        "en": "External use. Keep in a cool, dry place.",
+        "pt": "Uso externo. Mantenha em local fresco e seco.",
+        "es": "Uso externo. Manténgase en un lugar fresco y seco.",
+        "fr": "Usage externe. Conserver dans un endroit frais et sec."
+      },
+      "ingredients_inci": [
+        "Aqua", "Cetearyl Alcohol", "Cetrimonium Chloride", "Stearamidopropyl Dimethylamine", "Behentrimonium Methosulfate", "Glycerin", "Parfum", "Amodimethicone", "Trideceth-12", "Isopropyl Palmitate", "Lactic Acid", "Cyclopentasiloxane", "Dimethicone", "Polyquaternium-39", "Phenoxyethanol"
+      ]
+    },
+    {
+      "id": "recovery-ciclo-mask",
+      "collection": "Recovery Collection",
+      "product_name": "Ciclo Mask (Nutri-Repair)",
+      "philosophy": {
+        "en": "A profound nutritional treatment that revitalizes hair structure, restoring shine and softness lost during chemical processes.",
+        "pt": "Um tratamento nutricional profundo que revitaliza a estrutura capilar, restaurando o brilho e a maciez perdidos durante processos químicos.",
+        "es": "Un tratamiento nutricional profundo que revitaliza la estructura capilar, restaurando el brillo y la suavidad perdidos durante los procesos químicos.",
+        "fr": "Un soin nutritionnel profond qui revitalise la structure capillaire, restaurant la brillance et la douceur perdues lors des processus chimiques.",
+        "ar": "علاجٌ غذائي مكثّف يعيد الحيوية إلى بنية الشعر من الداخل، فيغذي أليافه بعمق ويستعيد ما فقده من نعومةٍ ولمعان نتيجة المعالجات الكيميائية، ليمنحه مظهرًا صحيًا وإحساسًا بالحريرية يدوم."
+      },
+      "professional_ritual": {
+        "en": "After shampooing, apply to lengths and ends. Leave for 5–10 minutes. Rinse thoroughly.",
+        "pt": "Após o shampoo, aplique no comprimento e pontas. Deixe agir por 5 a 10 minutos. Enxágue abundantemente.",
+        "es": "Después del champú, aplicar en largos y puntas. Dejar actuar de 5 a 10 minutos. Enjuagar abundantemente.",
+        "fr": "Après le shampooing, appliquer sur les longueurs et les pointes. Laisser agir 5 à 10 minutes. Rincer abondamment.",
+        "ar": "بعد غسل الشعر بالشامبو، يُوزَّع القناع على أطوال الشعر وأطرافه. يُترك لمدة تتراوح بين 5 الى 10 دقائق، ثم يُشطف جيدًا بالماء."
+      },
+      "active_technology": "Nutri-Repair Complex",
+      "professional_use": {
+        "en": "External use. Keep in a cool, dry place.",
+        "pt": "Uso externo. Mantenha em local fresco e seco.",
+        "es": "Uso externo. Manténgase en un lugar fresco y seco.",
+        "fr": "Usage externe. Conserver dans un endroit frais et sec."
+      },
+      "ingredients_inci": [
+        "Aqua", "Cetearyl Alcohol", "Cetrimonium Chloride", "Stearamidopropyl Dimethylamine", "Parfum", "Astrocaryum Murumuru Seed Butter", "Polyquaternium-7", "Dimethicone", "Ricinus Communis Seed Oil", "Amodimethicone", "Trideceth-12", "Bambusa Vulgaris Extract", "Hydrolyzed Wheat Protein", "Lactic Acid", "Phenoxyethanol"
+      ]
+    },
+    {
+      "id": "recovery-calmaria-mask",
+      "collection": "Recovery Collection",
+      "product_name": "Calmaria Mask (Post-Straightening)",
+      "philosophy": {
+        "en": "Designed specifically for post-straightening care, this mask tames volume and provides essential hydration to maintain alignment and discipline.",
+        "pt": "Concebida especificamente para o cuidado pós-progressiva, esta máscara controla o volume e proporciona hidratação essencial para manter o alinhamento e a disciplina.",
+        "es": "Diseñada específicamente para el cuidado post-alisado, esta mascarilla controla el volumen y proporciona la hidratación esencial para mantener la alineación y la disciplina.",
+        "fr": "Conçu spécifiquement pour le soin après lissage, ce masque contrôle le volume et apporte l'hydratation essentielle pour maintenir l'alignement et la discipline.",
+        "ar": "صُمِّم هذا القناع خصيصًا للعناية بالشعر بعد علاجات التمليس، حيث يساعد على تهدئة كثافة الشعر والسيطرة على تطايره، بينما يمدّه بترطيبٍ عميق يحافظ على نعومته وانسيابيته واستقامته الطبيعية لفترة أطول."
+      },
+      "professional_ritual": {
+        "en": "Apply after shampooing. Massage, leave for 5–10 minutes, and rinse well for controlled, silky hair.",
+        "pt": "Aplique após o shampoo. Massageie, deixe agir por 5 a 10 minutos e enxágue bem para cabelos sedosos e controlados.",
+        "es": "Aplicar después del champú. Masajear, dejar actuar de 5 a 10 minutos y enjuagar bien para obtener un cabello sedoso y controlado.",
+        "fr": "Appliquer après le shampooing. Masser, laisser agir 5 à 10 minutes et bien rincer pour des cheveux soyeux et contrôlés.",
+        "ar": "يُستخدم بعد غسل الشعر بالشامبو. يُوزَّع بالتساوي ويُدلَّك بلطف، ثم يُترك لمدة تتراوح بين 5 الى 10 دقائق قبل شطفه جيدًا بالماء، للحصول على شعرٍ أكثر نعومةً وانضباطًا."
+      },
+      "active_technology": "Argan + Panthenol",
+      "professional_use": {
+        "en": "External use. Keep in a cool, dry place.",
+        "pt": "Uso externo. Mantenha em local fresco e seco.",
+        "es": "Uso externo. Manténgase en un lugar fresco y seco.",
+        "fr": "Usage externe. Conserver dans un endroit frais et sec."
+      },
+      "ingredients_inci": [
+        "Aqua", "Cetearyl Alcohol", "Cetrimonium Chloride", "Stearamidopropyl Dimethylamine", "Parfum", "Cocos Nucifera (Coconut) Oil", "Paraffinum Liquidum", "Dimethicone", "Bambusa Vulgaris Extract", "Keratin", "Lactic Acid", "Phenoxyethanol"
+      ]
+    },
+    {
+      "id": "recovery-resgate-mask",
+      "collection": "Recovery Collection",
+      "product_name": "Resgate Mask (Anti-Rubber Effect)",
+      "philosophy": {
+        "en": "An emergency intervention for fragile hair, this mask halts the 'rubber' effect, rebuilding strength and elasticity from the very first use.",
+        "pt": "Uma intervenção de emergência para cabelos frágeis, esta máscara interrompe o efeito 'emborrachado', reconstruindo a força e a elasticidade desde a primeira aplicação.",
+        "es": "Una intervención de emergencia para cabellos frágiles, esta mascarilla detiene el efecto 'goma', reconstruyendo la fuerza y la elasticidad desde la primera aplicación.",
+        "fr": "Une intervention d'urgence pour les cheveux fragiles, ce masque stoppe l'effet 'caoutchouc', reconstruisant force et élasticité dès la première application.",
+        "ar": "علاجٌ إنقاذي مكثّف صُمِّم للشعر شديد التلف، يساعد على إيقاف تأثير التمدد المطاطي الناتج عن التلف الكيميائي، ويععيد بناء ألياف الشعر بعمق، مسترجعًا قوتها ومرونتها الطبيعية منذ أول استخدام."
+      },
+      "professional_ritual": {
+        "en": "Apply to damaged areas. Let it act for 10 minutes to deeply reconstruct the fibers. Rinse thoroughly.",
+        "pt": "Aplique nas áreas danificadas. Deixe agir por 10 minutos para reconstruir profundamente as fibras. Enxágue abundantemente.",
+        "es": "Aplicar en las zonas dañadas. Dejar actuar durante 10 minutos para reconstruir profundamente las fibras. Enjuagar abundantemente.",
+        "fr": "Appliquer sur les zones abîmées. Laisser agir 10 minutes pour reconstruire en profondeur les fibres. Rincer abondamment.",
+        "ar": "يُطبَّق على المناطق الأكثر تضررًا من الشعر، ثم يُوزَّع بالتساوي ويُترك لمدة 10 دقائق لإعادة بناء ألياف الشعر بعمق. يُشطف جيدًا بالماء."
+      },
+      "active_technology": "Mineral Repair Complex",
+      "professional_use": {
+        "en": "External use. Keep in a cool, dry place.",
+        "pt": "Uso externo. Mantenha em local fresco e seco.",
+        "es": "Uso externo. Manténgase en un lugar fresco y seco.",
+        "fr": "Usage externe. Conserver dans un endroit frais et sec."
+      },
+      "ingredients_inci": [
+        "Aqua", "Cetearyl Alcohol", "Glycerin", "Stearamidopropyl Dimethylamine", "Cetrimonium Chloride", "Parfum", "Hydrolyzed Wheat Protein", "Keratin", "Lactic Acid", "Cocos Nucifera (Coconut) Oil", "Prunus Amygdalus Dulcis Oil", "Persea Gratissima (Avocado) Oil", "Dimethiconol", "TEA-Dodecylbenzenesulfonate", "Phenoxyethanol"
+      ]
+    },
+    {
+      "id": "brio-prisma-hair-filler",
+      "collection": "Brio Collection",
+      "product_name": "PRISMA Hair Filler (Professional Hair Botox)",
+      "philosophy": {
+        "en": "An advanced Hair Botox treatment designed for deep capillary restructuring. It fills the fiber, restores elasticity, and provides a sleek, perfectly aligned finish with mirror-like shine.",
+        "pt": "Um tratamento avançado de Botox Capilar concebido para a reestruturação capilar profunda. Preenche a fibra, restaura a elasticidade e proporciona um acabamento liso, perfeitamente alinhado e com brilho espelhado.",
+        "es": "Un tratamiento avanzado de Botox Capilar diseñado para una reestructuración capilar profunda. Rellena la fibra, restaura la elasticidad y proporciona un acabado liso, perfectamente alineado y con brillo espejo.",
+        "fr": "Un soin Botox Capillaire avancé conçu pour une restructuration capillaire profonde. Il comble la fibre, restaure l'élasticité et offre une finition lisse, parfaitement alignée, avec une brillance miroir.",
+        "ar": "علاج متطور لإعادة الهيكلة العميقة لألياف الشعر، صُمِّم ليملأ بنية الشعرة من الداخل، ويستعيد مرونتها الطبيعية، ويمنحها مظهرًا أملسًا بانسيابية مثالية، مع لمعانٍ مرآتي يعكس جمال الشعر الصحي."
+      },
+      "professional_ritual": {
+        "en": "Wash hair thoroughly with a clarifying shampoo to open the cuticles. Dry 80%. Apply the Botox treatment section by section. Leave on for 30–40 minutes. Rinse partially, dry, and flat iron to seal the cuticle.",
+        "pt": "Lave bem o cabelo com shampoo antirresíduo para abrir as cutículas. Seque 80%. Aplique o Botox mecha a mecha. Deixe agir de 30 a 40 minutos. Enxágue parcialmente, seque e pranche para selar a cutícula.",
+        "es": "Lavar bien el cabello con champú clarificante para abrir las cutículas. Secar al 80%. Aplicar el Botox mechón a mechón. Dejar actuar de 30 a 40 minutos. Enjuagar parcialmente, secar y planchar para sellar la cutícula.",
+        "fr": "Laver soigneusement les cheveux avec un shampooing clarifiant pour ouvrir les cuticules. Sécher à 80 %. Appliquer le soin Botox mèche par mèche. Laisser poser 30 à 40 minutes. Rincer partiellement, sécher et passer le lisseur pour sceller la cuticule.",
+        "ar": "يُغسل الشعر جيدًا باستخدام شامبو مُنقٍّ لفتح قشور الشعرة، ثم يُجفف حتى تصل نسبة الجفاف إلى 80٪. يُوزَّع العلاج خصلةً تلو الأخرى بالتساوي، ويُترك لمدة تتراوح بين 30 الى 40 دقيقة. بعد ذلك، يُشطف جزئيًا، ثم يُجفف بالكامل، ويُصفَّف باستخدام مكواة فرد الشعر لإحكام غلق قشور الشعرة."
+      },
+      "active_technology": "Advanced Fiber Filling Complex",
+      "professional_use": {
+        "en": "Professional use only. External use. Store in a cool, dry place.",
+        "pt": "Uso profissional. Uso externo. Mantenha em local fresco e seco.",
+        "es": "Uso profesional. Uso externo. Manténgase en un lugar fresco y seco.",
+        "fr": "Usage professionnel. Usage externe. Conserver dans un endroit frais et sec."
+      },
+      "ingredients_inci": [
+        "Stearamidopropyl Dimethylamine", "Paraffinum Liquidum", "Lactic Acid", "Parfum", "Dimethicone", "Amodimethicone", "Trideceth-12", "Dimethiconol", "TEA-Dodecylbenzenesulfonate", "Hydrolyzed Wheat Protein", "Disodium EDTA", "BHT", "Phenoxyethanol"
+      ]
+    },
+    {
+      "id": "brio-bruma",
+      "collection": "Brio Collection",
+      "product_name": "BRUMA (Hydrating Shampoo)",
+      "philosophy": {
+        "en": "Inspired by the morning mist of the Brazilian rainforest, this hydrating shampoo gently purifies while infusing the hair with botanical moisture, leaving it illuminated and revitalized.",
+        "pt": "Inspirado na névoa matinal da floresta tropical brasileira, este shampoo hidratante purifica suavemente enquanto infunde o cabelo com hidratação botânica, deixando-o iluminado e revitalizado.",
+        "es": "Inspirado en la bruma matinal de la selva tropical brasileña, este champú hidratante purifica suavemente mientras infunde al cabello hidratación botánica, dejándolo iluminado y revitalizado.",
+        "fr": "Inspiré par la brume matinale de la forêt tropicale brésilienne, ce shampooing hydratant purifie en douceur tout en infusant les cheveux d'une hydratation botanique, les laissant illuminés et revitalisés.",
+        "ar": "يستلهم هذا الشامبو المرطّب روحه من الضباب الصباحي الذي يحتضن الغابات المطيرة البرازيلية، فينقّي الشعر بلطف، بينما يغمر أليافه بترطيبٍ نباتي غني، ليكشف عن شعرٍ أكثر نعومةً وحيوية، يتألق بلمعانٍ طبيعي ولمسةٍ حريرية آسرة."
+      },
+      "professional_ritual": {
+        "en": "Apply a generous amount to damp hair. Massage gently until a rich, creamy lather forms to cleanse the scalp and lengths. Rinse thoroughly.",
+        "pt": "Aplique uma quantidade generosa no cabelo úmido. Massageie suavemente até formar uma espuma rica e cremosa para limpar o couro cabeludo e o comprimento. Enxágue abundantemente.",
+        "es": "Aplicar una cantidad generosa sobre el cabello húmedo. Masajear suavemente hasta formar una espuma rica y cremosa para limpiar el cuero cabelludo y los largos. Enjuagar abundantemente.",
+        "fr": "Appliquer une quantité généreuse sur cheveux humides. Masser doucement jusqu'à l'obtention d'une mousse riche et crémeuse pour nettoyer le cuir chevelu et les longueurs. Rincer abondamment.",
+        "ar": "تُوزَّع كمية وفيرة على شعرٍ مبلل، ثم يُدلَّك بلطف حتى تتكوّن رغوة كريمية غنية تنظّف فروة الرأس وأطوال الشعر بفعالية. يُشطف جيدًا بالماء."
+      },
+      "active_technology": "Keratin + Panthenol + Botanical Oils",
+      "professional_use": {
+        "en": "Professional use only. External use. Store in a cool, dry place.",
+        "pt": "Uso profissional. Uso externo. Mantenha em local fresco e seco.",
+        "es": "Uso profesional. Uso externo. Manténgase en un lugar fresco y seco.",
+        "fr": "Usage professionnel. Usage externe. Conserver dans un endroit frais et sec."
+      },
+      "ingredients_inci": [
+        "Aqua", "Sodium Laureth Sulfate", "Cocamide DEA", "Parfum", "Glycerin", "Cetrimonium Chloride", "Mineral Oil", "Argania Spinosa Kernel Oil", "Elaeis Oleifera Kernel Oil", "Cocos Nucifera (Coconut) Oil", "Macadamia Ternifolia Seed Oil", "Prunus Amygdalus Dulcis Oil", "Nelumbo Nucifera Leaf Extract", "Rosa Canina Fruit Oil", "Linum Usitatissimum Seed Oil", "Chamomilla Flower Oil", "Disodium EDTA", "Panthenol", "Keratin", "Citric Acid", "Phenoxyethanol"
+      ]
+    },
+    {
+      "id": "biomas-cerrado",
+      "collection": "Biomas Collection",
+      "product_name": "Cerrado (Máscara Nutritiva / Nutrition Mask)",
+      "philosophy": {
+        "en": "Born from the exuberant oils of the Brazilian Cerrado, this nutritive mask deeply replenishes hair, restoring lipid balance and natural radiance.",
+        "pt": "Nascida da exuberância dos óleos do Cerrado brasileiro, esta máscara nutritiva repõe profundamente os nutrientes, restaurando o equilíbrio lipídico e o brilho natural.",
+        "es": "Nacida de la exuberancia de los aceites del Cerrado brasileño, esta mascarilla nutritiva repone profundamente los nutrientes, restaurando el equilibrio lipídico y el brillo natural.",
+        "fr": "Issue de l'exubérance des huiles du Cerrado brésilien, ce masque nutritif reconstitue profondément les nutriments, rétablissant l'équilibre lipidique et l'éclat naturel.",
+        "ar": "وُلِد هذا القناع المغذّي من ثراء الزيوت الطبيعية في إقليم السِّيرادو البرازيلي، ليغذي ألياف الشعر بعمق، ويعيد توازنها الدهني، ويكشف عن شعرٍ أكثر نعومةً وحيوية، يتألق بإشراقةٍ طبيعية آسرة."
+      },
+      "professional_ritual": {
+        "en": "Apply to damp, clean hair. Massage lengths and ends. Let it act for 5–10 minutes. Rinse thoroughly.",
+        "pt": "Aplique no cabelo limpo e úmido. Massageie comprimento e pontas. Deixe agir por 5 a 10 minutos. Enxágue abundantemente.",
+        "es": "Aplicar sobre el cabello limpio y húmedo. Masajear largos y puntas. Dejar actuar de 5 a 10 minutos. Enjuagar abundantemente.",
+        "fr": "Appliquer sur cheveux propres et humides. Masser les longueurs et les pointes. Laisser poser 5 à 10 minutes. Rincer abondamment.",
+        "ar": "يُوزَّع على شعرٍ نظيف ورطب، مع التركيز على أطوال الشعر وأطرافه، ثم يُدلَّك بلطف ويُترك لمدة تتراوح بين 5 الى 10 دقائق. يُشطف جيدًا بالماء."
+      },
+      "active_technology": "Botanical Lipid Replenishing Complex",
+      "professional_use": {
+        "en": "Professional Use. External application. Keep in a cool, dry place.",
+        "pt": "Uso Profissional. Aplicação externa. Mantenha em local fresco e seco.",
+        "es": "Uso Profesional. Aplicación externa. Manténgase en un lugar fresco y seco.",
+        "fr": "Usage Professionnel. Application externe. Conserver dans un endroit frais et sec."
+      },
+      "ingredients_inci": [
+        "Aqua", "Cetearyl Alcohol", "Cetrimonium Chloride", "Stearamidopropyl Dimethylamine", "Glycerin", "Parfum", "Argania Spinosa Kernel Oil", "Cocos Nucifera (Coconut) Oil", "Dimethicone", "Elaeis Oleifera Kernel Oil", "Macadamia Ternifolia Seed Oil", "Prunus Amygdalus Dulcis Oil", "Linum Usitatissimum Seed Oil", "Amodimethicone", "Hydrolyzed Wheat Protein", "Trideceth-12", "Dimethiconol", "TEA-Dodecylbenzenesulfonate", "Lactic Acid", "Phenoxyethanol"
+      ]
+    },
+    {
+      "id": "biomas-raiz",
+      "collection": "Biomas Collection",
+      "product_name": "Raiz (Máscara Reconstrutora / Reconstructing Mask)",
+      "philosophy": {
+        "en": "Inspired by the strength of Brazilian roots, this mask provides an intensive reconstruction, repairing the hair fiber and reinforcing its natural resilience.",
+        "pt": "Inspirada na força das raízes brasileiras, esta máscara proporciona uma reconstrução intensiva, reparando a fibra capilar e reforçando a sua resiliência natural.",
+        "es": "Inspirada en la fuerza de las raíces brasileñas, esta mascarilla proporciona una reconstrucción intensiva, reparando la fibra capilar y reforzando su resiliencia natural.",
+        "fr": "Inspiré par la force des racines brésiliennes, ce masque offre une reconstruction intensive, réparant la fibre capillaire et renforçant sa résilience naturelle.",
+        "ar": "يستلهم هذا القناع قوته من الجذور العميقة للطبيعة البرازيلية، ليمنح الشعر علاجًا ترميميًا مكثفًا يعيد بناء أليافه من الداخل، ويعزز متانتها ومرونتها الطبيعية، ليستعيد الشعر قوته ومظهره الصحي مع كل استخدام."
+      },
+      "professional_ritual": {
+        "en": "Apply to damaged sections. Massage well and leave for 10 minutes to deeply restore the structure. Rinse well.",
+        "pt": "Aplique nas partes danificadas. Massageie bem e deixe agir por 10 minutos para restaurar profundamente a estrutura. Enxágue bem.",
+        "es": "Aplicar en las zonas dañadas. Masajear bien y dejar actuar durante 10 minutos para restaurar profundamente la estructura. Enjuagar bien.",
+        "fr": "Appliquer sur les zones abîmées. Bien masser et laisser poser 10 minutes pour restaurer en profondeur la structure. Bien rincer.",
+        "ar": "يُوزَّع على المناطق الأكثر تضررًا من الشعر، ثم يُدلَّك بلطف لضمان امتصاص التركيبة بعمق. يُترك لمدة 10 دقائق، ثم يُشطف جيدًا بالماء."
+      },
+      "active_technology": "Deep Roots Rebuilding Complex",
+      "professional_use": {
+        "en": "Professional Use. External application. Keep in a cool, dry place.",
+        "pt": "Uso Profissional. Aplicação externa. Mantenha em local fresco e seco.",
+        "es": "Uso Profesional. Aplicación externa. Manténgase en un lugar fresco y seco.",
+        "fr": "Usage Professionnel. Application externe. Conserver dans un endroit frais et sec."
+      },
+      "ingredients_inci": [
+        "Aqua", "Cetearyl Alcohol", "Cetrimonium Chloride", "Stearamidopropyl Dimethylamine", "Ceteareth-20", "Glycerin", "Astrocaryum Murumuru Seed Butter", "Parfum", "Dimethicone", "Isopropyl Palmitate", "Amodimethicone", "Hydrolyzed Wheat Protein", "Trideceth-12", "Lactic Acid", "Phenoxyethanol"
+      ]
+    },
+    {
+      "id": "biomas-orvalho",
+      "collection": "Biomas Collection",
+      "product_name": "Orvalho (Máscara Hidratante / Hydration Mask)",
+      "philosophy": {
+        "en": "Inspired by the softness of Brazilian waters, this hydration mask infuses strands with vital moisture, leaving hair silky, light, and perfectly aligned.",
+        "pt": "Inspirada na suavidade das águas brasileiras, esta máscara hidratante infunde os fios com umidade vital, deixando o cabelo sedoso, leve e perfeitamente alinhado.",
+        "es": "Inspirada en la suavidad de las aguas brasileñas, esta mascarilla hidratante infunde los cabellos con humedad vital, dejando el cabello sedoso, ligero y perfectamente alineado.",
+        "fr": "Inspiré par la douceur des eaux brésiliennes, ce masque hydratant infuse les cheveux d'une humidité vitale, les laissant soyeux, légers et parfaitement alignés.",
+        "ar": "يستلهم هذا القناع المرطّب نعومته من نقاء المياه البرازيلية، ليغمر ألياف الشعر بترطيبٍ عميق يعيد إليها الحيوية، ويمنحها ملمسًا حريريًا، وخفةً طبيعية، وانسيابيةً تنبض بالأناقة."
+      },
+      "professional_ritual": {
+        "en": "Apply to damp hair. Leave for 5 minutes for immediate hydration and softness. Rinse thoroughly.",
+        "pt": "Aplique no cabelo úmido. Deixe agir por 5 minutos para hidratação e maciez imediatas. Enxágue abundantemente.",
+        "es": "Aplicar sobre el cabello húmedo. Dejar actuar durante 5 minutos para una hidratación y suavidad inmediatas. Enjuagar abundantemente.",
+        "fr": "Appliquer sur cheveux humides. Laisser poser 5 minutes pour une hydratation et une douceur immédiates. Rincer abondamment.",
+        "ar": "يُوزَّع على شعرٍ رطب، ويُترك لمدة خمس دقائق للحصول على ترطيبٍ فوري ونعومةٍ ملموسة، ثم يُشطف جيدًا بالماء."
+      },
+      "active_technology": "Vital Moisture Complex",
+      "professional_use": {
+        "en": "Professional Use. External application. Keep in a cool, dry place.",
+        "pt": "Uso Profissional. Aplicação externa. Mantenha em local fresco e seco.",
+        "es": "Uso Profesional. Aplicación externa. Manténgase en un lugar fresco y seco.",
+        "fr": "Usage Professionnel. Application externe. Conserver dans un endroit frais et sec."
+      },
+      "ingredients_inci": [
+        "Aqua", "Cetearyl Alcohol", "Cetrimonium Chloride", "Stearamidopropyl Dimethylamine", "Paraffinum Liquidum", "Glycerin", "Parfum", "Dimethicone", "Amodimethicone", "Hydrolyzed Wheat Protein", "Trideceth-12", "Hydrolyzed Collagen", "Dimethiconol", "TEA-Dodecylbenzenesulfonate", "Lactic Acid", "Phenoxyethanol"
+      ]
+    },
+    {
+      "id": "trama-shampoo",
+      "collection": "Trama Collection",
+      "product_name": "Trama Shampoo (Toque Macio / Soft Touch)",
+      "philosophy": {
+        "en": "A sophisticated repair and nutrition shampoo that gently cleanses while enveloping the hair in a veil of softness, preparing the fiber for deep reconstruction.",
+        "pt": "Um shampoo de reparação e nutrição sofisticado que limpa suavemente enquanto envolve o cabelo num véu de maciez, preparando a fibra para a reconstrução profunda.",
+        "es": "Un sofisticado champú de reparación y nutrición que limpia suavemente mientras envuelve el cabello en un velo de suavidad, preparando la fibra para una reconstrucción profunda.",
+        "fr": "Un shampooing réparateur et nourrissant sophistiqué qui nettoie en douceur tout en enveloppant les cheveux d'un voile de douceur, préparant la fibre à une reconstruction en profondeur.",
+        "ar": "شامبو متطور يجمع بين الإصلاح والتغذية، ينقّي الشعر بلطف بينما يكسو أليافه بملمسٍ حريري فائق النعومة، مهيئًا إياها لاستقبال علاجات إعادة البناء العميقة، ليمنح الشعر مظهرًا صحيًا وحيويةً تدوم."
+      },
+      "professional_ritual": {
+        "en": "Apply to damp hair. Massage gently until a rich, conditioning lather forms. Rinse thoroughly.",
+        "pt": "Aplique no cabelo úmido. Massageie suavemente até formar uma espuma rica e condicionante. Enxágue abundantemente.",
+        "es": "Aplicar sobre el cabello húmedo. Masajear suavemente hasta formar una espuma rica y acondicionadora. Enjuagar abundantemente.",
+        "fr": "Appliquer sur cheveux humides. Masser doucement jusqu'à l'obtention d'une mousse riche et revitalisante. Rincer abondamment.",
+        "ar": "يُوزَّع على شعرٍ مبلل، ثم يُدلَّك بلطف حتى تتكوّن رغوة غنية ذات قوامٍ كريمي تمنح الشعر تنظيفًا فعّالًا وعنايةً متوازنة. يُشطف جيدًا بالماء."
+      },
+      "active_technology": "Advanced Fiber Rebuilding Complex",
+      "professional_use": {
+        "en": "Professional Use. External application. Keep in a cool, dry place.",
+        "pt": "Uso Profissional. Aplicação externa. Mantenha em local fresco e seco.",
+        "es": "Uso Profesional. Aplicación externa. Manténgase en un lugar fresco y seco.",
+        "fr": "Usage Professionnel. Application externe. Conserver dans un endroit frais et sec."
+      },
+      "ingredients_inci": [
+        "Aqua", "Sodium Laureth Sulfate", "Disodium Laureth Sulfosuccinate", "Cocamidopropyl Betaine", "Cocamide DEA", "Glycerin", "Polyquaternium-7", "Glycol Distearate", "Parfum", "Cocos Nucifera (Coconut) Oil", "Amodimethicone", "Trideceth-12", "Disodium EDTA", "Citric Acid", "Phenoxyethanol"
+      ]
+    },
+    {
+      "id": "trama-mask",
+      "collection": "Trama Collection",
+      "product_name": "Trama Mask (Efeito Teia / Repair & Nutrition)",
+      "philosophy": {
+        "en": "Featuring our signature 'Efeito Teia' (spiderweb) technology, this mask delivers intensive nutrition and elasticity, weaving strength back into every strand.",
+        "pt": "Apresentando a nossa tecnologia exclusiva 'Efeito Teia', esta máscara oferece nutrição intensiva e elasticidade, devolvendo força a cada fio.",
+        "es": "Con nuestra tecnología exclusiva 'Efeito Teia' (efecto tela de araña), esta mascarilla ofrece nutrición intensiva y elasticidad, devolviendo la fuerza a cada hebra.",
+        "fr": "Doté de notre technologie exclusive 'Efeito Teia' (effet toile d'araignée), ce masque offre une nutrition intensive et de l'élasticité, redonnant force à chaque mèche.",
+        "ar": "يعتمد هذا القناع على تقنية بريو الحصرية ذو التأثير العنكبوتي، التي تمنح الشعر تغذيةً مكثفة ومرونةً استثنائية، لتعيد بناء أليافه وتنسج القوة في كل خصلة، فيبدو أكثر تماسكًا وصحةً وحيوية."
+      },
+      "professional_ritual": {
+        "en": "After shampooing, apply the mask to damp hair. Massage the lengths using the 'spiderweb' technique to activate the formula. Leave for 10 minutes. Rinse thoroughly.",
+        "pt": "Após o shampoo, aplique a máscara no cabelo úmido. Massageie as mechas usando a técnica 'teia' para ativar a fórmula. Deixe agir por 10 minutos. Enxágue abundantemente.",
+        "es": "Después del champú, aplicar la mascarilla sobre el cabello húmedo. Masajear los largos usando la técnica 'tela de araña' para activar la fórmula. Dejar actuar durante 10 minutos. Enjuagar abundantemente.",
+        "fr": "Après le shampooing, appliquer le masque sur cheveux humides. Masser les longueurs en utilisant la technique 'toile d'araignée' pour activer la formule. Laisser poser 10 minutes. Rincer abondamment.",
+        "ar": "بعد غسل الشعر بالشامبو، يُوزَّع القناع على شعرٍ رطب. تُدلَّك الخصل باستخدام تقنية التأثير العنكبوتي لتنشيط تركيبة المنتج وتحقيق أقصى استفادة منها. يُترك لمدة 10 دقائق، ثم يُشطف جيدًا بالماء."
+      },
+      "active_technology": "Advanced Fiber Rebuilding Complex",
+      "professional_use": {
+        "en": "Professional Use. External application. Keep in a cool, dry place.",
+        "pt": "Uso Profissional. Aplicação externa. Mantenha em local fresco e seco.",
+        "es": "Uso Profesional. Aplicación externa. Manténgase en un lugar fresco y seco.",
+        "fr": "Usage Professionnel. Application externe. Conserver dans un endroit frais et sec."
+      },
+      "ingredients_inci": [
+        "Aqua", "Cetearyl Alcohol", "Stearamidopropyl Dimethylamine", "Cetrimonium Chloride", "Polyquaternium-7", "Parfum", "Ricinus Communis Seed Oil", "Astrocaryum Murumuru Seed Butter", "Dimethicone", "Bambusa Vulgaris Extract", "Amodimethicone", "Hydrolyzed Wheat Protein", "Trideceth-12", "Lactic Acid", "Phenoxyethanol"
+      ]
+    }
+  ]
+}

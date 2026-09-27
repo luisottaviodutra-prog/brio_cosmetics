@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BRIO - Linha Profissional & Coleções</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CABEÇALHO -->
+  <header>
+    <div class="brand-container">
+      <video class="brand-logo" autoplay muted loop playsinline aria-label="Logo BRIO">
+        <source src="images/logo-brio.mp4" type="video/mp4">
+      </video>
+    </div>
+    <nav>
+      <div class="nav-item">
+        <button class="nav-btn boxed active" data-target="catalogo" id="btn-catalogo">Catálogo</button>
+      </div>
+
+      <div class="nav-item">
+        <button class="nav-btn" data-target="produtos" id="btn-produtos">Produtos</button>
+        <!-- DROPDOWN COM TODOS OS PRODUTOS -->
+        <div class="dropdown-menu">
+          <a href="#prod-prisma" onclick="navigateToProduct('prod-prisma', event)">PRISMA</a>
+          <a href="#prod-ouro" onclick="navigateToProduct('prod-ouro', event)">OURO DA TERRA</a>
+          <a href="#prod-shield" onclick="navigateToProduct('prod-shield', event)">SHIELD ESCUDO</a>
+          <a href="#prod-progressiva" onclick="navigateToProduct('prod-progressiva', event)">PROGRESSIVA</a>
+          <a href="#prod-cron-mascaras" onclick="navigateToProduct('prod-cron-mascaras', event)">CRONOGRAMA MÁSCARAS</a>
+          <a href="#prod-cron-shampoo" onclick="navigateToProduct('prod-cron-shampoo', event)">CRONOGRAMA SHAMPOO</a>
+          <a href="#prod-metal-free" onclick="navigateToProduct('prod-metal-free', event)">METAL FREE</a>
+          <a href="#prod-recovery" onclick="navigateToProduct('prod-recovery', event)">RECOVERY CICLO</a>
+          <a href="#prod-selva" onclick="navigateToProduct('prod-selva', event)">SELVA VIGOR</a>
+          <a href="#prod-trama" onclick="navigateToProduct('prod-trama', event)">TRAMA</a>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <button class="nav-btn" data-target="sobre" id="btn-sobre">Sobre</button>
+      </div>
+
+      <div class="nav-item">
+        <button class="nav-btn" data-target="contato" id="btn-contato">Contato</button>
+      </div>
+    </nav>
+
+    <!-- SELETOR DE IDIOMAS -->
+    <div class="lang-select">
+      <select id="langSwitcher" onchange="changeLanguage(this.value)">
+        <option value="pt" selected>PT-BR</option>
+        <option value="en">EN</option>
+        <option value="es">ES</option>
+        <option value="fr">FR</option>
+        <option value="ar">AR</option>
+      </select>
+    </div>
+  </header>
+
+ <!-- VÍDEO HERO -->
+  <div class="hero-video-container">
+    <video autoplay loop muted playsinline>
+      <source src="images/meu-video.mp4" type="video/mp4">
+    </video>
+    <div class="hero-shade"></div>
+    <div class="hero-content">
+      <p class="eyebrow">BRIO PROFESSIONAL / 2026</p> 
+      <h1><span data-translate="heroTitleLead">Ciência para</span><br><em data-translate="heroTitleEm">o seu ritual.</em></h1>
+      <p class="hero-copy" data-translate="heroCopy">Tratamentos de alta performance que transformam a fibra capilar com precisão, sensorialidade e resultado.</p>
+      <button class="hero-cta" onclick="switchTab('catalogo')"><span data-translate="heroCta">Explorar coleções</span> <span>↗</span></button>
+    </div>
+    <div class="hero-index">01 <span>/</span> 04</div>
+  </div>
+
+  <div class="container">
+
+    <!-- CATÁLOGO -->
+    <section id="catalogo" class="page-content active">
+      <div class="catalog-heading">
+        <div>
+          <p class="eyebrow dark" data-translate="catalogEyebrow">O PORTFÓLIO BRIO</p>
+          <h1 class="section-title" id="txt-line-title-cat">LINHA PROFISSIONAL & COLEÇÕES</h1>
+          <p class="section-subtitle" id="txt-line-desc-cat">Portfólio completo de alta performance desenvolvido com tecnologia avançada para tratamento capilar.</p>
+        </div>
+        <div class="catalog-meta"><strong>10</strong><span><span data-translate="catalogMetaTop">soluções</span><br><span data-translate="catalogMetaBottom">especializadas</span></span></div>
+      </div>
+      <div class="catalog-toolbar">
+        <span data-translate="filterPrompt">Selecione uma coleção</span>
+        <div class="filter-pills"><button class="filter-pill active" data-filter="all" data-translate="filterAll">Todos</button><button class="filter-pill" data-filter="alignment" data-translate="filterAlignment">Alinhamento</button><button class="filter-pill" data-filter="treatment" data-translate="filterTreatment">Tratamento</button><button class="filter-pill" data-filter="recovery" data-translate="filterRecovery">Recovery</button></div>
+      </div>
+      
+      <div class="catalog-grid">
+        <a class="catalog-card" data-category="alignment" href="#prod-prisma" onclick="navigateToProduct('prod-prisma', event)">
+          <img src="images/prima.jpg" alt="Prisma">
+          <div class="product-category" data-translate="cat-prisma-cat">Alinhamento Capilar</div>
+          <h2 class="product-title">PRISMA</h2>
+          <p class="product-desc" data-translate="cat-prisma-desc">Máscara de Alinhamento & Complexo de Enchimento de Fibra Avançado</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
+        </a>
+
+        <a class="catalog-card" data-category="treatment" href="#prod-ouro" onclick="navigateToProduct('prod-ouro', event)">
+          <img src="images/ouro-da-terra.jpg" alt="Ouro da Terra">
+          <div class="product-category" data-translate="cat-ouro-cat">Tratamento & Finalização</div>
+          <h2 class="product-title">OURO DA TERRA</h2>
+          <p class="product-desc" data-translate="cat-ouro-desc">Óleo de Argan Puro com Ação Nutritiva e Brilho Espelhado</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
+        </a>
+
+        <a class="catalog-card" data-category="treatment" href="#prod-shield" onclick="navigateToProduct('prod-shield', event)">
+          <img src="images/shield.jpg.jpeg" alt="Shield Escudo">
+          <div class="product-category" data-translate="cat-shield-cat">Proteção Térmica</div>
+          <h2 class="product-title">SHIELD ESCUDO</h2>
+          <p class="product-desc" data-translate="cat-shield-desc">Escudo Térmico, Proteção UV e Reconstrução Profunda 10-em-1</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
+        </a>
+
+        <a class="catalog-card" data-category="alignment" href="#prod-progressiva" onclick="navigateToProduct('prod-progressiva', event)">
+          <img src="images/progressiva.jpg" alt="Progressiva">
+          <div class="product-category" data-translate="cat-prog-cat">Alinhamento Térmico</div>
+          <h2 class="product-title">PROGRESSIVA</h2>
+          <p class="product-desc" data-translate="cat-prog-desc">Sistema de Redução de Volume e Alisamento de Alta Performance</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
+        </a>
+
+        <a class="catalog-card" data-category="treatment" href="#prod-cron-mascaras" onclick="navigateToProduct('prod-cron-mascaras', event)">
+          <img src="images/cronograma-mascaras.jpg" alt="Cronograma Máscaras">
+          <div class="product-category" data-translate="cat-cronmask-cat">Cronograma Capilar</div>
+          <h2 class="product-title">CRONOGRAMA MÁSCARAS</h2>
+          <p class="product-desc" data-translate="cat-cronmask-desc">Kit de Tratamento Intensivo: Hidratação, Nutrição e Reconstrução</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
+        </a>
+
+        <a class="catalog-card" data-category="treatment" href="#prod-cron-shampoo" onclick="navigateToProduct('prod-cron-shampoo', event)">
+          <img src="images/cronograma-shampoo.jpg" alt="Cronograma Shampoo">
+          <div class="product-category" data-translate="cat-cronshamp-cat">Cronograma Capilar</div>
+          <h2 class="product-title">CRONOGRAMA SHAMPOO</h2>
+          <p class="product-desc" data-translate="cat-cronshamp-desc">Shampoo Preparatório e de Limpeza Equilibrada para Cronograma</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
+        </a>
+
+        <a class="catalog-card" data-category="treatment" href="#prod-metal-free" onclick="navigateToProduct('prod-metal-free', event)">
+          <img src="images/metal-free.jpg" alt="Metal Free">
+          <div class="product-category" data-translate="cat-metal-cat">Desintoxicação Capilar</div>
+          <h2 class="product-title">METAL FREE</h2>
+          <p class="product-desc" data-translate="cat-metal-desc">Removedor de Metais Pesados e Resíduos Acumulados</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
+        </a>
+
+        <a class="catalog-card" data-category="recovery" href="#prod-recovery" onclick="navigateToProduct('prod-recovery', event)">
+          <img src="images/recovery-ciclo.jpg" alt="Recovery Ciclo">
+          <div class="product-category" data-translate="cat-recov-cat">Recovery</div>
+          <h2 class="product-title">RECOVERY CICLO</h2>
+          <p class="product-desc" data-translate="cat-recov-desc">Tratamento Cicatrizante e Regenerador da Fibra Capilar Danificada</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
+        </a>
+
+        <a class="catalog-card" data-category="treatment" href="#prod-selva" onclick="navigateToProduct('prod-selva', event)">
+          <img src="images/selva-vigor.jpg" alt="Selva Vigor">
+          <div class="product-category" data-translate="cat-selva-cat">Vigor & Força</div>
+          <h2 class="product-title">SELVA VIGOR</h2>
+          <p class="product-desc" data-translate="cat-selva-desc">Tônico e Tratamento Energizante com Extratos Botânicos da Selva</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
+        </a>
+
+        <a class="catalog-card" data-category="recovery" href="#prod-trama" onclick="navigateToProduct('prod-trama', event)">
+          <img src="images/trama.jpg" alt="Trama">
+          <div class="product-category" data-translate="cat-trama-cat">Trama & Elasticidade</div>
+          <h2 class="product-title">TRAMA</h2>
+          <p class="product-desc" data-translate="cat-trama-desc">Reconstrução de Altíssima Performance para Fios Elásticos e Quebradiços</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section id="produtos" class="page-content">
+      <h1 class="section-title" id="txt-line-title-prod">DETALHES TÉCNICOS DOS PRODUTOS</h1>
+      <p class="section-subtitle" id="txt-line-desc-prod">Informações técnicas detalhadas de cada item do portfólio.</p>
+            <div class="section-video product-video">
+              <video controls autoplay muted loop playsinline preload="metadata" aria-label="Vídeo dos produtos BRIO">
+                <source src="images/video-produtos.mp4" type="video/mp4">
+              </video>
+            </div>
+      
+      <div class="products-list-view">
+        <div class="product-text-card" id="prod-prisma" data-json-id="brio-prisma-hair-filler">
+          <span class="product-tag" data-translate="tag-prof">Uso Profissional</span>
+          <div class="product-category" data-translate="cat-prisma-cat">Alinhamento Capilar</div>
+          <h2 class="product-title">PRISMA</h2>
+          <p class="product-desc" data-translate="cat-prisma-desc">Máscara de Alinhamento & Complexo de Enchimento de Fibra Avançado</p>
+          <div class="product-spec" data-translate="spec-prisma">Conteúdo: 1000g</div>
+          <div class="product-dynamic-content"></div>
+        </div>
+
+        <div class="product-text-card" id="prod-ouro" data-json-id="brio-bruma">
+          <div class="product-category" data-translate="cat-ouro-cat">Tratamento & Finalização</div>
+          <h2 class="product-title">OURO DA TERRA</h2>
+          <p class="product-desc" data-translate="cat-ouro-desc">Óleo de Argan Puro com Ação Nutritiva e Brilho Espelhado</p>
+          <div class="product-spec" data-translate="spec-ouro">Conteúdo: 60ml</div>
+          <div class="product-dynamic-content"></div>
+        </div>
+
+        <div class="product-text-card" id="prod-shield" data-json-id="recovery-ciclo-leave-in">
+          <div class="product-category" data-translate="cat-shield-cat">Proteção Térmica</div>
+          <h2 class="product-title">SHIELD ESCUDO</h2>
+          <p class="product-desc" data-translate="cat-shield-desc">Escudo Térmico, Proteção UV e Reconstrução Profunda 10-em-1</p>
+          <div class="product-spec" data-translate="spec-shield">Conteúdo: 300ml</div>
+          <div class="product-dynamic-content"></div>
+        </div>
+
+        <div class="product-text-card" id="prod-progressiva" data-json-id="brio-prisma-hair-filler">
+          <span class="product-tag" data-translate="tag-prof">Uso Profissional</span>
+          <div class="product-category" data-translate="cat-prog-cat">Alinhamento Térmico</div>
+          <h2 class="product-title">PROGRESSIVA</h2>
+          <p class="product-desc" data-translate="cat-prog-desc">Sistema de Redução de Volume e Alisamento de Alta Performance</p>
+          <div class="product-spec" data-translate="spec-prog">Conteúdo: 1000ml</div>
+          <div class="product-dynamic-content"></div>
+        </div>
+
+        <div class="product-text-card" id="prod-cron-mascaras" data-json-id="biomas-cerrado">
+          <div class="product-category" data-translate="cat-cronmask-cat">Cronograma Capilar</div>
+          <h2 class="product-title">CRONOGRAMA MÁSCARAS</h2>
+          <p class="product-desc" data-translate="cat-cronmask-desc">Kit de Tratamento Intensivo: Hidratação, Nutrição e Reconstrução</p>
+          <div class="product-spec" data-translate="spec-cronmask">Conteúdo: Kit 3x 500g</div>
+          <div class="product-dynamic-content"></div>
+        </div>
+
+        <div class="product-text-card" id="prod-cron-shampoo" data-json-id="recovery-ciclo-shampoo">
+          <div class="product-category" data-translate="cat-cronshamp-cat">Cronograma Capilar</div>
+          <h2 class="product-title">CRONOGRAMA SHAMPOO</h2>
+          <p class="product-desc" data-translate="cat-cronshamp-desc">Shampoo Preparatório e de Limpeza Equilibrada para Cronograma</p>
+          <div class="product-spec" data-translate="spec-cronshamp">Conteúdo: 1000ml</div>
+          <div class="product-dynamic-content"></div>
+        </div>
+
+        <div class="product-text-card" id="prod-metal-free" data-json-id="recovery-resgate-mask">
+          <div class="product-category" data-translate="cat-metal-cat">Desintoxicação Capilar</div>
+          <h2 class="product-title">METAL FREE</h2>
+          <p class="product-desc" data-translate="cat-metal-desc">Removedor de Metais Pesados e Resíduos Acumulados</p>
+          <div class="product-spec" data-translate="spec-metal">Conteúdo: 500ml</div>
+          <div class="product-dynamic-content"></div>
+        </div>
+
+        <div class="product-text-card" id="prod-recovery" data-json-id="recovery-ciclo-mask">
+          <span class="product-tag" data-translate="tag-recov">Recovery</span>
+          <div class="product-category" data-translate="cat-recov-cat">Recovery</div>
+          <h2 class="product-title">RECOVERY CICLO</h2>
+          <p class="product-desc" data-translate="cat-recov-desc">Tratamento Cicatrizante e Regenerador da Fibra Capilar Danificada</p>
+          <div class="product-spec" data-translate="spec-recov">Conteúdo: 500g</div>
+          <div class="product-dynamic-content"></div>
+        </div>
+
+        <div class="product-text-card" id="prod-selva" data-json-id="vigor-selva-tonic">
+          <div class="product-category" data-translate="cat-selva-cat">Vigor & Força</div>
+          <h2 class="product-title">SELVA VIGOR</h2>
+          <p class="product-desc" data-translate="cat-selva-desc">Tônico e Tratamento Energizante com Extratos Botânicos da Selva</p>
+          <div class="product-spec" data-translate="spec-selva">Conteúdo: 250ml</div>
+          <div class="product-dynamic-content"></div>
+        </div>
+
+        <div class="product-text-card" id="prod-trama" data-json-id="trama-mask">
+          <div class="product-category" data-translate="cat-trama-cat">Trama & Elasticidade</div>
+          <h2 class="product-title">TRAMA</h2>
+          <p class="product-desc" data-translate="cat-trama-desc">Reconstrução de Altíssima Performance para Fios Elásticos e Quebradiços</p>
+          <div class="product-spec" data-translate="spec-trama">Conteúdo: 500g</div>
+          <div class="product-dynamic-content"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="page-content">
+      <div class="about-box about-story">
+        <h1 class="section-title" id="txt-about-title">SOBRE A BRIO</h1>
+        <p>Há mais de sete anos, fazemos parte da indústria cosmética.</p>
+        <p>Nesse tempo, desenvolvemos fórmulas, acompanhamos tendências, entendemos matérias-primas, tecnologia e, acima de tudo, aprendemos o que realmente faz um produto entregar resultados.</p>
+        <p>Mas também percebemos algo: muitas marcas estavam utilizando as mesmas tecnologias e, em muitos casos, as mesmas fórmulas.</p>
+        <p>Foi então que decidimos fazer diferente.</p>
+        <p>Nasceu a <em>BRIO</em>.</p>
+        <p>Uma marca criada a partir da experiência da indústria, mas com uma visão própria: desenvolver fórmulas exclusivas, tecnologia e performance que pertençam à BRIO.</p>
+        <p><em>Nossas fórmulas não são terceirizadas para outras marcas.</em> Cada uma é desenvolvida exclusivamente para a BRIO, preservando aquilo que acreditamos ser essencial para uma marca: sua própria identidade, sua própria tecnologia e sua própria essência.</p>
+        <p>Cada fórmula é pensada, desenvolvida e aprimorada com um propósito. Cada ingrediente tem uma razão. Cada produto nasce para entregar uma experiência que vai além da beleza.</p>
+        <p>Porque, para nós, ciência não existe para complicar o ritual.</p>
+        <p><em>Existe para transformá-lo.</em></p>
+        <div class="about-video">
+          <video id="video-sobre" controls autoplay muted loop playsinline preload="metadata" aria-label="Vídeo institucional da BRIO">
+            <source src="images/video-sobre.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="page-content">
+      <div class="about-box">
+        <h1 class="section-title" id="txt-contact-title">ENTRE EM CONTATO</h1>
+        <p id="txt-contact-body">Fale conosco através dos nossos canais oficiais de atendimento:</p>
+        <p style="margin-top: 15px;">
+          <strong>WhatsApp:</strong> <a href="https://wa.me/3799388888?text=Ol%C3%A1%20vim%20pelo%20site%20e%20gostaria%20de%20conhecer%20a%20brio" target="_blank" style="color: #d4af37;">(37) 9938-8888</a><br>
+          <strong>Instagram:</strong> <a href="https://www.instagram.com/brio_professional?stkn=MWV3bHV2ZXJsNjJvcQ==" target="_blank" style="color: #d4af37;">@brio_professional</a><br>
+          <strong>TikTok:</strong> <a href="https://www.tiktok.com/@brio_professional" target="_blank" rel="noopener noreferrer" style="color: #d4af37;">@brio_professional</a>
+        </p>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- RODAPÉ COM INSTAGRAM E WHATSAPP -->
+  <footer>
+    <div class="footer-content">
+      <p id="txt-footer-rights">© 2026 BRIO. Todos os direitos reservados.</p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/brio_professional?stkn=MWV3bHV2ZXJsNjJvcQ==" target="_blank" id="footer-instagram">Instagram: @brio_professional</a>
+        <span>|</span>
+        <a href="https://wa.me/3799388888?text=Ol%C3%A1%20vim%20pelo%20site%20e%20gostaria%20de%20conhecer%20a%20brio" target="_blank" id="footer-whatsapp">WhatsApp: (37) 9938-8888</a>
+        <span>|</span>
+        <a href="https://www.tiktok.com/@brio_professional" target="_blank" rel="noopener noreferrer" id="footer-tiktok" class="social-link-with-icon">
+          <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.74 4.17 1.1 1.12 2.67 1.6 4.19 1.75v4.04c-1.42-.05-2.84-.34-4.14-.96-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.8-1.59 3.78-1.34 1.31-3.47 1.73-5.28 1.37-1.78-.36-3.32-1.67-3.77-3.45-.04-.22-.06-.46-.1-.68-.02-.11-.04-.22-.06-.33-.13-1.55.28-3.16 1.34-4.32 1.2-1.35 3.1-1.92 4.85-1.61.02 1.48-.04 2.96-.04 4.44-.99-.32-2.18-.23-2.82.68-.44.62-.36 1.63.15 2.21.54.67 1.63.86 2.38.47.69-.34 1.06-1.13 1.06-1.88.03-5.66-.02-11.3.02-16.95z" />
+          </svg>
+          TikTok: @brio_professional
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    let globalCatalogData = [];
+    let currentLang = 'pt';
+
+    document.addEventListener("DOMContentLoaded", async () => {
+      try {
+        const response = await fetch("produtos.json");
+        const data = await response.json();
+        globalCatalogData = data.brio_catalog;
+        renderProductsDynamicContent();
+      } catch (error) {
+        console.error("Erro ao carregar o arquivo produtos.json:", error);
+      }
+    });
+
+    function renderProductsDynamicContent() {
+      const cards = document.querySelectorAll('.product-text-card');
+      
+      cards.forEach(card => {
+        const jsonId = card.getAttribute('data-json-id');
+        const product = globalCatalogData.find(p => p.id === jsonId);
+        
+        if (!product) return;
+
+        const container = card.querySelector('.product-dynamic-content');
+        const tLabels = translations[currentLang];
+        
+        container.innerHTML = `
+          <div class="product-details-box">
+            <h4>${tLabels.labelPhilosophy}:</h4>
+            <p>${product.philosophy[currentLang] || product.philosophy['pt']}</p>
+            
+            <h4>${tLabels.labelRitual}:</h4>
+            <p>${product.professional_ritual[currentLang] || product.professional_ritual['pt']}</p>
+            
+            <h4>${tLabels.labelTech}:</h4>
+            <p><strong>${product.active_technology}</strong></p>
+            
+            <h4>${tLabels.labelInci}:</h4>
+            <div class="inci-list">
+              ${product.ingredients_inci.join(', ')}
+            </div>
+          </div>
+        `;
+      });
+    }
+
+    const buttons = document.querySelectorAll('.nav-btn');
+    const pages = document.querySelectorAll('.page-content');
+
+    function switchTab(targetId) {
+      buttons.forEach(b => b.classList.remove('active'));
+      pages.forEach(p => p.classList.remove('active'));
+
+      const activeBtn = document.querySelector(`[data-target="${targetId}"]`);
+      if (activeBtn) activeBtn.classList.add('active');
+
+      const activePage = document.getElementById(targetId);
+      if (activePage) activePage.classList.add('active');
+    }
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        switchTab(btn.dataset.target);
+        document.getElementById(btn.dataset.target)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+
+    document.querySelectorAll('.filter-pill').forEach(filter => {
+      filter.addEventListener('click', () => {
+        const selected = filter.innerText.toLowerCase();
+        document.querySelectorAll('.filter-pill').forEach(item => item.classList.remove('active'));
+        filter.classList.add('active');
+
+        document.querySelectorAll('.catalog-card').forEach(card => {
+          const cardText = card.innerText.toLowerCase();
+          const matches = selected === 'todos' ||
+            (selected === 'alinhamento' && cardText.includes('alinhamento')) ||
+            (selected === 'tratamento' && (cardText.includes('tratamento') || cardText.includes('cronograma') || cardText.includes('desintoxicação') || cardText.includes('vigor'))) ||
+            (selected === 'recovery' && (cardText.includes('recovery') || cardText.includes('trama')));
+          card.hidden = !matches;
+        });
+      });
+    });
+
+    function navigateToProduct(productId, clickEvent) {
+      clickEvent?.preventDefault();
+      switchTab('produtos');
+      setTimeout(() => {
+        const element = document.getElementById(productId);
+        if (element) element.scrollIntoView({ behavior: 'smooth' });
+      }, 100);
+    }
+
+    // DICIONÁRIO COMPLETO DE TRADUÇÕES
+    const translations = {
+      pt: {
+        btnProdutos: "Produtos", btnCatalogo: "Catálogo", btnSobre: "Sobre", btnContato: "Contato",
+        lineTitleCat: "LINHA PROFISSIONAL & COLEÇÕES", 
+        lineDescCat: "Portfólio completo de alta performance desenvolvido com tecnologia avançada para tratamento capilar.",
+        lineTitleProd: "DETALHES TÉCNICOS DOS PRODUTOS", 
+        lineDescProd: "Informações técnicas detalhadas de cada item do portfólio.",
+        aboutTitle: "SOBRE A BRIO",
+        aboutStory: [
+          "Há mais de sete anos, fazemos parte da indústria cosmética.",
+          "Nesse tempo, desenvolvemos fórmulas, acompanhamos tendências, entendemos matérias-primas, tecnologia e, acima de tudo, aprendemos o que realmente faz um produto entregar resultados.",
+          "Mas também percebemos algo: muitas marcas estavam utilizando as mesmas tecnologias e, em muitos casos, as mesmas fórmulas.",
+          "Foi então que decidimos fazer diferente.",
+          "Nasceu a BRIO.",
+          "Uma marca criada a partir da experiência da indústria, mas com uma visão própria: desenvolver fórmulas exclusivas, tecnologia e performance que pertençam à BRIO.",
+          "Nossas fórmulas não são terceirizadas para outras marcas. Cada uma é desenvolvida exclusivamente para a BRIO, preservando aquilo que acreditamos ser essencial para uma marca: sua própria identidade, sua própria tecnologia e sua própria essência.",
+          "Cada fórmula é pensada, desenvolvida e aprimorada com um propósito. Cada ingrediente tem uma razão. Cada produto nasce para entregar uma experiência que vai além da beleza.",
+          "Porque, para nós, ciência não existe para complicar o ritual.",
+          "Existe para transformá-lo."
+        ],
+        contactTitle: "ENTRE EM CONTATO",
+        contactBody: "Fale conosco através dos nossos canais oficiais de atendimento:",
+        footerRights: "© 2026 BRIO. Todos os direitos reservados.",
+        labelPhilosophy: "Filosofia", labelRitual: "Ritual Profissional", labelTech: "Tecnologia Ativa", labelInci: "Ingredientes (INCI)",
+        "tag-prof": "Uso Profissional", "tag-recov": "Recovery",
+        "cat-prisma-cat": "Alinhamento Capilar", "cat-prisma-desc": "Máscara de Alinhamento & Complexo de Enchimento de Fibra Avançado", "spec-prisma": "Conteúdo: 1000g",
+        "cat-ouro-cat": "Tratamento & Finalização", "cat-ouro-desc": "Óleo de Argan Puro com Ação Nutritiva e Brilho Espelhado", "spec-ouro": "Conteúdo: 60ml",
+        "cat-shield-cat": "Proteção Térmica", "cat-shield-desc": "Escudo Térmico, Proteção UV e Reconstrução Profunda 10-em-1", "spec-shield": "Conteúdo: 300ml",
+        "cat-prog-cat": "Alinhamento Térmico", "cat-prog-desc": "Sistema de Redução de Volume e Alisamento de Alta Performance", "spec-prog": "Conteúdo: 1000ml",
+        "cat-cronmask-cat": "Cronograma Capilar", "cat-cronmask-desc": "Kit de Tratamento Intensivo: Hidratação, Nutrição e Reconstrução", "spec-cronmask": "Conteúdo: Kit 3x 500g",
+        "cat-cronshamp-cat": "Cronograma Capilar", "cat-cronshamp-desc": "Shampoo Preparatório e de Limpeza Equilibrada para Cronograma", "spec-cronshamp": "Conteúdo: 1000ml",
+        "cat-metal-cat": "Desintoxicação Capilar", "cat-metal-desc": "Removedor de Metais Pesados e Resíduos Acumulados", "spec-metal": "Conteúdo: 500ml",
+        "cat-recov-cat": "Recovery", "cat-recov-desc": "Tratamento Cicatrizante e Regenerador da Fibra Capilar Danificada", "spec-recov": "Conteúdo: 500g",
+        "cat-selva-cat": "Vigor & Força", "cat-selva-desc": "Tônico e Tratamento Energizante com Extratos Botânicos da Selva", "spec-selva": "Conteúdo: 250ml",
+        "cat-trama-cat": "Trama & Elasticidade", "cat-trama-desc": "Reconstrução de Altíssima Performance para Fios Elásticos e Quebradiços", "spec-trama": "Conteúdo: 500g"
+      },
+      en: {
+        btnProdutos: "Products", btnCatalogo: "Catalog", btnSobre: "About", btnContato: "Contact",
+        lineTitleCat: "PROFESSIONAL LINE & COLLECTIONS", 
+        lineDescCat: "Complete high-performance portfolio developed with advanced technology for hair treatment.",
+        lineTitleProd: "PRODUCT TECHNICAL DETAILS", 
+        lineDescProd: "Detailed technical information for each item in the portfolio.",
+        aboutTitle: "ABOUT BRIO",
+        aboutStory: [
+          "We have been part of the cosmetics industry for over seven years.",
+          "During that time, we developed formulas, followed trends, explored ingredients and technology, and above all learned what truly makes a product deliver results.",
+          "But we also noticed something: many brands were using the same technologies and, in many cases, the same formulas.",
+          "That is when we decided to do things differently.",
+          "BRIO was born.",
+          "A brand shaped by industry experience, yet guided by its own vision: to develop exclusive formulas, technology, and performance that belong to BRIO.",
+          "Our formulas are never outsourced for other brands. Each one is developed exclusively for BRIO, preserving what we believe is essential to a brand: its own identity, technology, and essence.",
+          "Every formula is thoughtfully developed and refined with purpose. Every ingredient has a reason. Every product is created to deliver an experience that goes beyond beauty.",
+          "Because, to us, science is not here to complicate the ritual.",
+          "It is here to transform it."
+        ],
+        contactTitle: "GET IN TOUCH",
+        contactBody: "Contact us through our official service channels:",
+        footerRights: "© 2026 BRIO. All rights reserved.",
+        labelPhilosophy: "Philosophy", labelRitual: "Professional Ritual", labelTech: "Active Technology", labelInci: "Ingredients (INCI)",
+        "tag-prof": "Professional Use", "tag-recov": "Recovery",
+        "cat-prisma-cat": "Hair Alignment", "cat-prisma-desc": "Alignment Mask & Advanced Fiber Filling Complex", "spec-prisma": "Content: 1000g",
+        "cat-ouro-cat": "Treatment & Finishing", "cat-ouro-desc": "Pure Argan Oil with Nourishing Action and Mirrored Shine", "spec-ouro": "Content: 60ml",
+        "cat-shield-cat": "Thermal Protection", "cat-shield-desc": "Thermal Shield, UV Protection, and 10-in-1 Deep Reconstruction", "spec-shield": "Content: 300ml",
+        "cat-prog-cat": "Thermal Alignment", "cat-prog-desc": "High Performance Volume Reduction and Smoothing System", "spec-prog": "Content: 1000ml",
+        "cat-cronmask-cat": "Hair Schedule", "cat-cronmask-desc": "Intensive Treatment Kit: Hydration, Nutrition, and Reconstruction", "spec-cronmask": "Content: Kit 3x 500g",
+        "cat-cronshamp-cat": "Hair Schedule", "cat-cronshamp-desc": "Preparatory and Balanced Cleansing Shampoo for Hair Schedule", "spec-cronshamp": "Content: 1000ml",
+        "cat-metal-cat": "Hair Detox", "cat-metal-desc": "Heavy Metals and Accumulated Residue Remover", "spec-metal": "Content: 500ml",
+        "cat-recov-cat": "Recovery", "cat-recov-desc": "Healing and Regenerating Treatment for Damaged Hair Fiber", "spec-recov": "Content: 500g",
+        "cat-selva-cat": "Vigor & Strength", "cat-selva-desc": "Tonic and Energizing Treatment with Jungle Botanical Extracts", "spec-selva": "Content: 250ml",
+        "cat-trama-cat": "Web & Elasticity", "cat-trama-desc": "Ultra-High Performance Reconstruction for Elastic and Brittle Hair", "spec-trama": "Content: 500g"
+      },
+      es: {
+        btnProdutos: "Productos", btnCatalogo: "Catálogo", btnSobre: "Sobre", btnContato: "Contacto",
+        lineTitleCat: "LÍNEA PROFESIONAL Y COLECCIONES", 
+        lineDescCat: "Portafolio completo de alto rendimiento desarrollado con tecnología avanzada para el tratamiento capilar.",
+        lineTitleProd: "DETALLES TÉCNICOS DE LOS PRODUCTOS", 
+        lineDescProd: "Información técnica detallada de cada artículo del portafolio.",
+        aboutTitle: "SOBRE BRIO",
+        aboutStory: [
+          "Llevamos más de siete años formando parte de la industria cosmética.",
+          "Durante este tiempo, desarrollamos fórmulas, seguimos tendencias, exploramos materias primas y tecnología y, sobre todo, aprendimos qué hace que un producto ofrezca resultados de verdad.",
+          "Pero también nos dimos cuenta de algo: muchas marcas utilizaban las mismas tecnologías y, en muchos casos, las mismas fórmulas.",
+          "Entonces decidimos hacer las cosas de otra manera.",
+          "Así nació BRIO.",
+          "Una marca creada a partir de la experiencia de la industria, pero con una visión propia: desarrollar fórmulas exclusivas, tecnología y rendimiento que pertenezcan a BRIO.",
+          "Nuestras fórmulas no se fabrican para otras marcas. Cada una se desarrolla exclusivamente para BRIO, preservando lo que creemos esencial en una marca: su propia identidad, tecnología y esencia.",
+          "Cada fórmula se concibe, desarrolla y perfecciona con un propósito. Cada ingrediente tiene una razón. Cada producto nace para ofrecer una experiencia que va más allá de la belleza.",
+          "Porque, para nosotros, la ciencia no existe para complicar el ritual.",
+          "Existe para transformarlo."
+        ],
+        contactTitle: "CONTÁCTANOS",
+        contactBody: "Ponte en contacto con nosotros a través de nuestros canales oficiales:",
+        footerRights: "© 2026 BRIO. Todos los derechos reservados.",
+        labelPhilosophy: "Filosofía", labelRitual: "Ritual Profesional", labelTech: "Tecnología Activa", labelInci: "Ingredientes (INCI)",
+        "tag-prof": "Uso Profesional", "tag-recov": "Recovery",
+        "cat-prisma-cat": "Alineación Capilar", "cat-prisma-desc": "Mascarilla de Alineación y Complejo Avanzado de Relleno de Fibra", "spec-prisma": "Contenido: 1000g",
+        "cat-ouro-cat": "Tratamiento y Acabado", "cat-ouro-desc": "Aceite de Argán Puro con Acción Nutritiva y Brillo Espejado", "spec-ouro": "Contenido: 60ml",
+        "cat-shield-cat": "Protección Térmica", "cat-shield-desc": "Escudo Térmico, Protección UV y Reconstrucción Profunda 10 en 1", "spec-shield": "Contenido: 300ml",
+        "cat-prog-cat": "Alineación Térmica", "cat-prog-desc": "Sistema de Reducción de Volumen y Alisado de Alto Rendimiento", "spec-prog": "Contenido: 1000ml",
+        "cat-cronmask-cat": "Cronograma Capilar", "cat-cronmask-desc": "Kit de Tratamiento Intensivo: Hidratación, Nutrición y Reconstrucción", "spec-cronmask": "Contenido: Kit 3x 500g",
+        "cat-cronshamp-cat": "Cronograma Capilar", "cat-cronshamp-desc": "Champú Preparatorio y de Limpieza Equilibrada para Cronograma", "spec-cronshamp": "Contenido: 1000ml",
+        "cat-metal-cat": "Desintoxicación Capilar", "cat-metal-desc": "Eliminador de Metales Pesados y Residuos Acumulados", "spec-metal": "Contenido: 500ml",
+        "cat-recov-cat": "Recovery", "cat-recov-desc": "Tratamiento Cicatrizante y Regenerador de la Fibra Capilar Dañada", "spec-recov": "Contenido: 500g",
+        "cat-selva-cat": "Vigor y Fuerza", "cat-selva-desc": "Tónico y Tratamiento Energizante con Extractos Botánicos de la Selva", "spec-selva": "Contenido: 250ml",
+        "cat-trama-cat": "Trama y Elasticidad", "cat-trama-desc": "Reconstrucción de Altísimo Rendimiento para Cabellos Elásticos y Quebradizos", "spec-trama": "Contenido: 500g"
+      },
+      fr: {
+        btnProdutos: "Produits", btnCatalogo: "Catalogue", btnSobre: "À Propos", btnContato: "Contact",
+        lineTitleCat: "GAMME PROFESSIONNELLE & COLLECTIONS", 
+        lineDescCat: "Portefeuille complet haute performance développé avec une technologie avancée pour le soin capillaire.",
+        lineTitleProd: "DÉTAILS TECHNIQUES DES PRODUITS", 
+        lineDescProd: "Informations techniques détaillées pour chaque article du portefeuille.",
+        aboutTitle: "À PROPOS DE BRIO",
+        aboutStory: [
+          "Depuis plus de sept ans, nous faisons partie de l'industrie cosmétique.",
+          "Au fil du temps, nous avons développé des formules, suivi les tendances, étudié les matières premières et les technologies et, surtout, appris ce qui permet réellement à un produit de tenir ses promesses.",
+          "Mais nous avons aussi constaté une chose : de nombreuses marques utilisaient les mêmes technologies et, souvent, les mêmes formules.",
+          "Nous avons alors décidé de faire autrement.",
+          "BRIO est née.",
+          "Une marque née de l'expérience de l'industrie, mais portée par une vision propre : développer des formules exclusives, une technologie et une performance qui appartiennent à BRIO.",
+          "Nos formules ne sont pas fabriquées pour d'autres marques. Chacune est développée exclusivement pour BRIO, afin de préserver ce qui nous semble essentiel : son identité, sa technologie et son essence propres.",
+          "Chaque formule est imaginée, développée et perfectionnée avec un objectif. Chaque ingrédient a sa raison d'être. Chaque produit est conçu pour offrir une expérience qui va au-delà de la beauté.",
+          "Car, pour nous, la science n'est pas là pour compliquer le rituel.",
+          "Elle est là pour le transformer."
+        ],
+        contactTitle: "CONTACTEZ-NOUS",
+        contactBody: "Contactez-nous via nos canaux de service officiels :",
+        footerRights: "© 2026 BRIO. Tous droits réservés.",
+        labelPhilosophy: "Philosophie", labelRitual: "Rituel Professionnel", labelTech: "Technologie Active", labelInci: "Ingrédients (INCI)",
+        "tag-prof": "Usage Professionnel", "tag-recov": "Recovery",
+        "cat-prisma-cat": "Lissage Capillaire", "cat-prisma-desc": "Masque de Lissage & Complexe de Remplissage Capillaire Avancé", "spec-prisma": "Contenu: 1000g",
+        "cat-ouro-cat": "Soin & Finition", "cat-ouro-desc": "Huile d'Argan Pure à Action Nourrissante et Brillance Miroir", "spec-ouro": "Contenu: 60ml",
+        "cat-shield-cat": "Protection Thermique", "cat-shield-desc": "Bouclier Thermique, Protection UV et Reconstruction Profonde 10-en-1", "spec-shield": "Contenu: 300ml",
+        "cat-prog-cat": "Lissage Thermique", "cat-prog-desc": "Système de Réduction de Volume et de Lissage Haute Performance", "spec-prog": "Contenu: 1000ml",
+        "cat-cronmask-cat": "Planning Capillaire", "cat-cronmask-desc": "Kit de Soin Intensif : Hydratation, Nutrition et Reconstruction", "spec-cronmask": "Contenu: Kit 3x 500g",
+        "cat-cronshamp-cat": "Planning Capillaire", "cat-cronshamp-desc": "Shampooing Préparatoire et Nettoyant Équilibré pour Planning", "spec-cronshamp": "Contenu: 1000ml",
+        "cat-metal-cat": "Détox Capillaire", "cat-metal-desc": "Éliminateur de Métaux Lourds et de Résidus Accumulés", "spec-metal": "Contenu: 500ml",
+        "cat-recov-cat": "Recovery", "cat-recov-desc": "Traitement Cicatrisant et Régénérateur de la Fibre Capillaire Abîmée", "spec-recov": "Contenu: 500g",
+        "cat-selva-cat": "Vigueur & Force", "cat-selva-desc": "Tonique et Soin Énergisant aux Extraits Botaniques de la Jungle", "spec-selva": "Contenu: 250ml",
+        "cat-trama-cat": "Trame & Élasticité", "cat-trama-desc": "Reconstruction Haute Performance pour Cheveux Élastiques et Cassants", "spec-trama": "Contenu: 500g"
+      },
+      ar: {
+        btnProdutos: "المنتجات", btnCatalogo: "الكتالوج", btnSobre: "عن الشركة", btnContato: "اتصل بنا",
+        lineTitleCat: "المجموعة الاحترافية والمجموعات", 
+        lineDescCat: "محفظة متكاملة عالية الأداء تم تطويرها بتقنية متقدمة للعناية بالشعر.",
+        lineTitleProd: "التفاصيل الفنية للمنتجات", 
+        lineDescProd: "معلومات فنية تفصيلية لكل منتج في المحفظة.",
+        aboutTitle: "عن بريو",
+        aboutStory: [
+          "على مدى أكثر من سبع سنوات، ونحن جزء من صناعة مستحضرات التجميل.",
+          "خلال هذه الفترة، طوّرنا تركيبات، وتابعنا الاتجاهات، وتعمقنا في فهم المواد الخام والتكنولوجيا، والأهم من ذلك أننا تعلّمنا ما الذي يجعل المنتج يحقق نتائج فعلية.",
+          "لكننا لاحظنا أيضًا أمرًا آخر: كثير من العلامات التجارية كانت تستخدم التقنيات نفسها، وفي حالات كثيرة التركيبات نفسها.",
+          "عندها قررنا أن نقدم شيئًا مختلفًا.",
+          "وهكذا وُلدت BRIO.",
+          "علامة تجارية تأسست على خبرة الصناعة، لكنها تحمل رؤية خاصة: ابتكار تركيبات حصرية وتقنيات وأداء يخص BRIO وحدها.",
+          "تركيباتنا لا تُصنّع لصالح علامات تجارية أخرى. يُطوَّر كل منها حصريًا لـ BRIO، حفاظًا على ما نراه جوهريًا في أي علامة: هويتها وتقنيتها وروحها الخاصة.",
+          "تُصمَّم كل تركيبة وتُطوَّر وتُحسَّن بهدف واضح. لكل مكوّن سبب. وكل منتج يهدف إلى تقديم تجربة تتجاوز مفهوم الجمال.",
+          "لأن العلم، في نظرنا، ليس لتعقيد الطقوس اليومية.",
+          "بل لتحويلها."
+        ],
+        contactTitle: "اتصل بنا",
+        contactBody: "تواصل معنا عبر قنوات الخدمة الرسمية الخاصة بنا:",
+        footerRights: "© 2026 بريو. جميع الحقوق محفوظة.",
+        labelPhilosophy: "الفلسفة", labelRitual: "الطقوس الاحترافية", labelTech: "التكنولوجيا النشطة", labelInci: "المكونات (INCI)",
+        "tag-prof": "استخدام احترافي", "tag-recov": "استعادة الحيوية",
+        "cat-prisma-cat": "محاذاة الشعر", "cat-prisma-desc": "قناع المحاذاة ومركب متقدم لملء ألياف الشعر", "spec-prisma": "المحتوى: 1000 جرام",
+        "cat-ouro-cat": "العلاج واللمسات الأخيرة", "cat-ouro-desc": "زيت الأرجان النقي مع تأثير مغذٍ وبريق عاكس", "spec-ouro": "المحتوى: 60 مل",
+        "cat-shield-cat": "حماية حرارية", "cat-shield-desc": "درع حراري، حماية من الأشعة فوق البنفسجية وإعادة بناء عميقة 10 في 1", "spec-shield": "المحتوى: 300 مل",
+        "cat-prog-cat": "محاذاة حرارية", "cat-prog-desc": "نظام تقليل الحجم والتنعيم عالي الأداء", "spec-prog": "المحتوى: 1000 مل",
+        "cat-cronmask-cat": "جدول العناية بالشعر", "cat-cronmask-desc": "مجموعة العلاج المكثف: الترطيب، التغذية وإعادة البناء", "spec-cronmask": "المحتوى: مجموعة 3 × 500 جرام",
+        "cat-cronshamp-cat": "جدول العناية بالشعر", "cat-cronshamp-desc": "شامبو تحضيري للتنظيف المتوازن لجدول الشعر", "spec-cronshamp": "المحتوى: 1000 مل",
+        "cat-metal-cat": "إزالة السموم من الشعر", "cat-metal-desc": "مذيب المعادن الثقيلة والرواسب المتراكمة", "spec-metal": "المحتوى: 500 مل",
+        "cat-recov-cat": "استعادة الحيوية", "cat-recov-desc": "علاج ملتئم ومجدد لألياف الشعر التالفة", "spec-recov": "المحتوى: 500 جرام",
+        "cat-selva-cat": "الحيوية والقوة", "cat-selva-desc": "منشط وعلاج طاقي مستخلص من نباتات الغابة الاستوائية", "spec-selva": "المحتوى: 250 مل",
+        "cat-trama-cat": "النسيج والمرونة", "cat-trama-desc": "إعادة بناء عالية الأداء للشعر المطاطي والهش", "spec-trama": "المحتوى: 500 جرام"
+      }
+    };
+
+    function changeLanguage(lang) {
+      currentLang = lang;
+      const t = translations[lang];
+
+      document.documentElement.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+      document.documentElement.setAttribute('lang', lang);
+
+      // Atualiza botões do menu
+      document.getElementById('btn-produtos').innerText = t.btnProdutos;
+      document.getElementById('btn-catalogo').innerText = t.btnCatalogo;
+      document.getElementById('btn-sobre').innerText = t.btnSobre;
+      document.getElementById('btn-contato').innerText = t.btnContato;
+
+      // Atualiza textos estáticos das seções
+      document.getElementById('txt-line-title-cat').innerText = t.lineTitleCat;
+      document.getElementById('txt-line-desc-cat').innerText = t.lineDescCat;
+      document.getElementById('txt-line-title-prod').innerText = t.lineTitleProd;
+      document.getElementById('txt-line-desc-prod').innerText = t.lineDescProd;
+
+      document.getElementById('txt-about-title').innerText = t.aboutTitle;
+      document.querySelectorAll('#sobre .about-story > p').forEach((paragraph, index) => {
+        paragraph.textContent = t.aboutStory[index];
+      });
+
+      document.getElementById('txt-contact-title').innerText = t.contactTitle;
+      document.getElementById('txt-contact-body').innerText = t.contactBody;
+
+      document.getElementById('txt-footer-rights').innerText = t.footerRights;
+
+      // Traduz elementos marcados com data-translate
+      document.querySelectorAll('[data-translate]').forEach(el => {
+        const key = el.getAttribute('data-translate');
+        if (t[key]) {
+          el.innerText = t[key];
+        }
+      });
+
+      renderProductsDynamicContent();
+    }
+  </script>
+</body>
+</html>
