@@ -109,10 +109,12 @@ nav { display: flex; gap: 7px; }
 #contato .section-title { color: #000; }
 .about-box p { color: rgba(251,252,248,.75); font-size: 16px; max-width: 620px; }
 footer { background: var(--forest); border-top: 1px solid rgba(255,255,255,.12); color: var(--white); padding: 35px clamp(20px, 5vw, 76px); }
-.footer-content { align-items: center; display: flex; justify-content: space-between; }
+.footer-content { align-items: center; display: flex; flex-wrap: wrap; gap: 16px 24px; justify-content: space-between; }
 .footer-content p, .social-links { font-family: var(--mono); font-size: 10px; }
 .social-links { align-items: center; display: flex; gap: 20px; }
 .social-links a { color: var(--lime); text-decoration: none; }
+.developer-credit a { color: var(--lime); text-decoration: none; }
+.developer-credit a:hover { text-decoration: underline; }
 .social-links .social-link-with-icon { align-items: center; display: inline-flex; gap: 7px; }
 .social-icon { flex: 0 0 16px; height: 16px; width: 16px; }
 

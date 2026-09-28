@@ -68,7 +68,7 @@
       <p class="eyebrow">BRIO PROFESSIONAL / 2026</p> 
       <h1><span data-translate="heroTitleLead">Ciência para</span><br><em data-translate="heroTitleEm">o seu ritual.</em></h1>
       <p class="hero-copy" data-translate="heroCopy">Tratamentos de alta performance que transformam a fibra capilar com precisão, sensorialidade e resultado.</p>
-      <button class="hero-cta" onclick="switchTab('catalogo')"><span data-translate="heroCta">Explorar coleções</span> <span>↗</span></button>
+      <button class="hero-cta" onclick="exploreCollections()"><span data-translate="heroCta">Explorar coleções</span> <span>↗</span></button>
     </div>
     <div class="hero-index">01 <span>/</span> 04</div>
   </div>
@@ -312,6 +312,7 @@
           TikTok: @brio_professional
         </a>
       </div>
+      <p class="developer-credit"><span data-translate="developerCredit">Desenvolvido por</span> <a href="https://www.instagram.com/luis_duttra/" target="_blank" rel="noopener noreferrer">Luis Duttra</a></p>
     </div>
   </footer>
 
@@ -376,6 +377,11 @@
       if (activePage) activePage.classList.add('active');
     }
 
+    function exploreCollections() {
+      switchTab('catalogo');
+      document.getElementById('catalogo')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
     buttons.forEach(btn => {
       btn.addEventListener('click', () => {
         switchTab(btn.dataset.target);
@@ -413,6 +419,7 @@
     const translations = {
       pt: {
         btnProdutos: "Produtos", btnCatalogo: "Catálogo", btnSobre: "Sobre", btnContato: "Contato",
+        heroCta: "Explorar coleções", developerCredit: "Desenvolvido por",
         progTitle: "PROGRESSIVA",
         heroTitleLead: "Ciência para", heroTitleEm: "o seu ritual.",
         heroCopy: "Tratamentos de alta performance que transformam a fibra capilar com precisão, sensorialidade e resultado.",
@@ -451,6 +458,7 @@
       },
       en: {
         btnProdutos: "Products", btnCatalogo: "Catalog", btnSobre: "About", btnContato: "Contact",
+        heroCta: "Explore collections", developerCredit: "Developed by",
         progTitle: "HAIR SMOOTHING TREATMENT",
         heroTitleLead: "Science for", heroTitleEm: "your ritual.",
         heroCopy: "High-performance treatments that transform the hair fiber with precision, sensoriality, and results.",
@@ -489,6 +497,7 @@
       },
       es: {
         btnProdutos: "Productos", btnCatalogo: "Catálogo", btnSobre: "Sobre", btnContato: "Contacto",
+        heroCta: "Explorar colecciones", developerCredit: "Desarrollado por",
         progTitle: "ALISADO",
         heroTitleLead: "Ciencia para", heroTitleEm: "tu ritual.",
         heroCopy: "Tratamientos de alto rendimiento que transforman la fibra capilar con precisión, sensorialidad y resultados.",
@@ -527,6 +536,7 @@
       },
       fr: {
         btnProdutos: "Produits", btnCatalogo: "Catalogue", btnSobre: "À Propos", btnContato: "Contact",
+        heroCta: "Découvrir les collections", developerCredit: "Développé par",
         progTitle: "LISSAGE",
         heroTitleLead: "La science au service", heroTitleEm: "de votre rituel.",
         heroCopy: "Des soins haute performance qui transforment la fibre capillaire avec précision, sensorialité et efficacité.",
@@ -565,6 +575,7 @@
       },
       ar: {
         btnProdutos: "المنتجات", btnCatalogo: "الكتالوج", btnSobre: "عن الشركة", btnContato: "اتصل بنا",
+        heroCta: "استكشف المجموعات", developerCredit: "تطوير الموقع بواسطة",
         progTitle: "تنعيم الشعر",
         heroTitleLead: "العلم من أجل", heroTitleEm: "طقوسك.",
         heroCopy: "علاجات عالية الأداء تحوّل ألياف الشعر بدقة وإحساس مميز ونتائج ملموسة.",
