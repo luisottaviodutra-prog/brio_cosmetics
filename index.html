@@ -27,7 +27,7 @@
           <a href="#prod-prisma" onclick="navigateToProduct('prod-prisma', event)">PRISMA</a>
           <a href="#prod-ouro" onclick="navigateToProduct('prod-ouro', event)">OURO DA TERRA</a>
           <a href="#prod-shield" onclick="navigateToProduct('prod-shield', event)">SHIELD ESCUDO</a>
-          <a href="#prod-progressiva" onclick="navigateToProduct('prod-progressiva', event)">PROGRESSIVA</a>
+          <a href="#prod-progressiva" data-translate="progTitle" onclick="navigateToProduct('prod-progressiva', event)">PROGRESSIVA</a>
           <a href="#prod-cron-mascaras" onclick="navigateToProduct('prod-cron-mascaras', event)">CRONOGRAMA MÁSCARAS</a>
           <a href="#prod-cron-shampoo" onclick="navigateToProduct('prod-cron-shampoo', event)">CRONOGRAMA SHAMPOO</a>
           <a href="#prod-metal-free" onclick="navigateToProduct('prod-metal-free', event)">METAL FREE</a>
@@ -115,7 +115,7 @@
         <a class="catalog-card" data-category="alignment" href="#prod-progressiva" onclick="navigateToProduct('prod-progressiva', event)">
           <img src="images/progressiva.jpg" alt="Progressiva">
           <div class="product-category" data-translate="cat-prog-cat">Alinhamento Térmico</div>
-          <h2 class="product-title">PROGRESSIVA</h2>
+          <h2 class="product-title" data-translate="progTitle">PROGRESSIVA</h2>
           <p class="product-desc" data-translate="cat-prog-desc">Sistema de Redução de Volume e Alisamento de Alta Performance</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
         </a>
 
@@ -202,7 +202,7 @@
         <div class="product-text-card" id="prod-progressiva" data-json-id="brio-prisma-hair-filler">
           <span class="product-tag" data-translate="tag-prof">Uso Profissional</span>
           <div class="product-category" data-translate="cat-prog-cat">Alinhamento Térmico</div>
-          <h2 class="product-title">PROGRESSIVA</h2>
+          <h2 class="product-title" data-translate="progTitle">PROGRESSIVA</h2>
           <p class="product-desc" data-translate="cat-prog-desc">Sistema de Redução de Volume e Alisamento de Alta Performance</p>
           <div class="product-spec" data-translate="spec-prog">Conteúdo: 1000ml</div>
           <div class="product-dynamic-content"></div>
@@ -413,6 +413,9 @@
     const translations = {
       pt: {
         btnProdutos: "Produtos", btnCatalogo: "Catálogo", btnSobre: "Sobre", btnContato: "Contato",
+        progTitle: "PROGRESSIVA",
+        heroTitleLead: "Ciência para", heroTitleEm: "o seu ritual.",
+        heroCopy: "Tratamentos de alta performance que transformam a fibra capilar com precisão, sensorialidade e resultado.",
         lineTitleCat: "LINHA PROFISSIONAL & COLEÇÕES", 
         lineDescCat: "Portfólio completo de alta performance desenvolvido com tecnologia avançada para tratamento capilar.",
         lineTitleProd: "DETALHES TÉCNICOS DOS PRODUTOS", 
@@ -448,6 +451,9 @@
       },
       en: {
         btnProdutos: "Products", btnCatalogo: "Catalog", btnSobre: "About", btnContato: "Contact",
+        progTitle: "HAIR SMOOTHING TREATMENT",
+        heroTitleLead: "Science for", heroTitleEm: "your ritual.",
+        heroCopy: "High-performance treatments that transform the hair fiber with precision, sensoriality, and results.",
         lineTitleCat: "PROFESSIONAL LINE & COLLECTIONS", 
         lineDescCat: "Complete high-performance portfolio developed with advanced technology for hair treatment.",
         lineTitleProd: "PRODUCT TECHNICAL DETAILS", 
@@ -473,7 +479,7 @@
         "cat-prisma-cat": "Hair Alignment", "cat-prisma-desc": "Alignment Mask & Advanced Fiber Filling Complex", "spec-prisma": "Content: 1000g",
         "cat-ouro-cat": "Treatment & Finishing", "cat-ouro-desc": "Pure Argan Oil with Nourishing Action and Mirrored Shine", "spec-ouro": "Content: 60ml",
         "cat-shield-cat": "Thermal Protection", "cat-shield-desc": "Thermal Shield, UV Protection, and 10-in-1 Deep Reconstruction", "spec-shield": "Content: 300ml",
-        "cat-prog-cat": "Thermal Alignment", "cat-prog-desc": "High Performance Volume Reduction and Smoothing System", "spec-prog": "Content: 1000ml",
+        "cat-prog-cat": "Hair Smoothing Treatment", "cat-prog-desc": "High-performance hair-smoothing system for volume reduction and sleek, smooth results", "spec-prog": "Content: 1000ml",
         "cat-cronmask-cat": "Hair Schedule", "cat-cronmask-desc": "Intensive Treatment Kit: Hydration, Nutrition, and Reconstruction", "spec-cronmask": "Content: Kit 3x 500g",
         "cat-cronshamp-cat": "Hair Schedule", "cat-cronshamp-desc": "Preparatory and Balanced Cleansing Shampoo for Hair Schedule", "spec-cronshamp": "Content: 1000ml",
         "cat-metal-cat": "Hair Detox", "cat-metal-desc": "Heavy Metals and Accumulated Residue Remover", "spec-metal": "Content: 500ml",
@@ -483,6 +489,9 @@
       },
       es: {
         btnProdutos: "Productos", btnCatalogo: "Catálogo", btnSobre: "Sobre", btnContato: "Contacto",
+        progTitle: "ALISADO",
+        heroTitleLead: "Ciencia para", heroTitleEm: "tu ritual.",
+        heroCopy: "Tratamientos de alto rendimiento que transforman la fibra capilar con precisión, sensorialidad y resultados.",
         lineTitleCat: "LÍNEA PROFESIONAL Y COLECCIONES", 
         lineDescCat: "Portafolio completo de alto rendimiento desarrollado con tecnología avanzada para el tratamiento capilar.",
         lineTitleProd: "DETALLES TÉCNICOS DE LOS PRODUCTOS", 
@@ -518,6 +527,9 @@
       },
       fr: {
         btnProdutos: "Produits", btnCatalogo: "Catalogue", btnSobre: "À Propos", btnContato: "Contact",
+        progTitle: "LISSAGE",
+        heroTitleLead: "La science au service", heroTitleEm: "de votre rituel.",
+        heroCopy: "Des soins haute performance qui transforment la fibre capillaire avec précision, sensorialité et efficacité.",
         lineTitleCat: "GAMME PROFESSIONNELLE & COLLECTIONS", 
         lineDescCat: "Portefeuille complet haute performance développé avec une technologie avancée pour le soin capillaire.",
         lineTitleProd: "DÉTAILS TECHNIQUES DES PRODUITS", 
@@ -553,6 +565,9 @@
       },
       ar: {
         btnProdutos: "المنتجات", btnCatalogo: "الكتالوج", btnSobre: "عن الشركة", btnContato: "اتصل بنا",
+        progTitle: "تنعيم الشعر",
+        heroTitleLead: "العلم من أجل", heroTitleEm: "طقوسك.",
+        heroCopy: "علاجات عالية الأداء تحوّل ألياف الشعر بدقة وإحساس مميز ونتائج ملموسة.",
         lineTitleCat: "المجموعة الاحترافية والمجموعات", 
         lineDescCat: "محفظة متكاملة عالية الأداء تم تطويرها بتقنية متقدمة للعناية بالشعر.",
         lineTitleProd: "التفاصيل الفنية للمنتجات", 
