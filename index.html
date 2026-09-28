@@ -68,7 +68,6 @@
       <p class="eyebrow">BRIO PROFESSIONAL / 2026</p> 
       <h1><span data-translate="heroTitleLead">Ciência para</span><br><em data-translate="heroTitleEm">o seu ritual.</em></h1>
       <p class="hero-copy" data-translate="heroCopy">Tratamentos de alta performance que transformam a fibra capilar com precisão, sensorialidade e resultado.</p>
-      <button type="button" class="hero-cta" onclick="exploreCollections()"><span data-translate="heroCta">Explorar coleções</span> <span aria-hidden="true">↗</span></button>
     </div>
     <div class="hero-index">01 <span>/</span> 04</div>
   </div>
@@ -377,13 +376,6 @@
       if (activePage) activePage.classList.add('active');
     }
 
-    function exploreCollections() {
-      switchTab('catalogo');
-      requestAnimationFrame(() => {
-        document.getElementById('catalogo')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      });
-    }
-
     buttons.forEach(btn => {
       btn.addEventListener('click', () => {
         switchTab(btn.dataset.target);
@@ -393,17 +385,12 @@
 
     document.querySelectorAll('.filter-pill').forEach(filter => {
       filter.addEventListener('click', () => {
-        const selected = filter.innerText.toLowerCase();
+        const selected = filter.dataset.filter;
         document.querySelectorAll('.filter-pill').forEach(item => item.classList.remove('active'));
         filter.classList.add('active');
 
         document.querySelectorAll('.catalog-card').forEach(card => {
-          const cardText = card.innerText.toLowerCase();
-          const matches = selected === 'todos' ||
-            (selected === 'alinhamento' && cardText.includes('alinhamento')) ||
-            (selected === 'tratamento' && (cardText.includes('tratamento') || cardText.includes('cronograma') || cardText.includes('desintoxicação') || cardText.includes('vigor'))) ||
-            (selected === 'recovery' && (cardText.includes('recovery') || cardText.includes('trama')));
-          card.hidden = !matches;
+          card.hidden = selected !== 'all' && card.dataset.category !== selected;
         });
       });
     });
@@ -421,7 +408,8 @@
     const translations = {
       pt: {
         btnProdutos: "Produtos", btnCatalogo: "Catálogo", btnSobre: "Sobre", btnContato: "Contato",
-        heroCta: "Explorar coleções", developerCredit: "Desenvolvido por",
+        developerCredit: "Desenvolvido por",
+        filterPrompt: "Selecione uma coleção", filterAll: "Todos", filterAlignment: "Alinhamento", filterTreatment: "Tratamento", filterRecovery: "Recovery",
         progTitle: "PROGRESSIVA",
         heroTitleLead: "Ciência para", heroTitleEm: "o seu ritual.",
         heroCopy: "Tratamentos de alta performance que transformam a fibra capilar com precisão, sensorialidade e resultado.",
@@ -460,7 +448,8 @@
       },
       en: {
         btnProdutos: "Products", btnCatalogo: "Catalog", btnSobre: "About", btnContato: "Contact",
-        heroCta: "Explore collections", developerCredit: "Developed by",
+        developerCredit: "Developed by",
+        filterPrompt: "Select a collection", filterAll: "All", filterAlignment: "Hair Smoothing", filterTreatment: "Treatment", filterRecovery: "Recovery",
         progTitle: "HAIR SMOOTHING TREATMENT",
         heroTitleLead: "Science for", heroTitleEm: "your ritual.",
         heroCopy: "High-performance treatments that transform the hair fiber with precision, sensoriality, and results.",
@@ -499,7 +488,8 @@
       },
       es: {
         btnProdutos: "Productos", btnCatalogo: "Catálogo", btnSobre: "Sobre", btnContato: "Contacto",
-        heroCta: "Explorar colecciones", developerCredit: "Desarrollado por",
+        developerCredit: "Desarrollado por",
+        filterPrompt: "Selecciona una colección", filterAll: "Todas", filterAlignment: "Alisado", filterTreatment: "Tratamiento", filterRecovery: "Recovery",
         progTitle: "ALISADO",
         heroTitleLead: "Ciencia para", heroTitleEm: "tu ritual.",
         heroCopy: "Tratamientos de alto rendimiento que transforman la fibra capilar con precisión, sensorialidad y resultados.",
@@ -538,7 +528,8 @@
       },
       fr: {
         btnProdutos: "Produits", btnCatalogo: "Catalogue", btnSobre: "À Propos", btnContato: "Contact",
-        heroCta: "Découvrir les collections", developerCredit: "Développé par",
+        developerCredit: "Développé par",
+        filterPrompt: "Sélectionnez une collection", filterAll: "Tout", filterAlignment: "Lissage", filterTreatment: "Soin", filterRecovery: "Recovery",
         progTitle: "LISSAGE",
         heroTitleLead: "La science au service", heroTitleEm: "de votre rituel.",
         heroCopy: "Des soins haute performance qui transforment la fibre capillaire avec précision, sensorialité et efficacité.",
@@ -577,7 +568,8 @@
       },
       ar: {
         btnProdutos: "المنتجات", btnCatalogo: "الكتالوج", btnSobre: "عن الشركة", btnContato: "اتصل بنا",
-        heroCta: "استكشف المجموعات", developerCredit: "تطوير الموقع بواسطة",
+        developerCredit: "تطوير الموقع بواسطة",
+        filterPrompt: "اختر مجموعة", filterAll: "الكل", filterAlignment: "تنعيم الشعر", filterTreatment: "العناية", filterRecovery: "استعادة الحيوية",
         progTitle: "تنعيم الشعر",
         heroTitleLead: "العلم من أجل", heroTitleEm: "طقوسك.",
         heroCopy: "علاجات عالية الأداء تحوّل ألياف الشعر بدقة وإحساس مميز ونتائج ملموسة.",
