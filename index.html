@@ -68,7 +68,7 @@
       <p class="eyebrow">BRIO PROFESSIONAL / 2026</p> 
       <h1><span data-translate="heroTitleLead">Ciência para</span><br><em data-translate="heroTitleEm">o seu ritual.</em></h1>
       <p class="hero-copy" data-translate="heroCopy">Tratamentos de alta performance que transformam a fibra capilar com precisão, sensorialidade e resultado.</p>
-      <button class="hero-cta" onclick="exploreCollections()"><span data-translate="heroCta">Explorar coleções</span> <span>↗</span></button>
+      <button type="button" class="hero-cta" onclick="exploreCollections()"><span data-translate="heroCta">Explorar coleções</span> <span aria-hidden="true">↗</span></button>
     </div>
     <div class="hero-index">01 <span>/</span> 04</div>
   </div>
@@ -379,7 +379,9 @@
 
     function exploreCollections() {
       switchTab('catalogo');
-      document.getElementById('catalogo')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      requestAnimationFrame(() => {
+        document.getElementById('catalogo')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
     }
 
     buttons.forEach(btn => {

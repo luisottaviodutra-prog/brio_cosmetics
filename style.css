@@ -63,7 +63,7 @@ nav { display: flex; gap: 7px; }
 .hero-content h1 { font-size: clamp(50px, 7vw, 94px); font-weight: 500; letter-spacing: .02em; line-height: .98; }
 .hero-content h1 em { color: var(--lime); font-family: var(--display); font-weight: 500; }
 .hero-copy { color: rgba(251,252,248,.8); font-size: 15px; line-height: 1.7; margin: 28px 0; max-width: 410px; }
-.hero-cta { background: var(--lime); border: 0; color: var(--forest); font-family: var(--mono); font-size: 11px; font-weight: 500; letter-spacing: .05em; padding: 15px 18px; transition: var(--ease); }
+.hero-cta { background: var(--lime); border: 0; color: var(--forest); cursor: pointer; font-family: var(--mono); font-size: 11px; font-weight: 500; letter-spacing: .05em; padding: 15px 18px; transition: var(--ease); }
 .hero-cta span, .card-link span { font-size: 16px; margin-left: 16px; }
 .hero-cta:hover { background: var(--white); transform: translateY(-3px); }
 .hero-index { bottom: 28px; color: var(--white); font-family: var(--mono); font-size: 11px; opacity: .7; position: absolute; right: clamp(25px, 6vw, 80px); }
