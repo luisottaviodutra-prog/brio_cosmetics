@@ -15,15 +15,15 @@
         <source src="images/logo-brio.mp4" type="video/mp4">
       </video>
     </div>
-    <nav>
+    <nav aria-label="Navegação principal">
       <div class="nav-item">
-        <button class="nav-btn boxed active" data-target="catalogo" id="btn-catalogo">Catálogo</button>
+        <button type="button" class="nav-btn boxed active" data-target="catalogo" id="btn-catalogo">Catálogo</button>
       </div>
 
       <div class="nav-item">
-        <button class="nav-btn" data-target="produtos" id="btn-produtos">Produtos</button>
+        <button type="button" class="nav-btn" data-target="produtos" id="btn-produtos">Produtos</button>
         <!-- DROPDOWN COM TODOS OS PRODUTOS -->
-        <div class="dropdown-menu">
+        <div class="dropdown-menu" aria-label="Lista de produtos">
           <a href="#prod-prisma" onclick="navigateToProduct('prod-prisma', event)">PRISMA</a>
           <a href="#prod-ouro" onclick="navigateToProduct('prod-ouro', event)">OURO DA TERRA</a>
           <a href="#prod-shield" onclick="navigateToProduct('prod-shield', event)">SHIELD ESCUDO</a>
@@ -38,17 +38,17 @@
       </div>
 
       <div class="nav-item">
-        <button class="nav-btn" data-target="sobre" id="btn-sobre">Sobre</button>
+        <button type="button" class="nav-btn" data-target="sobre" id="btn-sobre">Sobre</button>
       </div>
 
       <div class="nav-item">
-        <button class="nav-btn" data-target="contato" id="btn-contato">Contato</button>
+        <button type="button" class="nav-btn" data-target="contato" id="btn-contato">Contato</button>
       </div>
     </nav>
 
     <!-- SELETOR DE IDIOMAS -->
     <div class="lang-select">
-      <select id="langSwitcher" onchange="changeLanguage(this.value)">
+      <select id="langSwitcher" aria-label="Selecionar idioma" onchange="changeLanguage(this.value)">
         <option value="pt" selected>PT-BR</option>
         <option value="en">EN</option>
         <option value="es">ES</option>
@@ -57,7 +57,6 @@
       </select>
     </div>
   </header>
-
  <!-- VÍDEO HERO -->
   <div class="hero-video-container">
     <video autoplay loop muted playsinline>
@@ -72,7 +71,7 @@
     <div class="hero-index">01 <span>/</span> 04</div>
   </div>
 
-  <div class="container">
+  <main class="container" aria-label="Conteúdo principal">
 
     <!-- CATÁLOGO -->
     <section id="catalogo" class="page-content active">
@@ -295,7 +294,7 @@
       </div>
     </section>
 
-  </div>
+  </main>
 
   <!-- RODAPÉ COM INSTAGRAM E WHATSAPP -->
   <footer>
