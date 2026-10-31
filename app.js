@@ -139,16 +139,6 @@ function renderProductDetails() {
     details.lastElementChild.dataset.productLabel = "labelTech";
     details.append(createTextElement("p", "", product.active_technology));
 
-    const inciHeading = createTextElement("h4", "", currentTranslations.labelInci);
-    inciHeading.dataset.productLabel = "labelInci";
-    const ingredients = createTextElement(
-      "div",
-      "inci-list",
-      product.ingredients_inci.length
-        ? product.ingredients_inci.join(", ")
-        : currentTranslations.inciUnavailable
-    );
-    details.append(inciHeading, ingredients);
     container.replaceChildren(details);
   }
 }

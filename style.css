@@ -103,7 +103,6 @@ nav { display: flex; gap: 7px; }
 .product-details-box { border-top: 1px solid var(--line); font-size: 13px; margin-top: 23px; padding-top: 16px; }
 .product-details-box h4 { color: var(--forest); font-family: var(--mono); font-size: 9px; letter-spacing: .08em; margin: 13px 0 3px; text-transform: uppercase; }
 .product-details-box p { color: var(--muted); line-height: 1.6; }
-.inci-list { background: #eef2eb; color: var(--muted); font-family: var(--mono); font-size: 10px; max-height: 76px; overflow-y: auto; padding: 9px; }
 .about-box { background: var(--forest); color: var(--white); margin: 0 auto; max-width: 850px; padding: clamp(35px, 7vw, 85px); }
 .about-box .section-title { color: var(--white); margin-bottom: 22px; }
 #contato .section-title { color: #000; }

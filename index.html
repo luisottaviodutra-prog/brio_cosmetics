@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BRIO - Linha Profissional & Coleções</title>
+  <meta name="description" content="Conheça as linhas profissionais BRIO: tratamentos capilares de alta performance desenvolvidos com tecnologia avançada.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,11 +12,11 @@
   <!-- CABEÇALHO -->
   <header>
     <div class="brand-container">
-      <video class="brand-logo" autoplay muted loop playsinline aria-label="Logo BRIO">
+      <video class="brand-logo" autoplay muted loop playsinline aria-label="Logo BRIO" data-translate-aria="videoLogoLabel">
         <source src="images/logo-brio.mp4" type="video/mp4">
       </video>
     </div>
-    <nav aria-label="Navegação principal">
+    <nav aria-label="Navegação principal" data-translate-aria="navLabel">
       <div class="nav-item">
         <button type="button" class="nav-btn boxed active" data-target="catalogo" id="btn-catalogo">Catálogo</button>
       </div>
@@ -23,11 +24,11 @@
       <div class="nav-item">
         <button type="button" class="nav-btn" data-target="produtos" id="btn-produtos">Produtos</button>
         <!-- DROPDOWN COM TODOS OS PRODUTOS -->
-        <div class="dropdown-menu" aria-label="Lista de produtos">
+        <div class="dropdown-menu" aria-label="Lista de produtos" data-translate-aria="productsListLabel">
           <a href="#prod-prisma" onclick="navigateToProduct('prod-prisma', event)">PRISMA</a>
           <a href="#prod-ouro" onclick="navigateToProduct('prod-ouro', event)">OURO DA TERRA</a>
           <a href="#prod-shield" onclick="navigateToProduct('prod-shield', event)">SHIELD ESCUDO</a>
-          <a href="#prod-progressiva" data-translate="progTitle" onclick="navigateToProduct('prod-progressiva', event)">PROGRESSIVA</a>
+          <a href="#prod-progressiva" data-translate="progTitle" onclick="navigateToProduct('prod-progressiva', event)">ALVA</a>
           <a href="#prod-cron-mascaras" onclick="navigateToProduct('prod-cron-mascaras', event)">CRONOGRAMA MÁSCARAS</a>
           <a href="#prod-cron-shampoo" onclick="navigateToProduct('prod-cron-shampoo', event)">CRONOGRAMA SHAMPOO</a>
           <a href="#prod-metal-free" onclick="navigateToProduct('prod-metal-free', event)">METAL FREE — SHAMPOO</a>
@@ -49,7 +50,7 @@
 
     <!-- SELETOR DE IDIOMAS -->
     <div class="lang-select">
-      <select id="langSwitcher" aria-label="Selecionar idioma" onchange="changeLanguage(this.value)">
+      <select id="langSwitcher" aria-label="Selecionar idioma" data-translate-aria="langLabel" onchange="changeLanguage(this.value)">
         <option value="pt" selected>PT-BR</option>
         <option value="en">EN</option>
         <option value="es">ES</option>
@@ -60,7 +61,7 @@
   </header>
  <!-- VÍDEO HERO -->
   <div class="hero-video-container">
-    <video autoplay loop muted playsinline>
+    <video autoplay loop muted playsinline aria-label="Vídeo de apresentação da BRIO" data-translate-aria="videoHeroLabel">
       <source src="images/meu-video.mp4" type="video/mp4">
     </video>
     <div class="hero-shade"></div>
@@ -82,7 +83,7 @@
           <h1 class="section-title" id="txt-line-title-cat">LINHA PROFISSIONAL & COLEÇÕES</h1>
           <p class="section-subtitle" id="txt-line-desc-cat">Portfólio completo de alta performance desenvolvido com tecnologia avançada para tratamento capilar.</p>
         </div>
-        <div class="catalog-meta"><strong>10</strong><span><span data-translate="catalogMetaTop">soluções</span><br><span data-translate="catalogMetaBottom">especializadas</span></span></div>
+        <div class="catalog-meta"><strong>11</strong><span><span data-translate="catalogMetaTop">soluções</span><br><span data-translate="catalogMetaBottom">especializadas</span></span></div>
       </div>
       <div class="catalog-toolbar">
         <span data-translate="filterPrompt">Selecione uma coleção</span>
@@ -112,9 +113,9 @@
         </a>
 
         <a class="catalog-card" data-category="alignment" href="#prod-progressiva" onclick="navigateToProduct('prod-progressiva', event)">
-          <img src="images/progressiva.jpg" alt="Progressiva">
-          <div class="product-category" data-translate="cat-prog-cat">Alinhamento Térmico</div>
-          <h2 class="product-title" data-translate="progTitle">PROGRESSIVA</h2>
+          <img src="images/progressiva.jpg" alt="Alva">
+          <div class="product-category" data-translate="cat-prog-cat">Alisamento Térmico</div>
+          <h2 class="product-title" data-translate="progTitle">ALVA</h2>
           <p class="product-desc" data-translate="cat-prog-desc">Tecnologia nano-nutritiva de elite para alisamento, hidratação avançada e brilho espelhado</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
         </a>
 
@@ -150,7 +151,7 @@
           <img src="images/recovery-ciclo.jpg" alt="Recovery Ciclo">
           <div class="product-category" data-translate="cat-recov-cat">Recovery</div>
           <h2 class="product-title">RECOVERY CICLO</h2>
-          <p class="product-desc" data-translate="cat-recov-desc">Tratamento Cicatrizante e Regenerador da Fibra Capilar Danificada</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
+          <p class="product-desc" data-translate="cat-recov-desc">Tratamento reparador e regenerador da fibra capilar danificada</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
         </a>
 
         <a class="catalog-card" data-category="treatment" href="#prod-selva" onclick="navigateToProduct('prod-selva', event)">
@@ -174,7 +175,7 @@
       <h1 class="section-title" id="txt-line-title-prod">DETALHES TÉCNICOS DOS PRODUTOS</h1>
       <p class="section-subtitle" id="txt-line-desc-prod">Informações técnicas detalhadas de cada item do portfólio.</p>
             <div class="section-video product-video">
-              <video controls autoplay muted loop playsinline preload="metadata" aria-label="Vídeo dos produtos BRIO">
+              <video controls autoplay muted loop playsinline preload="metadata" aria-label="Vídeo dos produtos BRIO" data-translate-aria="videoProductsLabel">
                 <source src="images/video-produtos.mp4" type="video/mp4">
               </video>
             </div>
@@ -207,8 +208,8 @@
 
         <div class="product-text-card" id="prod-progressiva" data-json-id="alva-nutritive-realignment">
           <span class="product-tag" data-translate="tag-prof">Uso Profissional</span>
-          <div class="product-category" data-translate="cat-prog-cat">Alinhamento Térmico</div>
-          <h2 class="product-title" data-translate="progTitle">PROGRESSIVA</h2>
+          <div class="product-category" data-translate="cat-prog-cat">Alisamento Térmico</div>
+          <h2 class="product-title" data-translate="progTitle">ALVA</h2>
           <p class="product-desc" data-translate="cat-prog-desc">Tecnologia nano-nutritiva de elite para alisamento, hidratação avançada e brilho espelhado</p>
           <div class="product-spec" data-translate="spec-prog">Conteúdo: 1000ml</div>
           <div class="product-dynamic-content"></div>
@@ -249,7 +250,7 @@
           <span class="product-tag" data-translate="tag-recov">Recovery</span>
           <div class="product-category" data-translate="cat-recov-cat">Recovery</div>
           <h2 class="product-title">RECOVERY CICLO</h2>
-          <p class="product-desc" data-translate="cat-recov-desc">Tratamento Cicatrizante e Regenerador da Fibra Capilar Danificada</p>
+          <p class="product-desc" data-translate="cat-recov-desc">Tratamento reparador e regenerador da fibra capilar danificada</p>
           <div class="product-spec" data-translate="spec-recov">Conteúdo: 500g</div>
           <div class="product-dynamic-content"></div>
         </div>
@@ -287,7 +288,7 @@
         <p>Porque, para nós, ciência não existe para complicar o ritual.</p>
         <p><em>Existe para transformá-lo.</em></p>
         <div class="about-video">
-          <video id="video-sobre" controls autoplay muted loop playsinline preload="metadata" aria-label="Vídeo institucional da BRIO">
+          <video id="video-sobre" controls autoplay muted loop playsinline preload="metadata" aria-label="Vídeo institucional da BRIO" data-translate-aria="videoAboutLabel">
             <source src="images/video-sobre.mp4" type="video/mp4">
           </video>
         </div>
@@ -369,10 +370,6 @@
             <h4>${tLabels.labelTech}:</h4>
             <p><strong>${product.active_technology}</strong></p>
             
-            <h4>${tLabels.labelInci}:</h4>
-            <div class="inci-list">
-              ${product.ingredients_inci.length ? product.ingredients_inci.join(', ') : t.inciUnavailable}
-            </div>
           </div>
         `;
       });
@@ -425,8 +422,12 @@
       pt: {
         btnProdutos: "Produtos", btnCatalogo: "Catálogo", btnSobre: "Sobre", btnContato: "Contato",
         developerCredit: "Desenvolvido por",
+        pageTitle: "BRIO | Linha Profissional e Coleções", metaDescription: "Conheça as linhas profissionais BRIO: tratamentos capilares de alta performance desenvolvidos com tecnologia avançada.",
+        langLabel: "Selecionar idioma", navLabel: "Navegação principal", productsListLabel: "Lista de produtos",
+        videoProductsLabel: "Vídeo dos produtos BRIO", videoHeroLabel: "Vídeo de apresentação da BRIO", videoAboutLabel: "Vídeo institucional da BRIO", videoLogoLabel: "Logo BRIO",
+        catalogEyebrow: "O PORTFÓLIO BRIO", catalogMetaTop: "soluções", catalogMetaBottom: "especializadas", detailsLink: "Ver detalhes",
         filterPrompt: "Selecione uma coleção", filterAll: "Todos", filterAlignment: "Alinhamento", filterTreatment: "Tratamento", filterRecovery: "Recovery",
-        progTitle: "PROGRESSIVA",
+        progTitle: "ALVA",
         heroTitleLead: "Ciência para", heroTitleEm: "o seu ritual.",
         heroCopy: "Tratamentos de alta performance que transformam a fibra capilar com precisão, sensorialidade e resultado.",
         lineTitleCat: "LINHA PROFISSIONAL & COLEÇÕES", 
@@ -449,26 +450,30 @@
         contactTitle: "ENTRE EM CONTATO",
         contactBody: "Fale conosco através dos nossos canais oficiais de atendimento:",
         footerRights: "© 2026 BRIO. Todos os direitos reservados.",
-        labelPhilosophy: "Filosofia", labelRitual: "Ritual Profissional", labelTech: "Tecnologia Ativa", labelInci: "Ingredientes (INCI)", inciUnavailable: "INCI não informado na documentação fornecida.",
+        labelPhilosophy: "Filosofia", labelRitual: "Ritual Profissional", labelTech: "Tecnologia Ativa",
         "tag-prof": "Uso Profissional", "tag-recov": "Recovery",
-        "cat-prisma-cat": "Alinhamento Capilar", "cat-prisma-desc": "Máscara de Alinhamento & Complexo de Enchimento de Fibra Avançado", "spec-prisma": "Conteúdo: 1000g",
+        "cat-prisma-cat": "Alinhamento Capilar", "cat-prisma-desc": "Máscara de alinhamento capilar com complexo avançado de preenchimento da fibra", "spec-prisma": "Conteúdo: 1000g",
         "cat-ouro-cat": "Tratamento & Finalização", "cat-ouro-desc": "Sérum de óleo de argan com acabamento luminoso instantâneo", "spec-ouro": "Conteúdo: 60ml",
         "cat-shield-cat": "Proteção Térmica", "cat-shield-desc": "Escudo Térmico, Proteção UV e Reconstrução Profunda 10-em-1", "spec-shield": "Conteúdo: 300ml",
-        "cat-prog-cat": "Alinhamento Térmico", "cat-prog-desc": "Tecnologia nano-nutritiva de elite para alisamento, hidratação avançada e brilho espelhado", "spec-prog": "Conteúdo: 1000ml",
-        "cat-cronmask-cat": "Cronograma Capilar", "cat-cronmask-desc": "Kit de Tratamento Intensivo: Hidratação, Nutrição e Reconstrução", "spec-cronmask": "Conteúdo: Kit 3x 500g",
-        "cat-cronshamp-cat": "Cronograma Capilar", "cat-cronshamp-desc": "Shampoo Preparatório e de Limpeza Equilibrada para Cronograma", "spec-cronshamp": "Conteúdo: 1000ml",
-        "cat-metal-cat": "Desintoxicação Capilar", "cat-metal-desc": "Shampoo e máscara para cuidado antimetais e remoção de resíduos metálicos e poluição acumulados", "spec-metal": "Conteúdo: 500ml",
+        "cat-prog-cat": "Alisamento Térmico", "cat-prog-desc": "Tecnologia nano-nutritiva de elite para alisamento, hidratação avançada e brilho espelhado", "spec-prog": "Conteúdo: 1000ml",
+        "cat-cronmask-cat": "Cronograma Capilar", "cat-cronmask-desc": "Kit de tratamento intensivo para hidratação, nutrição e reconstrução", "spec-cronmask": "Conteúdo: Kit 3x 500g",
+        "cat-cronshamp-cat": "Cronograma Capilar", "cat-cronshamp-desc": "Shampoo preparatório para uma limpeza equilibrada na rotina capilar", "spec-cronshamp": "Conteúdo: 1000ml",
+        "cat-metal-cat": "Desintoxicação Capilar", "cat-metal-desc": "Shampoo e máscara para remover resíduos metálicos e poluição acumulados na fibra capilar", "spec-metal": "Conteúdo: 500ml",
         metalShampooTitle: "BRIO METAL FREE — SHAMPOO", metalShampooDesc: "Shampoo para remoção de resíduos metálicos e poluição acumulados na fibra capilar.",
         metalMaskTitle: "BRIO METAL FREE — MÁSCARA", metalMaskDesc: "Máscara de tratamento avançado para complementar o cuidado antimetais BRIO METAL FREE.",
-        "cat-recov-cat": "Recovery", "cat-recov-desc": "Tratamento Cicatrizante e Regenerador da Fibra Capilar Danificada", "spec-recov": "Conteúdo: 500g",
-        "cat-selva-cat": "Vigor & Força", "cat-selva-desc": "Tônico para revitalização do couro cabeludo e força capilar", "spec-selva": "Conteúdo: 250ml",
+        "cat-recov-cat": "Recovery", "cat-recov-desc": "Tratamento reparador e regenerador da fibra capilar danificada", "spec-recov": "Conteúdo: 500g",
+        "cat-selva-cat": "Vigor & Força", "cat-selva-desc": "Tônico que revitaliza o couro cabeludo e ajuda a fortalecer os fios", "spec-selva": "Conteúdo: 250ml",
         "cat-trama-cat": "Trama & Elasticidade", "cat-trama-desc": "Reconstrução de Altíssima Performance para Fios Elásticos e Quebradiços", "spec-trama": "Conteúdo: 500g"
       },
       en: {
         btnProdutos: "Products", btnCatalogo: "Catalog", btnSobre: "About", btnContato: "Contact",
         developerCredit: "Developed by",
+        pageTitle: "BRIO | Professional Haircare", metaDescription: "Explore BRIO professional haircare: high-performance treatments developed with advanced technology.",
+        langLabel: "Select language", navLabel: "Primary navigation", productsListLabel: "Product list",
+        videoProductsLabel: "BRIO product video", videoHeroLabel: "BRIO presentation video", videoAboutLabel: "BRIO brand video", videoLogoLabel: "BRIO logo",
+        catalogEyebrow: "THE BRIO PORTFOLIO", catalogMetaTop: "solutions", catalogMetaBottom: "specialized", detailsLink: "View details",
         filterPrompt: "Select a collection", filterAll: "All", filterAlignment: "Hair Smoothing", filterTreatment: "Treatment", filterRecovery: "Recovery",
-        progTitle: "HAIR SMOOTHING TREATMENT",
+        progTitle: "ALVA",
         heroTitleLead: "Science for", heroTitleEm: "your ritual.",
         heroCopy: "High-performance treatments that transform the hair fiber with precision, sensoriality, and results.",
         lineTitleCat: "PROFESSIONAL LINE & COLLECTIONS", 
@@ -491,26 +496,30 @@
         contactTitle: "GET IN TOUCH",
         contactBody: "Contact us through our official service channels:",
         footerRights: "© 2026 BRIO. All rights reserved.",
-        labelPhilosophy: "Philosophy", labelRitual: "Professional Ritual", labelTech: "Active Technology", labelInci: "Ingredients (INCI)", inciUnavailable: "INCI not provided in the supplied documentation.",
+        labelPhilosophy: "Philosophy", labelRitual: "Professional Ritual", labelTech: "Active Technology",
         "tag-prof": "Professional Use", "tag-recov": "Recovery",
-        "cat-prisma-cat": "Hair Alignment", "cat-prisma-desc": "Alignment Mask & Advanced Fiber Filling Complex", "spec-prisma": "Content: 1000g",
+        "cat-prisma-cat": "Hair Smoothing", "cat-prisma-desc": "Hair-smoothing mask with an advanced fiber-filling complex", "spec-prisma": "Content: 1000g",
         "cat-ouro-cat": "Treatment & Finishing", "cat-ouro-desc": "Argan oil serum with an instant luminous finish", "spec-ouro": "Content: 60ml",
         "cat-shield-cat": "Thermal Protection", "cat-shield-desc": "Thermal Shield, UV Protection, and 10-in-1 Deep Reconstruction", "spec-shield": "Content: 300ml",
-        "cat-prog-cat": "Hair Smoothing Treatment", "cat-prog-desc": "Elite nano-nutritive technology for smoothing, advanced hydration, and mirror-like shine", "spec-prog": "Content: 1000ml",
-        "cat-cronmask-cat": "Hair Schedule", "cat-cronmask-desc": "Intensive Treatment Kit: Hydration, Nutrition, and Reconstruction", "spec-cronmask": "Content: Kit 3x 500g",
-        "cat-cronshamp-cat": "Hair Schedule", "cat-cronshamp-desc": "Preparatory and Balanced Cleansing Shampoo for Hair Schedule", "spec-cronshamp": "Content: 1000ml",
-        "cat-metal-cat": "Hair Detox", "cat-metal-desc": "Shampoo and mask for anti-metal care and removal of accumulated metal residues and pollution", "spec-metal": "Content: 500ml",
+        "cat-prog-cat": "Thermal Smoothing", "cat-prog-desc": "Elite nano-nutritive technology for smoothing, advanced hydration, and mirror-like shine", "spec-prog": "Content: 1000ml",
+        "cat-cronmask-cat": "Hair Care Routine", "cat-cronmask-desc": "Intensive treatment kit for hydration, nourishment, and reconstruction", "spec-cronmask": "Content: Kit 3x 500g",
+        "cat-cronshamp-cat": "Hair Care Routine", "cat-cronshamp-desc": "Preparatory shampoo for balanced cleansing as part of a hair-care routine", "spec-cronshamp": "Content: 1000ml",
+        "cat-metal-cat": "Hair Detox", "cat-metal-desc": "Shampoo and treatment mask to help remove accumulated metal residues and environmental buildup from the hair fiber", "spec-metal": "Content: 500ml",
         metalShampooTitle: "BRIO METAL FREE — SHAMPOO", metalShampooDesc: "Shampoo to remove accumulated metal residues and pollution from the hair fiber.",
         metalMaskTitle: "BRIO METAL FREE — MASK", metalMaskDesc: "Advanced treatment mask to complement BRIO METAL FREE anti-metal care.",
-        "cat-recov-cat": "Recovery", "cat-recov-desc": "Healing and Regenerating Treatment for Damaged Hair Fiber", "spec-recov": "Content: 500g",
-        "cat-selva-cat": "Vigor & Strength", "cat-selva-desc": "Scalp-revitalizing tonic for renewed hair strength", "spec-selva": "Content: 250ml",
+        "cat-recov-cat": "Recovery", "cat-recov-desc": "Restorative and regenerating treatment for damaged hair fiber", "spec-recov": "Content: 500g",
+        "cat-selva-cat": "Vigor & Strength", "cat-selva-desc": "Scalp tonic to revitalize the scalp and help strengthen hair", "spec-selva": "Content: 250ml",
         "cat-trama-cat": "Web & Elasticity", "cat-trama-desc": "Ultra-High Performance Reconstruction for Elastic and Brittle Hair", "spec-trama": "Content: 500g"
       },
       es: {
         btnProdutos: "Productos", btnCatalogo: "Catálogo", btnSobre: "Sobre", btnContato: "Contacto",
         developerCredit: "Desarrollado por",
-        filterPrompt: "Selecciona una colección", filterAll: "Todas", filterAlignment: "Alisado", filterTreatment: "Tratamiento", filterRecovery: "Recovery",
-        progTitle: "ALISADO",
+        pageTitle: "BRIO | Línea Profesional y Colecciones", metaDescription: "Conoce las líneas profesionales BRIO: tratamientos capilares de alto rendimiento desarrollados con tecnología avanzada.",
+        langLabel: "Seleccionar idioma", navLabel: "Navegación principal", productsListLabel: "Lista de productos",
+        videoProductsLabel: "Vídeo de productos BRIO", videoHeroLabel: "Vídeo de presentación de BRIO", videoAboutLabel: "Vídeo institucional de BRIO", videoLogoLabel: "Logotipo BRIO",
+        catalogEyebrow: "EL PORTAFOLIO BRIO", catalogMetaTop: "soluciones", catalogMetaBottom: "especializadas", detailsLink: "Ver detalles",
+        filterPrompt: "Selecciona una colección", filterAll: "Todos", filterAlignment: "Alisado", filterTreatment: "Tratamiento", filterRecovery: "Recovery",
+        progTitle: "ALVA",
         heroTitleLead: "Ciencia para", heroTitleEm: "tu ritual.",
         heroCopy: "Tratamientos de alto rendimiento que transforman la fibra capilar con precisión, sensorialidad y resultados.",
         lineTitleCat: "LÍNEA PROFESIONAL Y COLECCIONES", 
@@ -533,32 +542,36 @@
         contactTitle: "CONTÁCTANOS",
         contactBody: "Ponte en contacto con nosotros a través de nuestros canales oficiales:",
         footerRights: "© 2026 BRIO. Todos los derechos reservados.",
-        labelPhilosophy: "Filosofía", labelRitual: "Ritual Profesional", labelTech: "Tecnología Activa", labelInci: "Ingredientes (INCI)", inciUnavailable: "INCI no indicado en la documentación proporcionada.",
+        labelPhilosophy: "Filosofía", labelRitual: "Ritual profesional", labelTech: "Tecnología activa",
         "tag-prof": "Uso Profesional", "tag-recov": "Recovery",
-        "cat-prisma-cat": "Alineación Capilar", "cat-prisma-desc": "Mascarilla de Alineación y Complejo Avanzado de Relleno de Fibra", "spec-prisma": "Contenido: 1000g",
+        "cat-prisma-cat": "Alisado capilar", "cat-prisma-desc": "Mascarilla alisadora con un complejo avanzado para rellenar la fibra capilar", "spec-prisma": "Contenido: 1000 g",
         "cat-ouro-cat": "Tratamiento y Acabado", "cat-ouro-desc": "Sérum de aceite de argán con acabado luminoso instantáneo", "spec-ouro": "Contenido: 60ml",
         "cat-shield-cat": "Protección Térmica", "cat-shield-desc": "Escudo Térmico, Protección UV y Reconstrucción Profunda 10 en 1", "spec-shield": "Contenido: 300ml",
-        "cat-prog-cat": "Alineación Térmica", "cat-prog-desc": "Tecnología nano-nutritiva de élite para alisar, hidratar en profundidad y aportar brillo espejo", "spec-prog": "Contenido: 1000ml",
-        "cat-cronmask-cat": "Cronograma Capilar", "cat-cronmask-desc": "Kit de Tratamiento Intensivo: Hidratación, Nutrición y Reconstrucción", "spec-cronmask": "Contenido: Kit 3x 500g",
-        "cat-cronshamp-cat": "Cronograma Capilar", "cat-cronshamp-desc": "Champú Preparatorio y de Limpieza Equilibrada para Cronograma", "spec-cronshamp": "Contenido: 1000ml",
-        "cat-metal-cat": "Desintoxicación Capilar", "cat-metal-desc": "Champú y mascarilla para el cuidado antimetales y la eliminación de residuos metálicos y contaminación acumulados", "spec-metal": "Contenido: 500ml",
+        "cat-prog-cat": "Alisado térmico", "cat-prog-desc": "Tecnología nano-nutritiva de élite para alisar, hidratar en profundidad y aportar brillo espejo", "spec-prog": "Contenido: 1000 ml",
+        "cat-cronmask-cat": "Rutina capilar", "cat-cronmask-desc": "Kit de tratamiento intensivo para hidratar, nutrir y reconstruir la fibra capilar", "spec-cronmask": "Contenido: Kit de 3 x 500 g",
+        "cat-cronshamp-cat": "Rutina capilar", "cat-cronshamp-desc": "Champú preparatorio para una limpieza equilibrada dentro de la rutina capilar", "spec-cronshamp": "Contenido: 1000 ml",
+        "cat-metal-cat": "Desintoxicación capilar", "cat-metal-desc": "Champú y mascarilla de tratamiento que ayudan a eliminar los residuos metálicos y la contaminación acumulados en la fibra capilar", "spec-metal": "Contenido: 500 ml",
         metalShampooTitle: "BRIO METAL FREE — CHAMPÚ", metalShampooDesc: "Champú para eliminar los residuos metálicos y la contaminación acumulados en la fibra capilar.",
         metalMaskTitle: "BRIO METAL FREE — MASCARILLA", metalMaskDesc: "Mascarilla de tratamiento avanzado que complementa el cuidado antimetales BRIO METAL FREE.",
-        "cat-recov-cat": "Recovery", "cat-recov-desc": "Tratamiento Cicatrizante y Regenerador de la Fibra Capilar Dañada", "spec-recov": "Contenido: 500g",
-        "cat-selva-cat": "Vigor y Fuerza", "cat-selva-desc": "Tónico para revitalizar el cuero cabelludo y renovar la fuerza capilar", "spec-selva": "Contenido: 250ml",
+        "cat-recov-cat": "Recovery", "cat-recov-desc": "Tratamiento reparador y regenerador de la fibra capilar dañada", "spec-recov": "Contenido: 500 g",
+        "cat-selva-cat": "Vigor y fuerza", "cat-selva-desc": "Tónico que revitaliza el cuero cabelludo y ayuda a fortalecer el cabello", "spec-selva": "Contenido: 250 ml",
         "cat-trama-cat": "Trama y Elasticidad", "cat-trama-desc": "Reconstrucción de Altísimo Rendimiento para Cabellos Elásticos y Quebradizos", "spec-trama": "Contenido: 500g"
       },
       fr: {
-        btnProdutos: "Produits", btnCatalogo: "Catalogue", btnSobre: "À Propos", btnContato: "Contact",
+        btnProdutos: "Produits", btnCatalogo: "Catalogue", btnSobre: "À propos", btnContato: "Contact",
         developerCredit: "Développé par",
+        pageTitle: "BRIO | Gamme Professionnelle et Collections", metaDescription: "Découvrez les soins capillaires professionnels BRIO : des traitements haute performance développés avec une technologie avancée.",
+        langLabel: "Choisir la langue", navLabel: "Navigation principale", productsListLabel: "Liste des produits",
+        videoProductsLabel: "Vidéo des produits BRIO", videoHeroLabel: "Vidéo de présentation de BRIO", videoAboutLabel: "Vidéo institutionnelle de BRIO", videoLogoLabel: "Logo BRIO",
+        catalogEyebrow: "LE PORTFOLIO BRIO", catalogMetaTop: "solutions", catalogMetaBottom: "spécialisées", detailsLink: "Voir les détails",
         filterPrompt: "Sélectionnez une collection", filterAll: "Tout", filterAlignment: "Lissage", filterTreatment: "Soin", filterRecovery: "Recovery",
-        progTitle: "LISSAGE",
+        progTitle: "ALVA",
         heroTitleLead: "La science au service", heroTitleEm: "de votre rituel.",
         heroCopy: "Des soins haute performance qui transforment la fibre capillaire avec précision, sensorialité et efficacité.",
         lineTitleCat: "GAMME PROFESSIONNELLE & COLLECTIONS", 
-        lineDescCat: "Portefeuille complet haute performance développé avec une technologie avancée pour le soin capillaire.",
+        lineDescCat: "Une gamme complète de soins capillaires haute performance, conçue avec des technologies avancées.",
         lineTitleProd: "DÉTAILS TECHNIQUES DES PRODUITS", 
-        lineDescProd: "Informations techniques détaillées pour chaque article du portefeuille.",
+        lineDescProd: "Fiches techniques détaillées pour chaque produit de la gamme.",
         aboutTitle: "À PROPOS DE BRIO",
         aboutStory: [
           "Depuis plus de sept ans, nous faisons partie de l'industrie cosmétique.",
@@ -575,26 +588,30 @@
         contactTitle: "CONTACTEZ-NOUS",
         contactBody: "Contactez-nous via nos canaux de service officiels :",
         footerRights: "© 2026 BRIO. Tous droits réservés.",
-        labelPhilosophy: "Philosophie", labelRitual: "Rituel Professionnel", labelTech: "Technologie Active", labelInci: "Ingrédients (INCI)", inciUnavailable: "INCI non indiqué dans la documentation fournie.",
+        labelPhilosophy: "Philosophie", labelRitual: "Rituel professionnel", labelTech: "Technologie active",
         "tag-prof": "Usage Professionnel", "tag-recov": "Recovery",
-        "cat-prisma-cat": "Lissage Capillaire", "cat-prisma-desc": "Masque de Lissage & Complexe de Remplissage Capillaire Avancé", "spec-prisma": "Contenu: 1000g",
-        "cat-ouro-cat": "Soin & Finition", "cat-ouro-desc": "Sérum à l'huile d'argan pour une finition lumineuse instantanée", "spec-ouro": "Contenu: 60ml",
-        "cat-shield-cat": "Protection Thermique", "cat-shield-desc": "Bouclier Thermique, Protection UV et Reconstruction Profonde 10-en-1", "spec-shield": "Contenu: 300ml",
-        "cat-prog-cat": "Lissage Thermique", "cat-prog-desc": "Technologie nano-nutritive d'élite pour lisser, hydrater intensément et offrir une brillance miroir", "spec-prog": "Contenu: 1000ml",
-        "cat-cronmask-cat": "Planning Capillaire", "cat-cronmask-desc": "Kit de Soin Intensif : Hydratation, Nutrition et Reconstruction", "spec-cronmask": "Contenu: Kit 3x 500g",
-        "cat-cronshamp-cat": "Planning Capillaire", "cat-cronshamp-desc": "Shampooing Préparatoire et Nettoyant Équilibré pour Planning", "spec-cronshamp": "Contenu: 1000ml",
-        "cat-metal-cat": "Détox Capillaire", "cat-metal-desc": "Shampooing et masque pour le soin anti-métaux et l'élimination des résidus métalliques et de la pollution accumulés", "spec-metal": "Contenu: 500ml",
+        "cat-prisma-cat": "Lissage capillaire", "cat-prisma-desc": "Masque lissant avec un complexe avancé de comblement de la fibre capillaire", "spec-prisma": "Contenu : 1000 g",
+        "cat-ouro-cat": "Soin & finition", "cat-ouro-desc": "Sérum à l'huile d'argan pour une finition lumineuse instantanée", "spec-ouro": "Contenu : 60 ml",
+        "cat-shield-cat": "Protection thermique", "cat-shield-desc": "Bouclier thermique, protection UV et reconstruction profonde 10-en-1", "spec-shield": "Contenu : 300 ml",
+        "cat-prog-cat": "Lissage thermique", "cat-prog-desc": "Technologie nano-nutritive d'élite pour lisser, hydrater intensément et offrir une brillance miroir", "spec-prog": "Contenu : 1000 ml",
+        "cat-cronmask-cat": "Routine capillaire", "cat-cronmask-desc": "Kit de soins intensifs : hydratation, nutrition et reconstruction", "spec-cronmask": "Contenu : kit de 3 x 500 g",
+        "cat-cronshamp-cat": "Routine capillaire", "cat-cronshamp-desc": "Shampooing préparateur pour un nettoyage équilibré dans la routine capillaire", "spec-cronshamp": "Contenu : 1000 ml",
+        "cat-metal-cat": "Détox capillaire", "cat-metal-desc": "Shampooing et masque qui aident à éliminer les résidus métalliques et les dépôts liés à la pollution dans la fibre capillaire", "spec-metal": "Contenu : 500 ml",
         metalShampooTitle: "BRIO METAL FREE — SHAMPOOING", metalShampooDesc: "Shampooing pour éliminer les résidus métalliques et la pollution accumulés dans la fibre capillaire.",
-        metalMaskTitle: "BRIO METAL FREE — MASQUE", metalMaskDesc: "Masque de soin avancé qui complète le soin anti-métaux BRIO METAL FREE.",
-        "cat-recov-cat": "Recovery", "cat-recov-desc": "Traitement Cicatrisant et Régénérateur de la Fibre Capillaire Abîmée", "spec-recov": "Contenu: 500g",
-        "cat-selva-cat": "Vigueur & Force", "cat-selva-desc": "Tonique pour revitaliser le cuir chevelu et renouveler la force des cheveux", "spec-selva": "Contenu: 250ml",
-        "cat-trama-cat": "Trame & Élasticité", "cat-trama-desc": "Reconstruction Haute Performance pour Cheveux Élastiques et Cassants", "spec-trama": "Contenu: 500g"
+        metalMaskTitle: "BRIO METAL FREE — MASQUE", metalMaskDesc: "Masque de soin avancé qui complète le rituel BRIO METAL FREE.",
+        "cat-recov-cat": "Recovery", "cat-recov-desc": "Soin réparateur et régénérant pour la fibre capillaire abîmée", "spec-recov": "Contenu : 500 g",
+        "cat-selva-cat": "Vigueur & force", "cat-selva-desc": "Tonique qui revitalise le cuir chevelu et aide à renforcer les cheveux", "spec-selva": "Contenu : 250 ml",
+        "cat-trama-cat": "Trama & élasticité", "cat-trama-desc": "Reconstruction haute performance pour cheveux élastiques et cassants", "spec-trama": "Contenu : 500 g"
       },
       ar: {
         btnProdutos: "المنتجات", btnCatalogo: "الكتالوج", btnSobre: "عن الشركة", btnContato: "اتصل بنا",
         developerCredit: "تطوير الموقع بواسطة",
+        pageTitle: "بريو | المجموعة الاحترافية ومجموعات العناية", metaDescription: "اكتشف منتجات بريو الاحترافية للعناية بالشعر: علاجات عالية الأداء بتقنيات متقدمة.",
+        langLabel: "اختيار اللغة", navLabel: "التنقل الرئيسي", productsListLabel: "قائمة المنتجات",
+        videoProductsLabel: "فيديو منتجات بريو", videoHeroLabel: "فيديو تعريفي ببريو", videoAboutLabel: "الفيديو التعريفي ببريو", videoLogoLabel: "شعار بريو",
+        catalogEyebrow: "مجموعة بريو", catalogMetaTop: "حلول", catalogMetaBottom: "متخصصة", detailsLink: "عرض التفاصيل",
         filterPrompt: "اختر مجموعة", filterAll: "الكل", filterAlignment: "تنعيم الشعر", filterTreatment: "العناية", filterRecovery: "استعادة الحيوية",
-        progTitle: "تنعيم الشعر",
+        progTitle: "ALVA",
         heroTitleLead: "العلم من أجل", heroTitleEm: "طقوسك.",
         heroCopy: "علاجات عالية الأداء تحوّل ألياف الشعر بدقة وإحساس مميز ونتائج ملموسة.",
         lineTitleCat: "المجموعة الاحترافية والمجموعات", 
@@ -617,19 +634,19 @@
         contactTitle: "اتصل بنا",
         contactBody: "تواصل معنا عبر قنوات الخدمة الرسمية الخاصة بنا:",
         footerRights: "© 2026 بريو. جميع الحقوق محفوظة.",
-        labelPhilosophy: "الفلسفة", labelRitual: "الطقوس الاحترافية", labelTech: "التكنولوجيا النشطة", labelInci: "المكونات (INCI)", inciUnavailable: "لم يتم تقديم قائمة INCI في الوثائق المتاحة.",
+        labelPhilosophy: "الفلسفة", labelRitual: "طريقة الاستخدام", labelTech: "التقنية الفعالة",
         "tag-prof": "استخدام احترافي", "tag-recov": "استعادة الحيوية",
-        "cat-prisma-cat": "محاذاة الشعر", "cat-prisma-desc": "قناع المحاذاة ومركب متقدم لملء ألياف الشعر", "spec-prisma": "المحتوى: 1000 جرام",
+        "cat-prisma-cat": "تنعيم الشعر", "cat-prisma-desc": "قناع لتنعيم الشعر مع مركب متقدم لملء ألياف الشعر", "spec-prisma": "المحتوى: 1000 غرام",
         "cat-ouro-cat": "العلاج واللمسات الأخيرة", "cat-ouro-desc": "مصل زيت الأرجان بلمسة نهائية مضيئة وفورية", "spec-ouro": "المحتوى: 60 مل",
         "cat-shield-cat": "حماية حرارية", "cat-shield-desc": "درع حراري، حماية من الأشعة فوق البنفسجية وإعادة بناء عميقة 10 في 1", "spec-shield": "المحتوى: 300 مل",
-        "cat-prog-cat": "محاذاة حرارية", "cat-prog-desc": "تقنية نانو-تغذوية نخبوية للتنعيم والترطيب المتقدم واللمعان كالمرآة", "spec-prog": "المحتوى: 1000 مل",
-        "cat-cronmask-cat": "جدول العناية بالشعر", "cat-cronmask-desc": "مجموعة العلاج المكثف: الترطيب، التغذية وإعادة البناء", "spec-cronmask": "المحتوى: مجموعة 3 × 500 جرام",
-        "cat-cronshamp-cat": "جدول العناية بالشعر", "cat-cronshamp-desc": "شامبو تحضيري للتنظيف المتوازن لجدول الشعر", "spec-cronshamp": "المحتوى: 1000 مل",
-        "cat-metal-cat": "إزالة السموم من الشعر", "cat-metal-desc": "شامبو وقناع للعناية المضادة للمعادن وإزالة الرواسب المعدنية والتلوث المتراكم", "spec-metal": "المحتوى: 500 مل",
+        "cat-prog-cat": "تنعيم حراري", "cat-prog-desc": "تقنية نانو-تغذوية نخبوية للتنعيم والترطيب المتقدم واللمعان كالمرآة", "spec-prog": "المحتوى: 1000 مل",
+        "cat-cronmask-cat": "روتين العناية بالشعر", "cat-cronmask-desc": "مجموعة علاج مكثف لترطيب الشعر وتغذيته وإعادة بنائه", "spec-cronmask": "المحتوى: 3 × 500 غرام",
+        "cat-cronshamp-cat": "روتين العناية بالشعر", "cat-cronshamp-desc": "شامبو تحضيري لتنظيف متوازن ضمن روتين العناية بالشعر", "spec-cronshamp": "المحتوى: 1000 مل",
+        "cat-metal-cat": "تنقية الشعر", "cat-metal-desc": "شامبو وقناع يساعدان على إزالة الرواسب المعدنية وآثار التلوث المتراكمة في ألياف الشعر", "spec-metal": "المحتوى: 500 مل",
         metalShampooTitle: "BRIO METAL FREE — شامبو", metalShampooDesc: "شامبو لإزالة الرواسب المعدنية والتلوث المتراكم في ألياف الشعر.",
-        metalMaskTitle: "BRIO METAL FREE — قناع", metalMaskDesc: "قناع علاجي متقدم لتكملة العناية المضادة للمعادن من BRIO METAL FREE.",
-        "cat-recov-cat": "استعادة الحيوية", "cat-recov-desc": "علاج ملتئم ومجدد لألياف الشعر التالفة", "spec-recov": "المحتوى: 500 جرام",
-        "cat-selva-cat": "الحيوية والقوة", "cat-selva-desc": "تونيك لتنشيط فروة الرأس وتجديد قوة الشعر", "spec-selva": "المحتوى: 250 مل",
+        metalMaskTitle: "BRIO METAL FREE — قناع", metalMaskDesc: "قناع علاجي متقدم لإكمال روتين BRIO METAL FREE.",
+        "cat-recov-cat": "استعادة الحيوية", "cat-recov-desc": "علاج مُرمِّم ومُجدِّد لألياف الشعر التالفة", "spec-recov": "المحتوى: 500 غرام",
+        "cat-selva-cat": "القوة والحيوية", "cat-selva-desc": "تونيك ينعش فروة الرأس ويساعد على تقوية الشعر", "spec-selva": "المحتوى: 250 مل",
         "cat-trama-cat": "النسيج والمرونة", "cat-trama-desc": "إعادة بناء عالية الأداء للشعر المطاطي والهش", "spec-trama": "المحتوى: 500 جرام"
       }
     };
@@ -639,7 +656,9 @@
       const t = translations[lang];
 
       document.documentElement.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
-      document.documentElement.setAttribute('lang', lang);
+      document.documentElement.setAttribute('lang', lang === 'pt' ? 'pt-BR' : lang);
+      document.title = t.pageTitle;
+      document.querySelector('meta[name="description"]').content = t.metaDescription;
 
       // Atualiza botões do menu
       document.getElementById('btn-produtos').innerText = t.btnProdutos;
@@ -669,6 +688,11 @@
         if (t[key]) {
           el.innerText = t[key];
         }
+      });
+
+      document.querySelectorAll('[data-translate-aria]').forEach(el => {
+        const label = t[el.getAttribute('data-translate-aria')];
+        if (label) el.setAttribute('aria-label', label);
       });
 
       renderProductsDynamicContent();

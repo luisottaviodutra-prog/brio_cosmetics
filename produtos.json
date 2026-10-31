@@ -5,11 +5,11 @@
       "collection": "Vigor Collection",
       "product_name": "SELVA Tonic",
       "philosophy": {
-        "en": "Inspired by the raw vitality of the Amazon, this tonic is designed to awaken the scalp's potential, promoting a cycle of strength and renewed growth.",
+        "en": "Inspired by the raw vitality of the Amazon, this tonic is designed to awaken the scalp's potential and promote a renewed cycle of strength and vitality.",
         "pt": "Inspirado na vitalidade bruta da Amazônia, este tônico foi criado para despertar o potencial do couro cabeludo, promovendo um ciclo de força e crescimento renovado.",
-        "es": "Inspirado en la vitalidad bruta del Amazonas, este tónico fue creado para despertar el potencial del cuero cabelludo, promoviendo un ciclo de fuerza y crecimiento renovado.",
-        "fr": "Inspiré par la vitalité brute de l'Amazonie, ce tonique a été conçu pour éveiller le potentiel du cuir chevelu, favorisant un cycle de force et de croissance renouvelée.",
-        "ar": "مستوحى من الحيوية الخام للأمازون، صُمم هذا التونيك لإيقاظ إمكانات فروة الرأس، وتعزيز دورة من القوة والنمو المتجدد."
+        "es": "Inspirado en la vitalidad de la Amazonía, este tónico se creó para despertar el potencial del cuero cabelludo y promover un nuevo ciclo de fuerza y vitalidad.",
+        "fr": "Inspiré par la vitalité de l'Amazonie, ce tonique a été conçu pour réveiller le potentiel du cuir chevelu et favoriser un nouveau cycle de force et de vitalité.",
+        "ar": "استلهامًا من حيوية الأمازون، صُمم هذا التونيك لإيقاظ إمكانات فروة الرأس وتعزيز دورة متجددة من القوة والحيوية."
       },
       "professional_ritual": {
         "en": "Apply to a clean, damp scalp. Massage gently with fingertips for one minute to stimulate circulation. Do not rinse. Use daily.",
@@ -34,11 +34,11 @@
       "collection": "Vigor Collection",
       "product_name": "Selva Shampoo (Fortifying)",
       "philosophy": {
-        "en": "Drawing power from the heart of the rainforest, this strengthening shampoo fortifies the hair fiber from within, promoting vitality and resilient growth.",
-        "pt": "Extraindo força do coração da floresta tropical, este shampoo fortificante fortalece a fibra capilar de dentro para fora, promovendo vitalidade e um crescimento resiliente.",
-        "es": "Extrayendo fuerza del corazón de la selva tropical, este champú fortalecedor refuerza la fibra capilar desde el interior, promoviendo vitalidad y un crecimiento resiliente.",
-        "fr": "Tirant sa force du cœur de la forêt tropicale, ce shampooing fortifiant renforce la fibre capillaire de l'intérieur, favorisant vitalité et croissance résiliente.",
-        "ar": "مستوحى من القوة الكامنة في قلب الغابات المطيرة، صُمِّم هذا الشامبو المُقوّي لتقوية ألياف الشعر من الداخل، مما يعزز الحيوية ويمنح الشعر قوةً ونموًا أكثر صحة ومتانة."
+        "en": "Inspired by the strength of the rainforest, this fortifying shampoo helps strengthen the hair fiber and keep hair looking healthy and vibrant.",
+        "pt": "Inspirado na força do coração da floresta tropical, este shampoo fortificante ajuda a fortalecer a fibra capilar e a manter os fios com aparência saudável e cheia de vitalidade.",
+        "es": "Inspirado en la fuerza de la selva tropical, este champú fortificante ayuda a fortalecer la fibra capilar y a mantener el cabello con un aspecto sano y lleno de vitalidad.",
+        "fr": "Inspiré par la force de la forêt tropicale, ce shampooing fortifiant aide à renforcer la fibre capillaire et à préserver des cheveux d'apparence saine et pleine de vitalité.",
+        "ar": "استلهامًا من قوة الغابات المطيرة، يساعد هذا الشامبو المقوي على تعزيز ألياف الشعر والحفاظ على مظهر صحي وحيوي."
       },
       "professional_ritual": {
         "en": "Apply to damp hair. Massage gently until a rich lather forms. Rinse thoroughly. Repeat if necessary for deep cleansing.",
@@ -212,7 +212,7 @@
         "pt": "Uma intervenção de emergência para cabelos frágeis, esta máscara interrompe o efeito 'emborrachado', reconstruindo a força e a elasticidade desde a primeira aplicação.",
         "es": "Una intervención de emergencia para cabellos frágiles, esta mascarilla detiene el efecto 'goma', reconstruyendo la fuerza y la elasticidad desde la primera aplicación.",
         "fr": "Une intervention d'urgence pour les cheveux fragiles, ce masque stoppe l'effet 'caoutchouc', reconstruisant force et élasticité dès la première application.",
-        "ar": "علاجٌ إنقاذي مكثّف صُمِّم للشعر شديد التلف، يساعد على إيقاف تأثير التمدد المطاطي الناتج عن التلف الكيميائي، ويععيد بناء ألياف الشعر بعمق، مسترجعًا قوتها ومرونتها الطبيعية منذ أول استخدام."
+        "ar": "علاج إنقاذي مكثف صُمم للشعر شديد التلف، يساعد على الحد من ملمس الشعر المطاطي الناتج عن المعالجة الكيميائية، ويدعم استعادة قوة ألياف الشعر ومرونتها."
       },
       "professional_ritual": {
         "en": "Apply to damaged areas. Let it act for 10 minutes to deeply reconstruct the fibers. Rinse thoroughly.",
@@ -353,10 +353,10 @@
       "collection": "Biomas Collection",
       "product_name": "Orvalho (Máscara Hidratante / Hydration Mask)",
       "philosophy": {
-        "en": "Inspired by the softness of Brazilian waters, this hydration mask infuses strands with vital moisture, leaving hair silky, light, and perfectly aligned.",
-        "pt": "Inspirada na suavidade das águas brasileiras, esta máscara hidratante infunde os fios com umidade vital, deixando o cabelo sedoso, leve e perfeitamente alinhado.",
-        "es": "Inspirada en la suavidad de las aguas brasileñas, esta mascarilla hidratante infunde los cabellos con humedad vital, dejando el cabello sedoso, ligero y perfectamente alineado.",
-        "fr": "Inspiré par la douceur des eaux brésiliennes, ce masque hydratant infuse les cheveux d'une humidité vitale, les laissant soyeux, légers et parfaitement alignés.",
+        "en": "Inspired by the softness of Brazilian waters, this hydrating mask replenishes moisture, leaving hair silky, light, and smooth.",
+        "pt": "Inspirada na suavidade das águas brasileiras, esta máscara hidratante proporciona hidratação aos fios, deixando o cabelo sedoso, leve e alinhado.",
+        "es": "Inspirada en la suavidad de las aguas brasileñas, esta mascarilla hidratante aporta hidratación y deja el cabello sedoso, ligero y suave.",
+        "fr": "Inspiré par la douceur des eaux brésiliennes, ce masque hydratant aide à préserver l'hydratation et laisse les cheveux soyeux, légers et lisses.",
         "ar": "يستلهم هذا القناع المرطّب نعومته من نقاء المياه البرازيلية، ليغمر ألياف الشعر بترطيبٍ عميق يعيد إليها الحيوية، ويمنحها ملمسًا حريريًا، وخفةً طبيعية، وانسيابيةً تنبض بالأناقة."
       },
       "professional_ritual": {
@@ -382,8 +382,8 @@
       "collection": "Trama Collection",
       "product_name": "Trama Shampoo (Toque Macio / Soft Touch)",
       "philosophy": {
-        "en": "A sophisticated repair and nutrition shampoo that gently cleanses while enveloping the hair in a veil of softness, preparing the fiber for deep reconstruction.",
-        "pt": "Um shampoo de reparação e nutrição sofisticado que limpa suavemente enquanto envolve o cabelo num véu de maciez, preparando a fibra para a reconstrução profunda.",
+        "en": "A sophisticated repairing and nourishing shampoo that gently cleanses, envelops the hair in softness, and prepares the fiber for deep reconstruction.",
+        "pt": "Um shampoo sofisticado de reparação e nutrição que limpa suavemente, envolve os fios em um véu de maciez e prepara a fibra para uma reconstrução profunda.",
         "es": "Un sofisticado champú de reparación y nutrición que limpia suavemente mientras envuelve el cabello en un velo de suavidad, preparando la fibra para una reconstrucción profunda.",
         "fr": "Un shampooing réparateur et nourrissant sophistiqué qui nettoie en douceur tout en enveloppant les cheveux d'un voile de douceur, préparant la fibre à une reconstruction en profondeur.",
         "ar": "شامبو متطور يجمع بين الإصلاح والتغذية، ينقّي الشعر بلطف بينما يكسو أليافه بملمسٍ حريري فائق النعومة، مهيئًا إياها لاستقبال علاجات إعادة البناء العميقة، ليمنح الشعر مظهرًا صحيًا وحيويةً تدوم."
@@ -415,7 +415,7 @@
         "pt": "Apresentando a nossa tecnologia exclusiva 'Efeito Teia', esta máscara oferece nutrição intensiva e elasticidade, devolvendo força a cada fio.",
         "es": "Con nuestra tecnología exclusiva 'Efeito Teia' (efecto tela de araña), esta mascarilla ofrece nutrición intensiva y elasticidad, devolviendo la fuerza a cada hebra.",
         "fr": "Doté de notre technologie exclusive 'Efeito Teia' (effet toile d'araignée), ce masque offre une nutrition intensive et de l'élasticité, redonnant force à chaque mèche.",
-        "ar": "يعتمد هذا القناع على تقنية بريو الحصرية ذو التأثير العنكبوتي، التي تمنح الشعر تغذيةً مكثفة ومرونةً استثنائية، لتعيد بناء أليافه وتنسج القوة في كل خصلة، فيبدو أكثر تماسكًا وصحةً وحيوية."
+        "ar": "يعتمد هذا القناع على تقنية BRIO الحصرية ذات التأثير الشبيه بشبكة العنكبوت، ليمنح الشعر تغذية مكثفة ومرونة، ويدعم قوة أليافه ومظهرها الصحي."
       },
       "professional_ritual": {
         "en": "After shampooing, apply the mask to damp hair. Massage the lengths using the 'spiderweb' technique to activate the formula. Leave for 10 minutes. Rinse thoroughly.",
