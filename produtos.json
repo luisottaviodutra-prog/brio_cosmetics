@@ -5,11 +5,11 @@
       "collection": "Vigor Collection",
       "product_name": "SELVA Tonic",
       "philosophy": {
-        "en": "Inspired by the raw vitality of the Amazon, this tonic is crafted to awaken the scalp's potential, fostering a cycle of strength and renewed growth.",
+        "en": "Inspired by the raw vitality of the Amazon, this tonic is designed to awaken the scalp's potential, promoting a cycle of strength and renewed growth.",
         "pt": "Inspirado na vitalidade bruta da Amazônia, este tônico foi criado para despertar o potencial do couro cabeludo, promovendo um ciclo de força e crescimento renovado.",
-        "es": "Inspirado en la vitalidad bruta del Amazonas, este tónico está diseñado para despertar el potencial del cuero cabelludo, fomentando un ciclo de fuerza y crecimiento renovado.",
-        "fr": "Inspiré par la vitalité brute de l'Amazonie, ce tonique est conçu pour réveiller le potentiel du cuir chevelu, favorisant un cycle de force et une croissance renouvelée.",
-        "ar": "مستوحى من الطاقة الحيوية الخام لغابات الأمازون، صُمِّم هذا التونيك لإيقاظ الإمكانات الطبيعية لفروة الرأس، ودعم دورة متواصلة من القوة والتجدد والنمو الصحي."
+        "es": "Inspirado en la vitalidad bruta del Amazonas, este tónico fue creado para despertar el potencial del cuero cabelludo, promoviendo un ciclo de fuerza y crecimiento renovado.",
+        "fr": "Inspiré par la vitalité brute de l'Amazonie, ce tonique a été conçu pour éveiller le potentiel du cuir chevelu, favorisant un cycle de force et de croissance renouvelée.",
+        "ar": "مستوحى من الحيوية الخام للأمازون، صُمم هذا التونيك لإيقاظ إمكانات فروة الرأس، وتعزيز دورة من القوة والنمو المتجدد."
       },
       "professional_ritual": {
         "en": "Apply to a clean, damp scalp. Massage gently with fingertips for one minute to stimulate circulation. Do not rinse. Use daily.",
@@ -433,6 +433,118 @@
       },
       "ingredients_inci": [
         "Aqua", "Cetearyl Alcohol", "Stearamidopropyl Dimethylamine", "Cetrimonium Chloride", "Polyquaternium-7", "Parfum", "Ricinus Communis Seed Oil", "Astrocaryum Murumuru Seed Butter", "Dimethicone", "Bambusa Vulgaris Extract", "Amodimethicone", "Hydrolyzed Wheat Protein", "Trideceth-12", "Lactic Acid", "Phenoxyethanol"
+      ]
+    },
+    {
+      "id": "ouro-da-terra-argan-serum",
+      "collection": "Brio Collection",
+      "product_name": "GOLD OF THE EARTH (Ouro da Terra - Argan Oil Serum)",
+      "philosophy": {
+        "en": "Liquid gold for the hair. Instant luminous finish, taming unruly strands and sealing the cuticle with sophisticated shine.",
+        "pt": "Ouro líquido para o cabelo. Acabamento luminoso instantâneo, domando fios rebeldes e selando a cutícula com brilho sofisticado.",
+        "es": "Oro líquido para el cabello. Acabado luminoso instantáneo, que doma los mechones rebeldes y sella la cutícula con un brillo sofisticado.",
+        "fr": "De l'or liquide pour les cheveux. Une finition lumineuse instantanée qui dompte les mèches rebelles et scelle la cuticule avec une brillance sophistiquée.",
+        "ar": "ذهب سائل للشعر. لمسة نهائية مضيئة فورًا، تروض الخصلات المتمردة وتغلق طبقة الشعر بلمعان راقٍ."
+      },
+      "professional_ritual": {
+        "en": "Apply a few drops to the palms and distribute through the lengths and ends. Use on damp or dry hair for a finishing shine.",
+        "pt": "Aplique gotas nas palmas e distribua no comprimento/pontas. Use em cabelos úmidos ou secos para brilho final.",
+        "es": "Aplique unas gotas en las palmas y distribuya de medios a puntas. Úselo sobre el cabello húmedo o seco para un brillo final.",
+        "fr": "Déposez quelques gouttes dans les paumes et répartissez sur les longueurs et les pointes. Utilisez sur cheveux humides ou secs pour apporter la touche finale de brillance.",
+        "ar": "ضع بضع قطرات في راحتي اليدين ووزعها على الأطوال والأطراف. يُستخدم على الشعر الرطب أو الجاف لإضفاء اللمعان النهائي."
+      },
+      "active_technology": "Argan Oil Serum",
+      "professional_use": {
+        "en": "External use. Keep in a cool, dry place.",
+        "pt": "Uso externo. Mantenha em local fresco e seco.",
+        "es": "Uso externo. Manténgase en un lugar fresco y seco.",
+        "fr": "Usage externe. Conserver dans un endroit frais et sec."
+      },
+      "ingredients_inci": [
+        "Dimethicone", "Cyclopentasiloxane", "Argania Spinosa Kernel Oil", "Parfum"
+      ]
+    },
+    {
+      "id": "brio-metal-free-shampoo",
+      "collection": "Brio Metal Free Collection",
+      "product_name": "BRIO METAL FREE Shampoo",
+      "philosophy": {
+        "en": "Daily exposure to water and environmental agents can leave invisible metal particles accumulated in the hair fiber. BRIO METAL FREE helps remove these residues, restoring softness, shine, and strength to the hair.",
+        "pt": "A exposição diária à água e aos agentes ambientais pode deixar partículas invisíveis de metais acumuladas na fibra capilar. BRIO METAL FREE ajuda a remover esses resíduos, restaurando a maciez, o brilho e a força dos fios.",
+        "es": "La exposición diaria al agua y a los agentes ambientales puede dejar partículas metálicas invisibles acumuladas en la fibra capilar. BRIO METAL FREE ayuda a eliminar estos residuos y a restaurar la suavidad, el brillo y la fuerza del cabello.",
+        "fr": "L'exposition quotidienne à l'eau et aux agents environnementaux peut laisser des particules métalliques invisibles accumulées dans la fibre capillaire. BRIO METAL FREE aide à éliminer ces résidus et à restaurer la douceur, la brillance et la force des cheveux.",
+        "ar": "قد يؤدي التعرض اليومي للماء والعوامل البيئية إلى تراكم جسيمات معدنية غير مرئية في ألياف الشعر. يساعد BRIO METAL FREE على إزالة هذه الرواسب واستعادة نعومة الشعر ولمعانه وقوته."
+      },
+      "professional_ritual": {
+        "en": "Apply to wet hair. Massage gently until a rich lather forms. Rinse thoroughly.",
+        "pt": "Aplique no cabelo molhado. Massageie suavemente até formar uma espuma rica. Enxágue abundantemente.",
+        "es": "Aplique sobre el cabello mojado. Masajee suavemente hasta formar una espuma abundante. Enjuague bien.",
+        "fr": "Appliquez sur cheveux mouillés. Massez délicatement jusqu'à obtenir une mousse généreuse. Rincez abondamment.",
+        "ar": "يوضع على الشعر المبلل. يُدلّك بلطف حتى تتكون رغوة غنية. يُشطف جيدًا."
+      },
+      "active_technology": "BRIO METAL FREE Advanced Anti-Metal Care",
+      "professional_use": {
+        "en": "External use. Keep in a cool, dry place.",
+        "pt": "Uso externo. Mantenha em local fresco e seco.",
+        "es": "Uso externo. Manténgase en un lugar fresco y seco.",
+        "fr": "Usage externe. Conserver dans un endroit frais et sec."
+      },
+      "ingredients_inci": []
+    },
+    {
+      "id": "brio-metal-free-mask",
+      "collection": "Brio Metal Free Collection",
+      "product_name": "BRIO METAL FREE Mask",
+      "philosophy": {
+        "en": "Developed to complement the BRIO METAL FREE ritual, this advanced treatment mask helps neutralize residual metal particles while deeply nourishing the hair fiber.",
+        "pt": "Desenvolvida para complementar o ritual BRIO METAL FREE, esta máscara de tratamento avançado ajuda a neutralizar partículas metálicas residuais enquanto nutre profundamente a fibra capilar.",
+        "es": "Desarrollada para complementar el ritual BRIO METAL FREE, esta mascarilla de tratamiento avanzado ayuda a neutralizar las partículas metálicas residuales mientras nutre profundamente la fibra capilar.",
+        "fr": "Conçu pour compléter le rituel BRIO METAL FREE, ce masque de soin avancé aide à neutraliser les particules métalliques résiduelles tout en nourrissant intensément la fibre capillaire.",
+        "ar": "طُوّر هذا القناع العلاجي المتقدم لتكملة طقوس BRIO METAL FREE، ويساعد على معادلة الجسيمات المعدنية المتبقية مع تغذية ألياف الشعر بعمق."
+      },
+      "professional_ritual": {
+        "en": "After shampooing, apply a generous amount to the lengths and ends. Leave on for 5 to 10 minutes. Rinse thoroughly.",
+        "pt": "Após o shampoo, aplique uma quantidade generosa no comprimento e pontas. Deixe agir por 5 a 10 minutos. Enxágue abundantemente.",
+        "es": "Después del champú, aplique una cantidad generosa de medios a puntas. Deje actuar de 5 a 10 minutos. Enjuague bien.",
+        "fr": "Après le shampooing, appliquez une quantité généreuse sur les longueurs et les pointes. Laissez agir de 5 à 10 minutes. Rincez abondamment.",
+        "ar": "بعد استخدام الشامبو، توضع كمية وفيرة على أطوال الشعر وأطرافه. تُترك لمدة 5 إلى 10 دقائق. يُشطف الشعر جيدًا."
+      },
+      "active_technology": "BRIO METAL FREE Advanced Anti-Metal Care",
+      "professional_use": {
+        "en": "External use. Keep in a cool, dry place.",
+        "pt": "Uso externo. Mantenha em local fresco e seco.",
+        "es": "Uso externo. Manténgase en un lugar fresco y seco.",
+        "fr": "Usage externe. Conserver dans un endroit frais et sec."
+      },
+      "ingredients_inci": []
+    },
+    {
+      "id": "alva-nutritive-realignment",
+      "collection": "Brio Progressive Collection",
+      "product_name": "ALVA (Nutritive Realignment)",
+      "philosophy": {
+        "en": "An elite nano-nutritive technology that redefines the structure of the hair fiber. Alva delivers superior smoothing performance while saturating every strand with advanced hydration and mirror-like shine.",
+        "pt": "Uma tecnologia nano-nutritiva de elite que redefine a estrutura da fibra capilar. Alva oferece um desempenho de alisamento superior enquanto satura cada fio com hidratação avançada e brilho espelhado.",
+        "es": "Una tecnología nano-nutritiva de élite que redefine la estructura de la fibra capilar. Alva ofrece un rendimiento de alisado superior mientras satura cada hebra con hidratación avanzada y brillo espejo.",
+        "fr": "Une technologie nano-nutritive d'élite qui redéfinit la structure de la fibre capillaire. Alva offre une performance de lissage supérieure tout en saturant chaque mèche d'hydratation avancée et d'une brillance miroir.",
+        "ar": "تقنية نانو-تغذوية نخبوية تعيد تعريف بنية ألياف الشعر. يقدم Alva أداءً فائقًا في التنعيم مع إشباع كل خصلة بترطيب متقدم ولمعان كالمرآة."
+      },
+      "professional_ritual": {
+        "en": "After cleansing with Purity, dry the hair to 80%. Apply Alva section by section, starting at the nape. Leave on for 40 to 60 minutes. Rinse partially, dry completely, and flat iron in fine sections to seal the cuticle.",
+        "pt": "Após a limpeza com Purity, seque 80%. Aplique Alva mecha a mecha, começando pela nuca. Deixe agir por 40 a 60 minutos. Enxágue parcialmente, seque totalmente e pranche em mechas finas para selar a cutícula.",
+        "es": "Después de limpiar con Purity, seque el cabello al 80%. Aplique Alva mechón por mechón, comenzando por la nuca. Deje actuar de 40 a 60 minutos. Enjuague parcialmente, seque por completo y planche en mechones finos para sellar la cutícula.",
+        "fr": "Après le nettoyage avec Purity, séchez les cheveux à 80 %. Appliquez Alva mèche par mèche, en commençant par la nuque. Laissez agir de 40 à 60 minutes. Rincez partiellement, séchez complètement et lissez en fines mèches pour sceller la cuticule.",
+        "ar": "بعد التنظيف باستخدام Purity، يُجفف الشعر بنسبة 80٪. يُوزع Alva خصلةً تلو الأخرى، بدءًا من مؤخرة الرأس. يُترك لمدة 40 إلى 60 دقيقة. يُشطف جزئيًا، ثم يُجفف تمامًا ويُكوى بخصلات رفيعة لإغلاق طبقة الشعر."
+      },
+      "active_technology": "Elite Nano-Nutritive Smoothing Technology",
+      "professional_use": {
+        "en": "Professional use only. External use. Store in a cool, dry place.",
+        "pt": "Uso profissional. Uso externo. Mantenha em local fresco e seco.",
+        "es": "Uso profesional. Uso externo. Manténgase en un lugar fresco y seco.",
+        "fr": "Usage professionnel. Usage externe. Conserver dans un endroit frais et sec."
+      },
+      "ingredients_inci": [
+        "Aqua", "Cetearyl Alcohol", "Cetrimonium Chloride", "Glycerin", "Guar Hydroxypropyltrimonium Chloride", "Dimethicone", "Parfum", "Butyrospermum Parkii Butter", "Paraffinum Liquidum", "Hydrolyzed Wheat Protein", "Argania Spinosa Kernel Oil", "Glyoxylic Acid", "Hyaluronic Acid", "Phenoxyethanol"
       ]
     }
   ]

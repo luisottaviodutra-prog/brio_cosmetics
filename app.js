@@ -144,7 +144,9 @@ function renderProductDetails() {
     const ingredients = createTextElement(
       "div",
       "inci-list",
-      product.ingredients_inci.join(", ")
+      product.ingredients_inci.length
+        ? product.ingredients_inci.join(", ")
+        : currentTranslations.inciUnavailable
     );
     details.append(inciHeading, ingredients);
     container.replaceChildren(details);

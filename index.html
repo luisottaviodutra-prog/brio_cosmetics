@@ -30,7 +30,8 @@
           <a href="#prod-progressiva" data-translate="progTitle" onclick="navigateToProduct('prod-progressiva', event)">PROGRESSIVA</a>
           <a href="#prod-cron-mascaras" onclick="navigateToProduct('prod-cron-mascaras', event)">CRONOGRAMA MÁSCARAS</a>
           <a href="#prod-cron-shampoo" onclick="navigateToProduct('prod-cron-shampoo', event)">CRONOGRAMA SHAMPOO</a>
-          <a href="#prod-metal-free" onclick="navigateToProduct('prod-metal-free', event)">METAL FREE</a>
+          <a href="#prod-metal-free" onclick="navigateToProduct('prod-metal-free', event)">METAL FREE — SHAMPOO</a>
+          <a href="#prod-metal-free-mask" onclick="navigateToProduct('prod-metal-free-mask', event)">METAL FREE — MÁSCARA</a>
           <a href="#prod-recovery" onclick="navigateToProduct('prod-recovery', event)">RECOVERY CICLO</a>
           <a href="#prod-selva" onclick="navigateToProduct('prod-selva', event)">SELVA VIGOR</a>
           <a href="#prod-trama" onclick="navigateToProduct('prod-trama', event)">TRAMA</a>
@@ -100,7 +101,7 @@
           <img src="images/ouro-da-terra.jpg" alt="Ouro da Terra">
           <div class="product-category" data-translate="cat-ouro-cat">Tratamento & Finalização</div>
           <h2 class="product-title">OURO DA TERRA</h2>
-          <p class="product-desc" data-translate="cat-ouro-desc">Óleo de Argan Puro com Ação Nutritiva e Brilho Espelhado</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
+          <p class="product-desc" data-translate="cat-ouro-desc">Sérum de óleo de argan com acabamento luminoso instantâneo</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
         </a>
 
         <a class="catalog-card" data-category="treatment" href="#prod-shield" onclick="navigateToProduct('prod-shield', event)">
@@ -114,7 +115,7 @@
           <img src="images/progressiva.jpg" alt="Progressiva">
           <div class="product-category" data-translate="cat-prog-cat">Alinhamento Térmico</div>
           <h2 class="product-title" data-translate="progTitle">PROGRESSIVA</h2>
-          <p class="product-desc" data-translate="cat-prog-desc">Sistema de Redução de Volume e Alisamento de Alta Performance</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
+          <p class="product-desc" data-translate="cat-prog-desc">Tecnologia nano-nutritiva de elite para alisamento, hidratação avançada e brilho espelhado</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
         </a>
 
         <a class="catalog-card" data-category="treatment" href="#prod-cron-mascaras" onclick="navigateToProduct('prod-cron-mascaras', event)">
@@ -134,8 +135,15 @@
         <a class="catalog-card" data-category="treatment" href="#prod-metal-free" onclick="navigateToProduct('prod-metal-free', event)">
           <img src="images/metal-free.jpg" alt="Metal Free">
           <div class="product-category" data-translate="cat-metal-cat">Desintoxicação Capilar</div>
-          <h2 class="product-title">METAL FREE</h2>
-          <p class="product-desc" data-translate="cat-metal-desc">Removedor de Metais Pesados e Resíduos Acumulados</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
+          <h2 class="product-title" data-translate="metalShampooTitle">BRIO METAL FREE — SHAMPOO</h2>
+          <p class="product-desc" data-translate="metalShampooDesc">Shampoo para remoção de resíduos metálicos e poluição acumulados na fibra capilar.</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
+        </a>
+
+        <a class="catalog-card" data-category="treatment" href="#prod-metal-free-mask" onclick="navigateToProduct('prod-metal-free-mask', event)">
+          <img src="images/metal-free.jpg" alt="Metal Free Mask">
+          <div class="product-category" data-translate="cat-metal-cat">Desintoxicação Capilar</div>
+          <h2 class="product-title" data-translate="metalMaskTitle">BRIO METAL FREE — MÁSCARA</h2>
+          <p class="product-desc" data-translate="metalMaskDesc">Máscara de tratamento avançado para complementar o cuidado antimetais BRIO METAL FREE.</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
         </a>
 
         <a class="catalog-card" data-category="recovery" href="#prod-recovery" onclick="navigateToProduct('prod-recovery', event)">
@@ -149,7 +157,7 @@
           <img src="images/selva-vigor.jpg" alt="Selva Vigor">
           <div class="product-category" data-translate="cat-selva-cat">Vigor & Força</div>
           <h2 class="product-title">SELVA VIGOR</h2>
-          <p class="product-desc" data-translate="cat-selva-desc">Tônico e Tratamento Energizante com Extratos Botânicos da Selva</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
+          <p class="product-desc" data-translate="cat-selva-desc">Tônico para revitalização do couro cabeludo e força capilar</p><span class="card-link"><span data-translate="detailsLink">Ver detalhes</span> <span>↗</span></span>
         </a>
 
         <a class="catalog-card" data-category="recovery" href="#prod-trama" onclick="navigateToProduct('prod-trama', event)">
@@ -181,10 +189,10 @@
           <div class="product-dynamic-content"></div>
         </div>
 
-        <div class="product-text-card" id="prod-ouro" data-json-id="brio-bruma">
+        <div class="product-text-card" id="prod-ouro" data-json-id="ouro-da-terra-argan-serum">
           <div class="product-category" data-translate="cat-ouro-cat">Tratamento & Finalização</div>
           <h2 class="product-title">OURO DA TERRA</h2>
-          <p class="product-desc" data-translate="cat-ouro-desc">Óleo de Argan Puro com Ação Nutritiva e Brilho Espelhado</p>
+          <p class="product-desc" data-translate="cat-ouro-desc">Sérum de óleo de argan com acabamento luminoso instantâneo</p>
           <div class="product-spec" data-translate="spec-ouro">Conteúdo: 60ml</div>
           <div class="product-dynamic-content"></div>
         </div>
@@ -197,11 +205,11 @@
           <div class="product-dynamic-content"></div>
         </div>
 
-        <div class="product-text-card" id="prod-progressiva" data-json-id="brio-prisma-hair-filler">
+        <div class="product-text-card" id="prod-progressiva" data-json-id="alva-nutritive-realignment">
           <span class="product-tag" data-translate="tag-prof">Uso Profissional</span>
           <div class="product-category" data-translate="cat-prog-cat">Alinhamento Térmico</div>
           <h2 class="product-title" data-translate="progTitle">PROGRESSIVA</h2>
-          <p class="product-desc" data-translate="cat-prog-desc">Sistema de Redução de Volume e Alisamento de Alta Performance</p>
+          <p class="product-desc" data-translate="cat-prog-desc">Tecnologia nano-nutritiva de elite para alisamento, hidratação avançada e brilho espelhado</p>
           <div class="product-spec" data-translate="spec-prog">Conteúdo: 1000ml</div>
           <div class="product-dynamic-content"></div>
         </div>
@@ -222,11 +230,18 @@
           <div class="product-dynamic-content"></div>
         </div>
 
-        <div class="product-text-card" id="prod-metal-free" data-json-id="recovery-resgate-mask">
+        <div class="product-text-card" id="prod-metal-free" data-json-id="brio-metal-free-shampoo">
           <div class="product-category" data-translate="cat-metal-cat">Desintoxicação Capilar</div>
-          <h2 class="product-title">METAL FREE</h2>
-          <p class="product-desc" data-translate="cat-metal-desc">Removedor de Metais Pesados e Resíduos Acumulados</p>
+          <h2 class="product-title" data-translate="metalShampooTitle">BRIO METAL FREE — SHAMPOO</h2>
+          <p class="product-desc" data-translate="metalShampooDesc">Shampoo para remoção de resíduos metálicos e poluição acumulados na fibra capilar.</p>
           <div class="product-spec" data-translate="spec-metal">Conteúdo: 500ml</div>
+          <div class="product-dynamic-content"></div>
+        </div>
+
+        <div class="product-text-card" id="prod-metal-free-mask" data-json-id="brio-metal-free-mask">
+          <div class="product-category" data-translate="cat-metal-cat">Desintoxicação Capilar</div>
+          <h2 class="product-title" data-translate="metalMaskTitle">BRIO METAL FREE — MÁSCARA</h2>
+          <p class="product-desc" data-translate="metalMaskDesc">Máscara de tratamento avançado para complementar o cuidado antimetais BRIO METAL FREE.</p>
           <div class="product-dynamic-content"></div>
         </div>
 
@@ -242,7 +257,7 @@
         <div class="product-text-card" id="prod-selva" data-json-id="vigor-selva-tonic">
           <div class="product-category" data-translate="cat-selva-cat">Vigor & Força</div>
           <h2 class="product-title">SELVA VIGOR</h2>
-          <p class="product-desc" data-translate="cat-selva-desc">Tônico e Tratamento Energizante com Extratos Botânicos da Selva</p>
+          <p class="product-desc" data-translate="cat-selva-desc">Tônico para revitalização do couro cabeludo e força capilar</p>
           <div class="product-spec" data-translate="spec-selva">Conteúdo: 250ml</div>
           <div class="product-dynamic-content"></div>
         </div>
@@ -356,7 +371,7 @@
             
             <h4>${tLabels.labelInci}:</h4>
             <div class="inci-list">
-              ${product.ingredients_inci.join(', ')}
+              ${product.ingredients_inci.length ? product.ingredients_inci.join(', ') : t.inciUnavailable}
             </div>
           </div>
         `;
@@ -434,17 +449,19 @@
         contactTitle: "ENTRE EM CONTATO",
         contactBody: "Fale conosco através dos nossos canais oficiais de atendimento:",
         footerRights: "© 2026 BRIO. Todos os direitos reservados.",
-        labelPhilosophy: "Filosofia", labelRitual: "Ritual Profissional", labelTech: "Tecnologia Ativa", labelInci: "Ingredientes (INCI)",
+        labelPhilosophy: "Filosofia", labelRitual: "Ritual Profissional", labelTech: "Tecnologia Ativa", labelInci: "Ingredientes (INCI)", inciUnavailable: "INCI não informado na documentação fornecida.",
         "tag-prof": "Uso Profissional", "tag-recov": "Recovery",
         "cat-prisma-cat": "Alinhamento Capilar", "cat-prisma-desc": "Máscara de Alinhamento & Complexo de Enchimento de Fibra Avançado", "spec-prisma": "Conteúdo: 1000g",
-        "cat-ouro-cat": "Tratamento & Finalização", "cat-ouro-desc": "Óleo de Argan Puro com Ação Nutritiva e Brilho Espelhado", "spec-ouro": "Conteúdo: 60ml",
+        "cat-ouro-cat": "Tratamento & Finalização", "cat-ouro-desc": "Sérum de óleo de argan com acabamento luminoso instantâneo", "spec-ouro": "Conteúdo: 60ml",
         "cat-shield-cat": "Proteção Térmica", "cat-shield-desc": "Escudo Térmico, Proteção UV e Reconstrução Profunda 10-em-1", "spec-shield": "Conteúdo: 300ml",
-        "cat-prog-cat": "Alinhamento Térmico", "cat-prog-desc": "Sistema de Redução de Volume e Alisamento de Alta Performance", "spec-prog": "Conteúdo: 1000ml",
+        "cat-prog-cat": "Alinhamento Térmico", "cat-prog-desc": "Tecnologia nano-nutritiva de elite para alisamento, hidratação avançada e brilho espelhado", "spec-prog": "Conteúdo: 1000ml",
         "cat-cronmask-cat": "Cronograma Capilar", "cat-cronmask-desc": "Kit de Tratamento Intensivo: Hidratação, Nutrição e Reconstrução", "spec-cronmask": "Conteúdo: Kit 3x 500g",
         "cat-cronshamp-cat": "Cronograma Capilar", "cat-cronshamp-desc": "Shampoo Preparatório e de Limpeza Equilibrada para Cronograma", "spec-cronshamp": "Conteúdo: 1000ml",
-        "cat-metal-cat": "Desintoxicação Capilar", "cat-metal-desc": "Removedor de Metais Pesados e Resíduos Acumulados", "spec-metal": "Conteúdo: 500ml",
+        "cat-metal-cat": "Desintoxicação Capilar", "cat-metal-desc": "Shampoo e máscara para cuidado antimetais e remoção de resíduos metálicos e poluição acumulados", "spec-metal": "Conteúdo: 500ml",
+        metalShampooTitle: "BRIO METAL FREE — SHAMPOO", metalShampooDesc: "Shampoo para remoção de resíduos metálicos e poluição acumulados na fibra capilar.",
+        metalMaskTitle: "BRIO METAL FREE — MÁSCARA", metalMaskDesc: "Máscara de tratamento avançado para complementar o cuidado antimetais BRIO METAL FREE.",
         "cat-recov-cat": "Recovery", "cat-recov-desc": "Tratamento Cicatrizante e Regenerador da Fibra Capilar Danificada", "spec-recov": "Conteúdo: 500g",
-        "cat-selva-cat": "Vigor & Força", "cat-selva-desc": "Tônico e Tratamento Energizante com Extratos Botânicos da Selva", "spec-selva": "Conteúdo: 250ml",
+        "cat-selva-cat": "Vigor & Força", "cat-selva-desc": "Tônico para revitalização do couro cabeludo e força capilar", "spec-selva": "Conteúdo: 250ml",
         "cat-trama-cat": "Trama & Elasticidade", "cat-trama-desc": "Reconstrução de Altíssima Performance para Fios Elásticos e Quebradiços", "spec-trama": "Conteúdo: 500g"
       },
       en: {
@@ -474,17 +491,19 @@
         contactTitle: "GET IN TOUCH",
         contactBody: "Contact us through our official service channels:",
         footerRights: "© 2026 BRIO. All rights reserved.",
-        labelPhilosophy: "Philosophy", labelRitual: "Professional Ritual", labelTech: "Active Technology", labelInci: "Ingredients (INCI)",
+        labelPhilosophy: "Philosophy", labelRitual: "Professional Ritual", labelTech: "Active Technology", labelInci: "Ingredients (INCI)", inciUnavailable: "INCI not provided in the supplied documentation.",
         "tag-prof": "Professional Use", "tag-recov": "Recovery",
         "cat-prisma-cat": "Hair Alignment", "cat-prisma-desc": "Alignment Mask & Advanced Fiber Filling Complex", "spec-prisma": "Content: 1000g",
-        "cat-ouro-cat": "Treatment & Finishing", "cat-ouro-desc": "Pure Argan Oil with Nourishing Action and Mirrored Shine", "spec-ouro": "Content: 60ml",
+        "cat-ouro-cat": "Treatment & Finishing", "cat-ouro-desc": "Argan oil serum with an instant luminous finish", "spec-ouro": "Content: 60ml",
         "cat-shield-cat": "Thermal Protection", "cat-shield-desc": "Thermal Shield, UV Protection, and 10-in-1 Deep Reconstruction", "spec-shield": "Content: 300ml",
-        "cat-prog-cat": "Hair Smoothing Treatment", "cat-prog-desc": "High-performance hair-smoothing system for volume reduction and sleek, smooth results", "spec-prog": "Content: 1000ml",
+        "cat-prog-cat": "Hair Smoothing Treatment", "cat-prog-desc": "Elite nano-nutritive technology for smoothing, advanced hydration, and mirror-like shine", "spec-prog": "Content: 1000ml",
         "cat-cronmask-cat": "Hair Schedule", "cat-cronmask-desc": "Intensive Treatment Kit: Hydration, Nutrition, and Reconstruction", "spec-cronmask": "Content: Kit 3x 500g",
         "cat-cronshamp-cat": "Hair Schedule", "cat-cronshamp-desc": "Preparatory and Balanced Cleansing Shampoo for Hair Schedule", "spec-cronshamp": "Content: 1000ml",
-        "cat-metal-cat": "Hair Detox", "cat-metal-desc": "Heavy Metals and Accumulated Residue Remover", "spec-metal": "Content: 500ml",
+        "cat-metal-cat": "Hair Detox", "cat-metal-desc": "Shampoo and mask for anti-metal care and removal of accumulated metal residues and pollution", "spec-metal": "Content: 500ml",
+        metalShampooTitle: "BRIO METAL FREE — SHAMPOO", metalShampooDesc: "Shampoo to remove accumulated metal residues and pollution from the hair fiber.",
+        metalMaskTitle: "BRIO METAL FREE — MASK", metalMaskDesc: "Advanced treatment mask to complement BRIO METAL FREE anti-metal care.",
         "cat-recov-cat": "Recovery", "cat-recov-desc": "Healing and Regenerating Treatment for Damaged Hair Fiber", "spec-recov": "Content: 500g",
-        "cat-selva-cat": "Vigor & Strength", "cat-selva-desc": "Tonic and Energizing Treatment with Jungle Botanical Extracts", "spec-selva": "Content: 250ml",
+        "cat-selva-cat": "Vigor & Strength", "cat-selva-desc": "Scalp-revitalizing tonic for renewed hair strength", "spec-selva": "Content: 250ml",
         "cat-trama-cat": "Web & Elasticity", "cat-trama-desc": "Ultra-High Performance Reconstruction for Elastic and Brittle Hair", "spec-trama": "Content: 500g"
       },
       es: {
@@ -514,17 +533,19 @@
         contactTitle: "CONTÁCTANOS",
         contactBody: "Ponte en contacto con nosotros a través de nuestros canales oficiales:",
         footerRights: "© 2026 BRIO. Todos los derechos reservados.",
-        labelPhilosophy: "Filosofía", labelRitual: "Ritual Profesional", labelTech: "Tecnología Activa", labelInci: "Ingredientes (INCI)",
+        labelPhilosophy: "Filosofía", labelRitual: "Ritual Profesional", labelTech: "Tecnología Activa", labelInci: "Ingredientes (INCI)", inciUnavailable: "INCI no indicado en la documentación proporcionada.",
         "tag-prof": "Uso Profesional", "tag-recov": "Recovery",
         "cat-prisma-cat": "Alineación Capilar", "cat-prisma-desc": "Mascarilla de Alineación y Complejo Avanzado de Relleno de Fibra", "spec-prisma": "Contenido: 1000g",
-        "cat-ouro-cat": "Tratamiento y Acabado", "cat-ouro-desc": "Aceite de Argán Puro con Acción Nutritiva y Brillo Espejado", "spec-ouro": "Contenido: 60ml",
+        "cat-ouro-cat": "Tratamiento y Acabado", "cat-ouro-desc": "Sérum de aceite de argán con acabado luminoso instantáneo", "spec-ouro": "Contenido: 60ml",
         "cat-shield-cat": "Protección Térmica", "cat-shield-desc": "Escudo Térmico, Protección UV y Reconstrucción Profunda 10 en 1", "spec-shield": "Contenido: 300ml",
-        "cat-prog-cat": "Alineación Térmica", "cat-prog-desc": "Sistema de Reducción de Volumen y Alisado de Alto Rendimiento", "spec-prog": "Contenido: 1000ml",
+        "cat-prog-cat": "Alineación Térmica", "cat-prog-desc": "Tecnología nano-nutritiva de élite para alisar, hidratar en profundidad y aportar brillo espejo", "spec-prog": "Contenido: 1000ml",
         "cat-cronmask-cat": "Cronograma Capilar", "cat-cronmask-desc": "Kit de Tratamiento Intensivo: Hidratación, Nutrición y Reconstrucción", "spec-cronmask": "Contenido: Kit 3x 500g",
         "cat-cronshamp-cat": "Cronograma Capilar", "cat-cronshamp-desc": "Champú Preparatorio y de Limpieza Equilibrada para Cronograma", "spec-cronshamp": "Contenido: 1000ml",
-        "cat-metal-cat": "Desintoxicación Capilar", "cat-metal-desc": "Eliminador de Metales Pesados y Residuos Acumulados", "spec-metal": "Contenido: 500ml",
+        "cat-metal-cat": "Desintoxicación Capilar", "cat-metal-desc": "Champú y mascarilla para el cuidado antimetales y la eliminación de residuos metálicos y contaminación acumulados", "spec-metal": "Contenido: 500ml",
+        metalShampooTitle: "BRIO METAL FREE — CHAMPÚ", metalShampooDesc: "Champú para eliminar los residuos metálicos y la contaminación acumulados en la fibra capilar.",
+        metalMaskTitle: "BRIO METAL FREE — MASCARILLA", metalMaskDesc: "Mascarilla de tratamiento avanzado que complementa el cuidado antimetales BRIO METAL FREE.",
         "cat-recov-cat": "Recovery", "cat-recov-desc": "Tratamiento Cicatrizante y Regenerador de la Fibra Capilar Dañada", "spec-recov": "Contenido: 500g",
-        "cat-selva-cat": "Vigor y Fuerza", "cat-selva-desc": "Tónico y Tratamiento Energizante con Extractos Botánicos de la Selva", "spec-selva": "Contenido: 250ml",
+        "cat-selva-cat": "Vigor y Fuerza", "cat-selva-desc": "Tónico para revitalizar el cuero cabelludo y renovar la fuerza capilar", "spec-selva": "Contenido: 250ml",
         "cat-trama-cat": "Trama y Elasticidad", "cat-trama-desc": "Reconstrucción de Altísimo Rendimiento para Cabellos Elásticos y Quebradizos", "spec-trama": "Contenido: 500g"
       },
       fr: {
@@ -554,17 +575,19 @@
         contactTitle: "CONTACTEZ-NOUS",
         contactBody: "Contactez-nous via nos canaux de service officiels :",
         footerRights: "© 2026 BRIO. Tous droits réservés.",
-        labelPhilosophy: "Philosophie", labelRitual: "Rituel Professionnel", labelTech: "Technologie Active", labelInci: "Ingrédients (INCI)",
+        labelPhilosophy: "Philosophie", labelRitual: "Rituel Professionnel", labelTech: "Technologie Active", labelInci: "Ingrédients (INCI)", inciUnavailable: "INCI non indiqué dans la documentation fournie.",
         "tag-prof": "Usage Professionnel", "tag-recov": "Recovery",
         "cat-prisma-cat": "Lissage Capillaire", "cat-prisma-desc": "Masque de Lissage & Complexe de Remplissage Capillaire Avancé", "spec-prisma": "Contenu: 1000g",
-        "cat-ouro-cat": "Soin & Finition", "cat-ouro-desc": "Huile d'Argan Pure à Action Nourrissante et Brillance Miroir", "spec-ouro": "Contenu: 60ml",
+        "cat-ouro-cat": "Soin & Finition", "cat-ouro-desc": "Sérum à l'huile d'argan pour une finition lumineuse instantanée", "spec-ouro": "Contenu: 60ml",
         "cat-shield-cat": "Protection Thermique", "cat-shield-desc": "Bouclier Thermique, Protection UV et Reconstruction Profonde 10-en-1", "spec-shield": "Contenu: 300ml",
-        "cat-prog-cat": "Lissage Thermique", "cat-prog-desc": "Système de Réduction de Volume et de Lissage Haute Performance", "spec-prog": "Contenu: 1000ml",
+        "cat-prog-cat": "Lissage Thermique", "cat-prog-desc": "Technologie nano-nutritive d'élite pour lisser, hydrater intensément et offrir une brillance miroir", "spec-prog": "Contenu: 1000ml",
         "cat-cronmask-cat": "Planning Capillaire", "cat-cronmask-desc": "Kit de Soin Intensif : Hydratation, Nutrition et Reconstruction", "spec-cronmask": "Contenu: Kit 3x 500g",
         "cat-cronshamp-cat": "Planning Capillaire", "cat-cronshamp-desc": "Shampooing Préparatoire et Nettoyant Équilibré pour Planning", "spec-cronshamp": "Contenu: 1000ml",
-        "cat-metal-cat": "Détox Capillaire", "cat-metal-desc": "Éliminateur de Métaux Lourds et de Résidus Accumulés", "spec-metal": "Contenu: 500ml",
+        "cat-metal-cat": "Détox Capillaire", "cat-metal-desc": "Shampooing et masque pour le soin anti-métaux et l'élimination des résidus métalliques et de la pollution accumulés", "spec-metal": "Contenu: 500ml",
+        metalShampooTitle: "BRIO METAL FREE — SHAMPOOING", metalShampooDesc: "Shampooing pour éliminer les résidus métalliques et la pollution accumulés dans la fibre capillaire.",
+        metalMaskTitle: "BRIO METAL FREE — MASQUE", metalMaskDesc: "Masque de soin avancé qui complète le soin anti-métaux BRIO METAL FREE.",
         "cat-recov-cat": "Recovery", "cat-recov-desc": "Traitement Cicatrisant et Régénérateur de la Fibre Capillaire Abîmée", "spec-recov": "Contenu: 500g",
-        "cat-selva-cat": "Vigueur & Force", "cat-selva-desc": "Tonique et Soin Énergisant aux Extraits Botaniques de la Jungle", "spec-selva": "Contenu: 250ml",
+        "cat-selva-cat": "Vigueur & Force", "cat-selva-desc": "Tonique pour revitaliser le cuir chevelu et renouveler la force des cheveux", "spec-selva": "Contenu: 250ml",
         "cat-trama-cat": "Trame & Élasticité", "cat-trama-desc": "Reconstruction Haute Performance pour Cheveux Élastiques et Cassants", "spec-trama": "Contenu: 500g"
       },
       ar: {
@@ -594,17 +617,19 @@
         contactTitle: "اتصل بنا",
         contactBody: "تواصل معنا عبر قنوات الخدمة الرسمية الخاصة بنا:",
         footerRights: "© 2026 بريو. جميع الحقوق محفوظة.",
-        labelPhilosophy: "الفلسفة", labelRitual: "الطقوس الاحترافية", labelTech: "التكنولوجيا النشطة", labelInci: "المكونات (INCI)",
+        labelPhilosophy: "الفلسفة", labelRitual: "الطقوس الاحترافية", labelTech: "التكنولوجيا النشطة", labelInci: "المكونات (INCI)", inciUnavailable: "لم يتم تقديم قائمة INCI في الوثائق المتاحة.",
         "tag-prof": "استخدام احترافي", "tag-recov": "استعادة الحيوية",
         "cat-prisma-cat": "محاذاة الشعر", "cat-prisma-desc": "قناع المحاذاة ومركب متقدم لملء ألياف الشعر", "spec-prisma": "المحتوى: 1000 جرام",
-        "cat-ouro-cat": "العلاج واللمسات الأخيرة", "cat-ouro-desc": "زيت الأرجان النقي مع تأثير مغذٍ وبريق عاكس", "spec-ouro": "المحتوى: 60 مل",
+        "cat-ouro-cat": "العلاج واللمسات الأخيرة", "cat-ouro-desc": "مصل زيت الأرجان بلمسة نهائية مضيئة وفورية", "spec-ouro": "المحتوى: 60 مل",
         "cat-shield-cat": "حماية حرارية", "cat-shield-desc": "درع حراري، حماية من الأشعة فوق البنفسجية وإعادة بناء عميقة 10 في 1", "spec-shield": "المحتوى: 300 مل",
-        "cat-prog-cat": "محاذاة حرارية", "cat-prog-desc": "نظام تقليل الحجم والتنعيم عالي الأداء", "spec-prog": "المحتوى: 1000 مل",
+        "cat-prog-cat": "محاذاة حرارية", "cat-prog-desc": "تقنية نانو-تغذوية نخبوية للتنعيم والترطيب المتقدم واللمعان كالمرآة", "spec-prog": "المحتوى: 1000 مل",
         "cat-cronmask-cat": "جدول العناية بالشعر", "cat-cronmask-desc": "مجموعة العلاج المكثف: الترطيب، التغذية وإعادة البناء", "spec-cronmask": "المحتوى: مجموعة 3 × 500 جرام",
         "cat-cronshamp-cat": "جدول العناية بالشعر", "cat-cronshamp-desc": "شامبو تحضيري للتنظيف المتوازن لجدول الشعر", "spec-cronshamp": "المحتوى: 1000 مل",
-        "cat-metal-cat": "إزالة السموم من الشعر", "cat-metal-desc": "مذيب المعادن الثقيلة والرواسب المتراكمة", "spec-metal": "المحتوى: 500 مل",
+        "cat-metal-cat": "إزالة السموم من الشعر", "cat-metal-desc": "شامبو وقناع للعناية المضادة للمعادن وإزالة الرواسب المعدنية والتلوث المتراكم", "spec-metal": "المحتوى: 500 مل",
+        metalShampooTitle: "BRIO METAL FREE — شامبو", metalShampooDesc: "شامبو لإزالة الرواسب المعدنية والتلوث المتراكم في ألياف الشعر.",
+        metalMaskTitle: "BRIO METAL FREE — قناع", metalMaskDesc: "قناع علاجي متقدم لتكملة العناية المضادة للمعادن من BRIO METAL FREE.",
         "cat-recov-cat": "استعادة الحيوية", "cat-recov-desc": "علاج ملتئم ومجدد لألياف الشعر التالفة", "spec-recov": "المحتوى: 500 جرام",
-        "cat-selva-cat": "الحيوية والقوة", "cat-selva-desc": "منشط وعلاج طاقي مستخلص من نباتات الغابة الاستوائية", "spec-selva": "المحتوى: 250 مل",
+        "cat-selva-cat": "الحيوية والقوة", "cat-selva-desc": "تونيك لتنشيط فروة الرأس وتجديد قوة الشعر", "spec-selva": "المحتوى: 250 مل",
         "cat-trama-cat": "النسيج والمرونة", "cat-trama-desc": "إعادة بناء عالية الأداء للشعر المطاطي والهش", "spec-trama": "المحتوى: 500 جرام"
       }
     };
